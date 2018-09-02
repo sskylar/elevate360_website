@@ -1,6 +1,7 @@
 ---
 title: Elevate360
 timezone: UTC
+theme: minima
 collections:
   posts:
     title: Posts
