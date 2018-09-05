@@ -1,8 +1,0 @@
----
-title: test post 2
-date: 2018-09-05 16:59:00 Z
-tags:
-- coffee
----
-
-this is another test post
