@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+$green: #b5c428;
+
 body > div {
     width: 90%;
     margin: 0 auto;
@@ -11,4 +13,22 @@ body > div {
 
 .clickable {
     cursor: pointer;
+}
+
+.site {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.site-header {
+    display: flex;
+    border-top: none;
+    border-bottom: 5px solid $green;
+
+    img {
+        margin: auto;
+        width: 420px;
+    }
 }

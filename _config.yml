@@ -18,11 +18,19 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
+    author:
 - scope:
     path: ''
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: authors
+  values:
+    permalink: "/blog/authors/:title/"
+    layout: author
+    medium: 
 description: Elevation360 Wellness website
 show_excerpts: false
 minima:
