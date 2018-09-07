@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {{ site.authors }}
 {% assign author = site.authors | where: 'title', post.author | first %}
 {% if author %}
