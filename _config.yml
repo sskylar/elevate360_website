@@ -30,6 +30,7 @@ defaults:
   values:
     permalink: "/blog/authors/:title/"
     layout: author
+    credentials: "Ph.D."
     medium: 
 description: Elevation360 Wellness website
 show_excerpts: false

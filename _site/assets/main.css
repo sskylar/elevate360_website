@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #111;
+  font: 400 16px/1.5 "Montserrat", sans-serif;
+  color: #53555B;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -81,7 +81,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #53555B;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -168,7 +168,7 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #3f3f3f;
+  color: #7f828b;
   border-collapse: collapse;
   border: 1px solid #e8e8e8; }
   table tr:nth-child(even) {
@@ -209,7 +209,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #53555B;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -516,6 +516,20 @@ body > div {
 .clickable {
   cursor: pointer; }
 
+nav {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: flex-end;
+  padding: 10px; }
+  nav ul {
+    list-style: none;
+    margin: 0; }
+    nav ul li > a, nav ul li > a:visited {
+      font-weight: 700;
+      color: #ADABAC; }
+    nav ul li > a.active {
+      color: default; }
+
 .site {
   display: flex;
   max-width: 900px;
@@ -524,8 +538,30 @@ body > div {
 
 .site-header {
   display: flex;
+  flex-wrap: wrap;
   border-top: none;
   border-bottom: 5px solid #b5c428; }
   .site-header img {
     margin: auto;
     width: 420px; }
+
+.post {
+  padding-top: 60px; }
+  .post .post-title {
+    font-weight: bold;
+    text-align: center; }
+  .post .post-meta {
+    list-style: none;
+    margin-left: 0;
+    display: flex; }
+    .post .post-meta > * {
+      padding: 4px 8px;
+      margin: 5px; }
+    .post .post-meta .post-tag {
+      background-color: #b5c428;
+      color: white;
+      border-radius: 5px; }
+  .post .post-author {
+    color: #96666C; }
+  .post .post-content {
+    margin-top: 50px; }
