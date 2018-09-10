@@ -1,7 +1,7 @@
 <nav>
     <ul>
         {% for item in site.data.nav.toc %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
+            <li class="{% if item.url == page.url or (item.url == '/' and page.url contains 'posts/') %}active{% endif %}">
                 <a href="{{ item.url }}">{{ item.title }}</a>
             </li>
         {% endfor %}

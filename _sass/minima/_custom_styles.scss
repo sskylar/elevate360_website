@@ -45,9 +45,10 @@ nav {
 
 .site {
     display: flex;
-    max-width: 900px;
     margin: 0 auto;
     flex-wrap: wrap;
+    flex-basis: 100%;
+    max-width: 900px;
 }
 
 .site-header {
