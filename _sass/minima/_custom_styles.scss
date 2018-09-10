@@ -28,13 +28,17 @@ nav {
     ul {
         list-style: none;
         margin: 0;
+        display: flex;
 
         li > a, li > a:visited {
             font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
             color: $light-grey;
+            margin: 5px;
         }
-        li > a.active {
-            color: default;
+        li.active > a {
+            color: $dark-grey;
         }
     }
 }
