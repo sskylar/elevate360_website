@@ -61,7 +61,13 @@ nav {
         width: 420px;
     }
 }
+.page-content {
+    flex-basis: 100%;
 
+    .post-link {
+        font-size: 18px;
+    }
+}
 .post {
     padding-top: 60px;
 

@@ -5,17 +5,15 @@ layout: default
 ---
 
 <div class="home page-content">
-    <h4>Latest Blog Posts</h4>
+    <h2>Latest Blog Posts</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }} {{ post.author }}</span>
-        <h3>
+        <span class="post-meta">{{ post.date | date: date_format }} by {{ post.author }}</span>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
