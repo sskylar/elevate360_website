@@ -8,6 +8,7 @@ tags:
 - epidemic
 - opioid
 - addiction
+- medication assisted treatment
 author: Sarah Church, Ph.D.
 Field name: 
 layout: post
