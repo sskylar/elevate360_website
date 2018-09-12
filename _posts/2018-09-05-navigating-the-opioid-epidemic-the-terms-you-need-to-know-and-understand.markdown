@@ -8,7 +8,7 @@ tags:
 - epidemic
 - opioid
 - addiction
-author: Sarah Church
+author: Sarah Church, Ph.D.
 Field name: 
 layout: post
 ---
