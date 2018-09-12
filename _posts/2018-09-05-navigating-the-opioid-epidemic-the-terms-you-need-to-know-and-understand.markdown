@@ -13,7 +13,9 @@ Field name:
 layout: post
 ---
 
-![Navigating 2.jpg](/uploads/Navigating%202.jpg)Every day and every news cycle there are stories about people struggling with addiction and the stakes are only getting higher with over 70,000 people succumbing to overdose last year. August 31st was International Overdose Awareness Day,  a day when we remember those we have lost to overdose and bring attention to this issue to try to prevent future overdoses.   We want everyone to know that there are effective treatments for addiction and that there are ways to prevent and reverse overdoses.  Knowing some key terms can help you better understand this epidemic and how we can help those in need.
+![Navigating 2.jpg](/uploads/Navigating%202.jpg)
+
+Every day and every news cycle there are stories about people struggling with addiction and the stakes are only getting higher with over 70,000 people succumbing to overdose last year. August 31st was International Overdose Awareness Day,  a day when we remember those we have lost to overdose and bring attention to this issue to try to prevent future overdoses.   We want everyone to know that there are effective treatments for addiction and that there are ways to prevent and reverse overdoses.  Knowing some key terms can help you better understand this epidemic and how we can help those in need.
 
 **Opioids** - first of all, let’s talk about opioids.  Opioid based medications are pain-relieving medications that can be made from the poppy plant (e.g., morphine or codeine) or they can be made in a lab (e.g., fentanyl and methadone).  Heroin is also an opiate which is made from the poppy plant.   All opioids reduce the perception of pain and increase feelings of pleasure. At low doses, opioids induce feelings of wellbeing and are sedating, but at high doses, they can slow breathing and heart rate to the point of overdose and death.
 
