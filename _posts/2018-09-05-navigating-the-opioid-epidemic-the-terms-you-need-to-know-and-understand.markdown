@@ -8,12 +8,12 @@ tags:
 - epidemic
 - opioid
 - addiction
-author: Sarah Church
+author: Sarah Church, Ph.D.
 Field name: 
 layout: post
 ---
 
-Every day and every [news cycle](https://www.newdirectionsforwomen.org/the-opioid-crisis-in-america/) there are stories about people struggling with addiction and the stakes are only getting higher with over 70,000 people succumbing to overdose last year. August 31st was International Overdose Awareness Day,  a day when we remember those we have lost to overdose and bring attention to this issue to try to prevent future overdoses.   We want everyone to know that there are effective treatments for addiction and that there are ways to prevent and reverse overdoses.  Knowing some key terms can help you better understand this epidemic and how we can help those in need.
+Every day and every news cycle there are stories about people struggling with addiction and the stakes are only getting higher with over 70,000 people succumbing to overdose last year. August 31st was International Overdose Awareness Day,  a day when we remember those we have lost to overdose and bring attention to this issue to try to prevent future overdoses.   We want everyone to know that there are effective treatments for addiction and that there are ways to prevent and reverse overdoses.  Knowing some key terms can help you better understand this epidemic and how we can help those in need.
 
 **Opioids** - first of all, let’s talk about opioids.  Opioid based medications are pain-relieving medications that can be made from the poppy plant (e.g., morphine or codeine) or they can be made in a lab (e.g., fentanyl and methadone).  Heroin is also an opiate which is made from the poppy plant.   All opioids reduce the perception of pain and increase feelings of pleasure. At low doses, opioids induce feelings of wellbeing and are sedating, but at high doses, they can slow breathing and heart rate to the point of overdose and death.
 
@@ -31,4 +31,4 @@ Every day and every [news cycle](https://www.newdirectionsforwomen.org/the-opioi
 
 Naltrexone has also been shown to reduce alcohol use because it reduces the pleasurable effect of alcohol, so people who take it, tend to drink less and are more able to abstain from future drinking because it just doesn’t feel as good to drink when they are taking this medication.
 
-As the opioid epidemic continues, and more people are affected, the chances that you’ll know someone who is struggling with opioids, or who cares for someone who is struggling increases.   Honest and open conversation about addiction and addiction treatment is an important way to ensure that people are informed and aware of their options.  At [Elevate360](http://www.elevate360.com) we provide treatment both for people who are using drugs and alcohol and for those who care about them.   If you are interested in learning more about treatment, don’t hesitate to call us at 212-204-8430.
+As the opioid epidemic continues, and more people are affected, the chances that you’ll know someone who is struggling with opioids, or who cares for someone who is struggling increases.   Honest and open conversation about addiction and addiction treatment is an important way to ensure that people are informed and aware of their options.  At Elevate360 we provide treatment both for people who are using drugs and alcohol and for those who care about them.   If you are interested in learning more about treatment, don’t hesitate to call us at [212-204-8430](tel: 212-204-8430).
