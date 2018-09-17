@@ -19,15 +19,14 @@ Countless fans, well-wishers and music lovers all over the world were waiting to
 
 Demi finally made her first public statement on Instagram following her hospitalization due to her reported overdose. Her heartfelt post honestly acknowledged her ongoing struggle with addiction and thanked her fans for their love and support. She finished with the promise, “I will keep fighting.”
 
-Many people ask….why do relapses happen? People also wonder if there is a way to keep people like Demi safe and “protected” as they face this struggle. There are important questions to answer especially for people who are trying to support someone they care about who has relapsed.
+**Many people ask….why do relapses happen?** People also wonder if there is a way to keep people like Demi safe and “protected” as they face this struggle. These are important questions to answer especially for people who are trying to support someone they care about who has relapsed.
 
-**Why do people continue to relapse?
-**
+**Why do people continue to relapse?**
 
 Addiction is complex and the issues that lead people to use drugs are complicated. Often people that struggle with addiction, struggle in other areas of their lives. They are in relationships that are not working, they have jobs that are not fulfilling or that are very stressful, and they may have a history of trauma which haunts them or depression which drags them down. Drug use may be seen as an escape, a way to turn off the noise. Getting high might be their refuge, the way to stop the madness for a while. If they don’t engage in therapy to learn new coping skills and strategies and to deal with the underlying issues that initially drove them to use, the most expensive and exclusive rehab stint will not prevent them from seeking out drugs the next time they are home and are stressed.
 
-**What does it take to be successful in overcoming opiate addiction?
-**
+**What does it take to be successful in overcoming opiate addiction?**
+
 I get this question all the time and the answer is simple. To be successful, patients need ongoing individualized care provided by mental health professionals that is evidence based and that combines both psychotherapy and medication.
 
 Demi wisely mentioned in her post “What I’ve learned is that this illness is not something that disappears or fades with time. It is something I must continue to overcome and I have not done yet.” She is right, addiction is a chronic health disorder and must be treated in an ongoing way, just like hypertension and diabetes. There is no cure for addiction yet, so we have to continue to treat it.
