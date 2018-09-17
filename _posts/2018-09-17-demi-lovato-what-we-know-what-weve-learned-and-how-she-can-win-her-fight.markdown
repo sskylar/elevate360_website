@@ -15,11 +15,12 @@ author: Sarah Church, Ph.D.
 
 ![Demi Lovato.jpg](/uploads/Demi%20Lovato.jpg)
 
+
 Countless fans, well-wishers and music lovers all over the world were waiting to learn more and understand what happened to Demi. Was it heroin? How close did she come to death? Will she enter treatment? What really happened?
 
 Demi finally made her first public statement on Instagram following her hospitalization due to her reported overdose. Her heartfelt post honestly acknowledged her ongoing struggle with addiction and thanked her fans for their love and support. She finished with the promise, “I will keep fighting.”
 
-**Many people ask….why do relapses happen?** People also wonder if there is a way to keep people like Demi safe and “protected” as they face this struggle. These are important questions to answer especially for people who are trying to support someone they care about who has relapsed.
+Many people ask….why do relapses happen? People also wonder if there is a way to keep people like Demi safe and “protected” as they face this struggle. These are important questions to answer especially for people who are trying to support someone they care about who has relapsed.
 
 **Why do people continue to relapse?**
 
