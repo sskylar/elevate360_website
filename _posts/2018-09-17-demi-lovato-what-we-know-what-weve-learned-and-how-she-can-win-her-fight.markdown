@@ -13,7 +13,9 @@ tags:
 author: Sarah Church, Ph.D.
 ---
 
-![Demi Lovato.jpg](/uploads/Demi%20Lovato.jpg)Countless fans, well-wishers and music lovers all over the world were waiting to learn more and understand what happened to Demi. Was it heroin? How close did she come to death? Will she enter treatment? What really happened?
+![Demi Lovato.jpg](/uploads/Demi%20Lovato.jpg)
+
+Countless fans, well-wishers and music lovers all over the world were waiting to learn more and understand what happened to Demi. Was it heroin? How close did she come to death? Will she enter treatment? What really happened?
 
 Demi finally made her first public statement on Instagram following her hospitalization due to her reported overdose. Her heartfelt post honestly acknowledged her ongoing struggle with addiction and thanked her fans for their love and support. She finished with the promise, “I will keep fighting.”
 
@@ -21,6 +23,7 @@ Many people ask….why do relapses happen? People also wonder if there is a way 
 
 **Why do people continue to relapse?
 **
+
 Addiction is complex and the issues that lead people to use drugs are complicated. Often people that struggle with addiction, struggle in other areas of their lives. They are in relationships that are not working, they have jobs that are not fulfilling or that are very stressful, and they may have a history of trauma which haunts them or depression which drags them down. Drug use may be seen as an escape, a way to turn off the noise. Getting high might be their refuge, the way to stop the madness for a while. If they don’t engage in therapy to learn new coping skills and strategies and to deal with the underlying issues that initially drove them to use, the most expensive and exclusive rehab stint will not prevent them from seeking out drugs the next time they are home and are stressed.
 
 **What does it take to be successful in overcoming opiate addiction?
