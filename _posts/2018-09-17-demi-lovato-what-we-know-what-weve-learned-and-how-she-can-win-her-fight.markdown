@@ -37,6 +37,6 @@ For people who have been tapered off opioids, the best option is naltrexone (als
 
 Patients should also have a narcan overdose prevention kit on hand in case they overdose. (New Yorkers who are interested in getting a kit can click here for information on how to get a one.) Narcan is a medication that can be administered by lay people who have been trained to provide it. In case of overdose, it can be given intranasally, just like Afrin for a stuffy nose. Anyone with a history of opioid misuse and anyone who cares about someone who has this history should keep a kit on hand, just in case.
 
-**Hope for the future**![Demi Lovato.jpg](/uploads/Demi%20Lovato.jpg)
+**Hope for the future**
 
 Demi will certainly not be the last person or celebrity to struggle with addiction and to overdose. Astonishingly, more than 60,000 people died from overdoses in the US in 2016. The good news that everyone needs to know, is that effective treatment is available, and the first step starts with a phone call.
