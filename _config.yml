@@ -44,5 +44,8 @@ minima:
   date_format: "%b %-d, %Y"
 theme: minima
 permalink: pretty
+twitter:
+  username: elevate360NYC
+  card: summary
 plugins:
 - jekyll-seo-tag
