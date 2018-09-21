@@ -24,7 +24,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    author: 
+    author:
 - scope:
     path: ''
     type: pages
@@ -37,11 +37,12 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 description: Elevation360 Wellness website
 show_excerpts: false
 minima:
   date_format: "%b %-d, %Y"
 theme: minima
 permalink: pretty
-plugins: 
+plugins:
+  - jekyll-seo-tag
