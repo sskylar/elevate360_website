@@ -1,5 +1,8 @@
 ---
-title: Elevate360
+title: Elevate360 Wellness
+description: Elevate360 is a boutique outpatient addiction treatment center
+located in Midtown Manhattan.
+url: elevate360.com
 timezone: UTC
 collections:
   about-us:
@@ -24,7 +27,7 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    author: 
+    author:
 - scope:
     path: ''
     type: pages
@@ -37,7 +40,7 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 description: Elevation360 Wellness website
 show_excerpts: false
 minima:
