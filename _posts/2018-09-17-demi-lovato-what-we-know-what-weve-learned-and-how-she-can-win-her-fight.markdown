@@ -11,6 +11,8 @@ tags:
 - opioids
 - heroin
 author: Sarah Church, Ph.D.
+image:
+  image: "/uploads/Demi%20Lovato.jpg"
 ---
 
 ![Demi Lovato.jpg](/uploads/Demi%20Lovato.jpg)
