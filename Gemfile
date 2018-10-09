@@ -2,7 +2,8 @@
 source 'http://rubygems.org'
 
 gem 'jekyll'
-gem "minima"
+gem 'minima'
+gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 
 group :development do

@@ -39,7 +39,7 @@ defaults:
     credentials: Ph.D.
     medium: 
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
-url: elevate360.com
+url: http://elevate360.com
 show_excerpts: false
 minima:
   date_format: "%b %-d, %Y"
@@ -49,3 +49,4 @@ twitter:
   username: elevate360NYC
 plugins:
 - jekyll-seo-tag
+- jekyll-sitemap
