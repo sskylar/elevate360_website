@@ -2,7 +2,7 @@
 title: Test
 date: 2018-10-10 22:07:00 Z
 author: Sarah Church, Ph.D.
-image: "/uploads/Navigating%202.jpg"
+image: "/uploads/61ae832ec6d709a2ca0d51f5ca841585.jpg"
 ---
 
 ![Navigating 2.jpg](/uploads/Navigating%202.jpg)
