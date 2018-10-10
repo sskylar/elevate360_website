@@ -11,6 +11,7 @@ tags:
 - recovery
 - psychology
 author: Sarah Church, Ph.D.
+image: "/uploads/Wine%20Bottles%20and%20Glasses-page-0_edited-762068.jpg"
 ---
 
 ![Wine Bottles and Glasses-page-0_edited-762068.jpg](/uploads/Wine%20Bottles%20and%20Glasses-page-0_edited-762068.jpg)
