@@ -13,7 +13,6 @@ tags:
 - treatment
 - healthcare savings
 author: Sarah Church, Ph.D.
-image: "/uploads/Opioids%20in%20the%20Workplace-d0ea8a.jpg"
 ---
 
 ![Opioids in the Workplace-69d5b5.jpg](/uploads/Opioids%20in%20the%20Workplace-69d5b5.jpg)
@@ -61,4 +60,4 @@ such as treatment providers and healthcare professionals, to help employees retu
 work.
 
 Although actively addressing substance misuse in the workplace may seem daunting at
-first, it is a great opportunity for providing both healthcare and other cost savings while also improving the health of employees and their families.![Opioids in the Workplace-ee8e0c.jpg](/uploads/Opioids%20in%20the%20Workplace-ee8e0c.jpg)![Opioids in the Workplace-34b7de.jpg](/uploads/Opioids%20in%20the%20Workplace-34b7de.jpg)
+first, it is a great opportunity for providing both healthcare and other cost savings while also improving the health of employees and their families.
