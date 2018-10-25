@@ -1,23 +1,12 @@
 ---
 title: home
 date: 2018-08-26 05:08:00 Z
+background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
 layout: default
 ---
 
-<div class="home page-content">
-    <h2>Latest Blog Posts</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }} by {{ post.author }}</span>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-</div>
+Welcome to Elevate360 Wellness
+
+State of the art care, delivered compassionately.
+
+Elevate360 is a boutique outpatient addiction treatment center located in Midtown Manhattan that uses state-of-the-art, science-based techniques, technology, and highly trained doctoral level psychologists to provide patients with the highest quality therapeutic experience in addiction treatment.
