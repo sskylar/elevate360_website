@@ -1,10 +1,13 @@
 toc:
 
-- title: Home
-  url: https://elevate360.com/
+- title: Why Elevate360?
+  url: /why-elevate360/
  
-- title: Team
-  url: https://elevate360.com/our-team/
+- title: Services
+  url: /services/
+
+- title: About Us
+  url: /about-us/
 
 - title: Blog
-  url: /
+  url: /blog

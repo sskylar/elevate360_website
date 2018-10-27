@@ -1,0 +1,45 @@
+h1 {
+  font-family: $base-font-family;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $avocado;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 400;
+  color: $greyish-brown;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1.small {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $avocado;
+  width: 100%;
+
+  &:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid $avocado;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: -9px;
+  }
+}

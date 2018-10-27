@@ -1,0 +1,184 @@
+// ======================== //
+
+nav {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: flex-start;
+  padding: 10px;
+
+    a, a:visited {
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $greyish-brown;
+        margin: 5px 20px;
+    }
+    a.active {
+        color: $avocado;
+    }
+}
+
+.site {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 93px;
+    background-color: #fff;
+    
+    img {
+        width: 190px;
+    }
+    .cta {
+        background-color: $avocado;
+        color: #fff;
+        height: 39px;
+        line-height: 39px;
+        font-size: 14px;
+        text-align: center;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+}
+.site-footer {
+    background-color: $dark-grey;
+    color: #fff;
+    height: 367px;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 0 5%;
+
+    #quick_links, #customer_care {
+        display: flex;
+        flex-flow: column;
+        a { color: #fff; }
+    }
+}
+
+.site > section {
+    padding: 10vh 5vw;
+
+    .section-content {
+        max-width: 60%;
+    }
+}
+
+.site > .cta {
+    display: flex;
+    flex-basis: 100%;
+    color: #fff;
+    justify-content: space-around;
+    padding: 65px 0;
+    
+    h3 {
+        font-size: 32px;
+        letter-spacing: 0.3px;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    &.cta-orange {
+        background-color: $maize;
+        h3 {
+            color: $greyish-brown;
+        }
+    }
+}
+
+.page-content {
+    flex-basis: 100%;
+
+    .post-link {
+        font-size: 18px;
+    }
+}
+
+// ============ homepage =========== //
+
+section#homepage_1 {
+  background-position: bottom right;
+  background-size: cover;
+}
+
+section.home-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    flex-basis: 100%;
+
+    .home-image {
+        width: 50%;
+        min-height: 500px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .home-text {
+        align-content: center;
+        justify-content: space-around;
+        display: flex;
+        flex-flow: column;
+        padding: 5% 5%;
+        width: 40%;
+
+        .learn-more {
+            align-self: flex-end;
+        }
+    }
+
+    &#our_vision {
+        background-color: #fff;
+    }
+    &#our_belief {
+        background-color: $pale-blue;
+    }
+}
+
+
+// ============== post ================ //
+.post {
+  padding-top: 60px;
+
+  .post-title {
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .post-meta {
+      list-style: none;
+      margin-left: 0;
+      display: flex;
+
+      > * {
+          padding: 4px 8px;
+          margin: 5px;
+      }
+      .post-tag {
+          background-color: $avocado;
+          color: $off-white;
+          border-radius: 5px;
+          
+      }
+  }
+  .post-author {
+      color: $greyish-brown
+  }
+
+  .post-content {
+      margin-top: 50px;
+  }
+}
