@@ -17,6 +17,7 @@ collections:
   staff:
     title: Staff
     output: true
+    layout: default
   uploads:
     title: Uploads
     output: true

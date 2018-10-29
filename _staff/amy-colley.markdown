@@ -1,6 +1,7 @@
 ---
 title: Amy Colley
 date: 2018-10-29 03:52:00 Z
+layout: default
 position: 1
 name: AMY J. COLLEY, PH.D.
 job_title: Psychologist
