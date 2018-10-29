@@ -1,7 +1,6 @@
 ---
 title: Our Staff
 date: 2018-10-28 15:51:00 Z
-published: true
 ---
 
 Meet Our Staff
