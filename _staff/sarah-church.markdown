@@ -1,8 +1,8 @@
 ---
 title: Sarah Church
-name: SARAH CHURCH, PH.D.
 date: 2018-10-29 03:52:00 Z
-position: CEO
+position: 0
+name: SARAH CHURCH, PH.D.
 photo: "/assets/images/staff/sarah_church@2x.jpg"
 ---
 
