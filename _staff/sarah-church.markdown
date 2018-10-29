@@ -5,6 +5,7 @@ position: 0
 name: SARAH CHURCH, PH.D.
 photo: "/assets/images/staff/sarah-church@2x.jpg"
 job_title: CEO
+layout: default
 ---
 
 <section class="team-bio">
