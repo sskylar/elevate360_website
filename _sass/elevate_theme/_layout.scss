@@ -62,7 +62,23 @@ nav {
     #quick_links, #customer_care {
         display: flex;
         flex-flow: column;
+        flex-basis: 20%;
         a { color: #fff; }
+    }
+    #social {
+        flex-basis: 50%;
+        justify-content: flex-end;
+        display: flex;
+        flex-flow: row wrap;
+
+        #contact {
+            flex-basis: 100%;
+            text-align: right;
+        }
+
+        #social_links a {
+            margin: 10px;
+        }
     }
 }
 
@@ -70,7 +86,7 @@ nav {
     padding: 10vh 5vw;
 
     .section-content {
-        max-width: 60%;
+        max-width: 50%;
     }
 }
 
@@ -99,6 +115,26 @@ nav {
     }
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .section-text {
+        align-content: center;
+        justify-content: space-around;
+        display: flex;
+        flex-flow: column;
+        padding: 5% 5%;
+        width: 40%;
+
+        .learn-more {
+            align-self: flex-end;
+        }
+    }
+}
+
 .page-content {
     flex-basis: 100%;
 
@@ -109,9 +145,10 @@ nav {
 
 // ============ homepage =========== //
 
-section#homepage_1 {
+section.hero {
   background-position: bottom right;
   background-size: cover;
+  justify-content: flex-start;
 }
 
 section.home-section {
@@ -127,25 +164,30 @@ section.home-section {
         background-size: cover;
     }
 
-    .home-text {
-        align-content: center;
-        justify-content: space-around;
-        display: flex;
-        flex-flow: column;
-        padding: 5% 5%;
-        width: 40%;
-
-        .learn-more {
-            align-self: flex-end;
-        }
-    }
-
     &#our_vision {
         background-color: #fff;
     }
     &#our_belief {
         background-color: $pale-blue;
     }
+}
+
+// =============  about us =============== //
+
+#who_we_are {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#who_we_are_image {
+    height: 622px;
+    width: 410px;
+    margin-left: 5%;
+    background-position: center center;
+    background-size: cover;
 }
 
 

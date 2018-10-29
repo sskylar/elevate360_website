@@ -26,7 +26,7 @@ layout: default
     <button class="rounded">call now</button>
 </div>
 <section class="home-section" id="what_we_do">
-    <div class="home-text">
+    <div class="section-text">
         <h1 class="small">what do we do?</h1>
         <h2>Exceptional addiction care</h2>
         <p>We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use.</p>
@@ -37,7 +37,7 @@ layout: default
 </section>
 <section class="home-section" id="our_vision">
     <div class="home-image" style="background-image: url('{{ page.section-image-2 }}')"></div>
-    <div class="home-text">
+    <div class="section-text">
         <h1 class="small">Our Vision</h1>
         <h2>Compassionate care, effectively done.</h2>
         <p>Through continuous research, evolving technologies, and evidence-based care, we plan to lead a revolution in addiction care with one simple goal: to help our patients create and live healthy and happy lives.</p>
@@ -45,7 +45,7 @@ layout: default
     </div>
 </section>
 <section class="home-section" id="our_belief">
-    <div class="home-text">
+    <div class="section-text">
         <h1 class="small">Our Belief</h1>
         <h2>Professional treatment that works.</h2>
         <p>We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.</p>
@@ -55,10 +55,10 @@ layout: default
 </section>
 <section class="home-section" id="different" style="flex-wrap: wrap">
     <div style="width: 90%; margin: 30px; auto;"><h1 class="small">Our Promise</h1></div>
-    <div class="home-text">
+    <div class="section-text">
         <h2>How are we different?</h2>
     </div>
-    <div class="home-text">
+    <div class="section-text">
         <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
         <a class="learn-more">Learn More &#x2192;</a>
     </div>
