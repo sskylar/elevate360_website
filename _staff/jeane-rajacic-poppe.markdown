@@ -1,8 +1,8 @@
 ---
 title: JEANE RAJACIC-POPPE
 date: 2018-10-29 03:52:00 Z
-layout: default
 position: 2
+layout: default
 name: JEANE RAJACIC-POPPE, PH.D
 job_title: Psychologist
 photo: "/assets/images/staff/amy-colley@2x.jpg"
