@@ -4,6 +4,7 @@ date: 2018-10-29 03:52:00 Z
 position: 1
 name: AMY J. COLLEY, PH.D.
 job_title: Psychologist
+photo: "/assets/images/staff/amy-colley@2x.jpg"
 ---
 
 <section class="team-bio">

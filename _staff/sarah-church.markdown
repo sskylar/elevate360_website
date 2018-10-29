@@ -3,12 +3,12 @@ title: Sarah Church
 date: 2018-10-29 03:52:00 Z
 position: 0
 name: SARAH CHURCH, PH.D.
-photo: "/assets/images/staff/sarah_church@2x.jpg"
+photo: "/assets/images/staff/sarah-church@2x.jpg"
 job_title: CEO
 ---
 
 <section class="team-bio">
-<h1 class="small">{{ page.name }}</h1>
+<h1 class="small small-full-width">{{ page.name }}</h1>
 <img class="team-bio-photo" src="{{ page.photo }}">
 <div class="team-bio-text">
     <h3>Founder and Executive Director,  Elevate Wellness Centers</h3>

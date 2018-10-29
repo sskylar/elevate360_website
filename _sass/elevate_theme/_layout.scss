@@ -190,6 +190,15 @@ section.home-section {
     background-size: cover;
 }
 
+// ============== staff ================ //
+.team-bio-text {
+    flex-basis: 60%;
+}
+.team-bio-photo {
+    flex: 0 0 25%;
+    margin-right: 5%;
+    max-width: 300px;
+}
 
 // ============== post ================ //
 .post {
