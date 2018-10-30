@@ -191,6 +191,36 @@ section.home-section {
 }
 
 // ============== staff ================ //
+
+#meet_our_staff {
+    background-color: $off-white;
+}
+
+#staff_list {
+    background-color: #fff;
+}
+.team-bio-card {
+    background-color: $pale-blue-50;
+    flex-basis: 40%;
+    margin: 20px;
+    padding: 32px;
+    min-height: 354px;
+
+    .team-bio {
+        align-items: flex-start;
+    }
+
+    .team-bio-photo {
+        max-width: 190px;
+    }
+    .team-bio-text {
+        p { display: none; }
+        p.preview {
+            display: block;
+            font-size: 13px;
+        }
+    }
+}
 .team-bio-text {
     flex-basis: 60%;
 }
