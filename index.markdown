@@ -18,7 +18,7 @@ layout: default
         <button class="rounded">get email updates</button>
     </div>
 </section>
-<div class="cta cta-orange">
+<div class="cta cta-green">
     <div>
         <h3>Call Us Today, Be Seen Tomorrow!</h3>
         <h5>Schedule a free 15-minute consultation - 212-204-8430</h5>
