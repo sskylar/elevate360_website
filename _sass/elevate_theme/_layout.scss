@@ -151,6 +151,29 @@ section {
     }
 }
 
+// =============  cards =============== //
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    img {
+        width: 100%;
+    }
+    h4 {
+        color: $avocado;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 25px 0;
+    }
+
+    &-3-up {
+        flex-basis: 25%;
+    }
+}
+
 // ============ homepage =========== //
 
 section.hero {
@@ -188,6 +211,13 @@ section.home-section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+// =============  services =============== //
+
+#service_cards {
+    align-items: flex-start;
+    background-color: #fff;
 }
 
 // ============== staff ================ //
