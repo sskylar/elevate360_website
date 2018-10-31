@@ -266,6 +266,21 @@ section.home-section {
     max-width: 300px;
 }
 
+
+// =============  contact =============== //
+
+#contact_form {
+    background-color: #fff;
+
+    #mc_embed_signup {
+        .button {
+            background-color: $greyish-brown;
+            border-radius: 0;
+            float: right;
+        }
+    }
+}
+
 // ============== post ================ //
 .post {
   padding-top: 60px;
