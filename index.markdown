@@ -1,5 +1,5 @@
 ---
-title: home
+title: Home
 date: 2018-08-26 05:08:00 Z
 background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
 section-image-1: "/assets/images/aaron-burson-242126-unsplash@2x.jpg"
