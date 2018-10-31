@@ -15,7 +15,7 @@ layout: default
         <p>
             Elevate360 is a boutique outpatient addiction treatment center located in Midtown Manhattan that uses state-of-the-art, science-based techniques, technology, and highly trained doctoral level psychologists to provide patients with the highest quality therapeutic experience in addiction treatment.
         </p>
-        <button class="rounded">get email updates</button>
+        <a class="button rounded" href="/contact">get email updates</a>
     </div>
 </section>
 <div class="cta cta-green">
@@ -23,7 +23,7 @@ layout: default
         <h3>Call Us Today, Be Seen Tomorrow!</h3>
         <h5>Schedule a free 15-minute consultation - 212-204-8430</h5>
     </div>
-    <button class="rounded">call now</button>
+    <a href="tel:1-212-204-8430" class="button rounded">call now</a>
 </div>
 <section class="home-section" id="what_we_do">
     <div class="section-text">

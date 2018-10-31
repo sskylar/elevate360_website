@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -14,18 +14,18 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 250%;
-  -webkit-font-feature-settings: "kern" 1;
-     -moz-font-feature-settings: "kern" 1;
-       -o-font-feature-settings: "kern" 1;
-          font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 250%;
+    -webkit-font-feature-settings: "kern" 1;
+        -moz-font-feature-settings: "kern" 1;
+        -o-font-feature-settings: "kern" 1;
+            font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -46,7 +46,7 @@ ul, ol, dl, figure,
  * `main` element
  */
 main {
-  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 
@@ -55,8 +55,8 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
 
@@ -65,11 +65,11 @@ img {
  * Figures
  */
 figure > img {
-  display: block;
+    display: block;
 }
 
 figcaption {
-  font-size: $small-font-size;
+    font-size: $small-font-size;
 }
 
 
@@ -78,14 +78,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+    margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
+    > ul,
+    > ol {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -94,7 +94,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+    font-weight: $base-font-weight;
 }
 
 
@@ -103,61 +103,55 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  &:hover {
-    color: $text-color;
-    text-decoration: none;
-  }
-
-  .social-media-list &:hover {
+    color: $brand-color;
     text-decoration: none;
 
-    .username {
-      text-decoration: underline;
+    &:visited {
+        color: $brand-color;
     }
-  }
 
-  &.learn-more {
-    color: $greyish-brown;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
     &:hover {
-       text-decoration: none;
-       color: $avocado;
+        color: $text-color;
+        text-decoration: none;
     }
-  }
+    &.learn-more {
+        color: $greyish-brown;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            text-decoration: none;
+            color: $avocado;
+        }
+    }
 }
 
 /**
  * Buttons
  */
- button {
-  background-color: #fff;
-  color: $greyish-brown;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: uppercase;
-  
-  &.rounded {
-    border: none;
-    border-radius: 26.5px;
-    width: 250px;
-    height: 53px;
-    line-height: 53px;
-  }
+.button {
+    display: inline-block;
+    background-color: #fff;
+    color: $greyish-brown;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
 
-  &.bordered {
-    border: 1px solid $greyish-brown;
-  }
+  
+    &.rounded {
+        border: none;
+        border-radius: 26.5px;
+        width: 250px;
+        height: 53px;
+        line-height: 53px;
+    }
+
+    &.bordered {
+        border: 1px solid $greyish-brown;
+    }
 }
 
 
@@ -165,16 +159,16 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $pale-blue;
-  border-left: 4px solid $pale-blue;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+    color: $pale-blue;
+    border-left: 4px solid $pale-blue;
+    padding-left: $spacing-unit / 2;
+    @include relative-font-size(1.125);
+    letter-spacing: -1px;
+    font-style: italic;
 
-  > :last-child {
-    margin-bottom: 0;
-  }
+    > :last-child {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -184,25 +178,25 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $pale-blue;
-  border-radius: 3px;
-  background-color: #eef;
+    @include relative-font-size(0.9375);
+    border: 1px solid $pale-blue;
+    border-radius: 3px;
+    background-color: #eef;
 }
 
 code {
-  padding: 1px 5px;
+    padding: 1px 5px;
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+    padding: 8px 12px;
+    overflow-x: auto;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 
@@ -211,20 +205,20 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
 
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
 
@@ -233,9 +227,9 @@ pre {
  * Clearfix
  */
 %clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
@@ -254,9 +248,9 @@ pre {
 }
 
 .social-media-list {
-  li + li {
-    padding-top: 5px;
-  }
+    li + li {
+        padding-top: 5px;
+    }
 }
 
 
@@ -265,26 +259,26 @@ pre {
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
-  width: 100%;
-  text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $pale-blue;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($pale-blue, 6%);
-    }
-  }
-  th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
-  }
-  th {
-    background-color: lighten($pale-blue, 3%);
-    border: 1px solid darken($pale-blue, 4%);
-    border-bottom-color: darken($pale-blue, 12%);
-  }
-  td {
+    margin-bottom: $spacing-unit;
+    width: 100%;
+    text-align: $table-text-align;
+    color: lighten($text-color, 18%);
+    border-collapse: collapse;
     border: 1px solid $pale-blue;
-  }
+    tr {
+        &:nth-child(even) {
+            background-color: lighten($pale-blue, 6%);
+        }
+    }
+    th, td {
+        padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    }
+    th {
+        background-color: lighten($pale-blue, 3%);
+        border: 1px solid darken($pale-blue, 4%);
+        border-bottom-color: darken($pale-blue, 12%);
+    }
+    td {
+        border: 1px solid $pale-blue;
+    }
 }
