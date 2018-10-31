@@ -1,5 +1,5 @@
 ---
-title: services
+title: Services
 date: 2018-10-28 15:47:00 Z
 background-image: "/assets/images/aaron-burson-242126-fullwidth@2x.jpg"
 section-image-1: "/assets/images/micheile-henderson-597870-unsplash-copy-2@2x.jpg"
