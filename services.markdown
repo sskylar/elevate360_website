@@ -1,9 +1,10 @@
 ---
 title: services
+date: 2018-10-28 15:47:00 Z
 background-image: "/assets/images/aaron-burson-242126-fullwidth@2x.jpg"
 section-image-1: "/assets/images/micheile-henderson-597870-unsplash-copy-2@2x.jpg"
-date: 2018-10-28 15:47:00 Z
 ---
+
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
         <h1>Our Services</h1>

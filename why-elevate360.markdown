@@ -1,8 +1,8 @@
 ---
 title: Why Elevate360?
+date: 2018-10-25 04:41:00 Z
 background-image: "/assets/images/why_elevate360_hero@2x.jpg"
 section-image-1: "/assets/images/new-york-438391@2x.jpg"
-date: 2018-10-25 04:41:00 Z
 ---
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
