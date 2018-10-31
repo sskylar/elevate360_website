@@ -133,6 +133,14 @@ section {
             align-self: flex-end;
         }
     }
+
+    .side-image {
+        height: 622px;
+        width: 410px;
+        margin-left: 5%;
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 .page-content {
@@ -180,14 +188,6 @@ section.home-section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-}
-
-#who_we_are_image {
-    height: 622px;
-    width: 410px;
-    margin-left: 5%;
-    background-position: center center;
-    background-size: cover;
 }
 
 // ============== staff ================ //

@@ -29,7 +29,7 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
         </p>
         <a class="learn-more">Learn More &#x2192;</a>
     </div>
-    <div id="who_we_are_image" style="background-image:url('{{ page.section-image-1 }}')"></div>
+    <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
 
 <section id="meet_our_staff">

@@ -1,10 +1,24 @@
 ---
 title: Why Elevate360?
+background-image: "/assets/images/why_elevate360_hero@2x.jpg"
+section-image-1: "/assets/images/new-york-438391@2x.jpg"
 date: 2018-10-25 04:41:00 Z
 ---
 
+<section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
+    <div class="section-content">
+        <h1>{{ page.title }}</h1>
+        <h2>In short, because we do treatment right.</h2>
+        <p>
+            Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
+        </p>
+        <button class="rounded bordered">Let's Talk</button>
+    </div>
+</section>
+
 <section>
     <div class="section-content">
+        <h2>{{ page.title }}</h2>
         <p>In short, because we do treatment right.  Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
         </p>
         <p>
@@ -23,4 +37,5 @@ date: 2018-10-25 04:41:00 Z
         We created Elevate360 to ensure that patients and their families have access to professionals who can provide information and education about available treatments, and can answer questions about which are most effective, and which will work best for them.
         </p>
     </div>
+    <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
