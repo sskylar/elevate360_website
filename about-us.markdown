@@ -12,7 +12,7 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
         <p>
             Elevate is a boutique outpatient addiction treatment center located in Midtown Manhattan that uses state-of-the-art, science-based techniques, technology, and expertly trained doctoral level psychologists to provide patients with the highest quality therapeutic experience in addiction treatment.
         </p>
-        <button class="rounded">Let's Talk</button>
+        <a class="button rounded">Let's Talk &nbsp;&#x260E;</a>
     </div>
 </section>
 
@@ -22,12 +22,10 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
         <h2>Our Mission & Vision</h2>
         <p>
             We provide exceptional, science-based, compassionate care for patients and families struggling with alcohol, the misuse of pain medication, and other substance use disorders.
-            
             We have a deeply held belief that people struggling with addiction deserve professional treatment that works.
-
             Through continuous research, evolving technologies, and evidence-based care, we are leading a revolution in addiction care with on
         </p>
-        <a class="learn-more">Learn More &#x2192;</a>
+        <!-- <a class="learn-more">Learn More &#x2192;</a> -->
     </div>
     <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>

@@ -46,7 +46,7 @@ service-cards:
             <img src="{{ card.image }}">
             <h4>{{ card.title }}</h4>
             <p>{{ card.copy }}</p>
-            <a class="learn-more">Learn More &#x2192;</a>
+            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
         </div>
     {% endfor %}
 </section>
@@ -60,6 +60,6 @@ service-cards:
         <p>
         The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community. 
         </p>
-        <a href="/our-staff" class="learn-more">Learn More &#x2192;</a>
+        <!-- <a href="" class="learn-more">Learn More &#x2192;</a> -->
     </div>
 </section>
