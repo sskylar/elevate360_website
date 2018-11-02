@@ -10,11 +10,9 @@ tags:
 - addiction
 - medication assisted treatment
 author: Sarah Church, Ph.D.
-Field name: 
+post_image: "/uploads/Navigating%202.jpg"
 layout: post
 ---
-
-![Navigating 2.jpg](/uploads/Navigating%202.jpg)
 
 Every day and every news cycle there are stories about people struggling with addiction and the stakes are only getting higher with over 70,000 people succumbing to overdose last year. August 31st was International Overdose Awareness Day,  a day when we remember those we have lost to overdose and bring attention to this issue to try to prevent future overdoses.   We want everyone to know that there are effective treatments for addiction and that there are ways to prevent and reverse overdoses.  Knowing some key terms can help you better understand this epidemic and how we can help those in need.
 
