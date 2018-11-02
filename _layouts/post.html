@@ -13,11 +13,13 @@ layout: default
             <li class="post-date">{{ page.date | date: date_format }}</li>
         </ul>
         {% if page.author %}
-        By <a class="post-author" href="{{ author.url }}">{{ page.author }}</a>
+        By <a class="post-author" href="{{ post.author.url }}">{{ page.author }}</a>
         {% endif %}
-        
-    </div>
-    <div class="section-content">
-        {{ content }}
+        {% if page.post_image %}
+            <img src="{{ page.post_image }}" class="post-hero-image">
+        {% endif %}
+        <div class="post-content">
+            {{ content }}
+        </div>
     </div>
 </section>

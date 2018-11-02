@@ -310,7 +310,15 @@ section.home-section {
       color: $greyish-brown
   }
 
+  .post-hero-image {
+      width: 100%;
+      margin: 30px auto;
+  }
   .post-content {
       margin-top: 50px;
+      max-width: 800px;
+      padding: 20px;
+      margin: 0px auto;
   }
+
 }
