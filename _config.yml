@@ -28,8 +28,8 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    author:
-    post_image:
+    author: 
+    post_image: 
 - scope:
     path: ''
     type: pages
