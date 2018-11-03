@@ -11,8 +11,7 @@ tags:
 - opioids
 - heroin
 author: Sarah Church, Ph.D.
-image:
-  post_image: "/uploads/Demi%20Lovato.jpg"
+post_image: "/uploads/Demi%20Lovato.jpg"
 ---
 
 Countless fans, well-wishers and music lovers all over the world were waiting to learn more and understand what happened to Demi. Was it heroin? How close did she come to death? Will she enter treatment? What really happened?

@@ -5,5 +5,3 @@ credentials: Ph.D.
 medium: "@drsarahchurch"
 url: staff/sarah-church
 ---
-
-This is Sarah's bio page

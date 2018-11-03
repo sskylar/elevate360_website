@@ -313,6 +313,9 @@ section.home-section {
   .post-hero-image {
       width: 100%;
       margin: 30px auto;
+      background-position: center top;
+      background-size: cover;
+      height: 900px;
   }
   .post-content {
       margin-top: 50px;
