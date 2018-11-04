@@ -32,11 +32,11 @@ layout: default
         <p>We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use.</p>
         <!-- <a class="learn-more">Learn More &#x2192;</a> -->
     </div>
-    <div class="home-image" style="background-image: url('{{ page.section-image-1 }}')">
+    <div class="section-image" style="background-image: url('{{ page.section-image-1 }}')">
     </div>
 </section>
 <section class="home-section" id="our_vision">
-    <div class="home-image" style="background-image: url('{{ page.section-image-2 }}')"></div>
+    <div class="section-image" style="background-image: url('{{ page.section-image-2 }}')"></div>
     <div class="section-text">
         <h1 class="small">Our Vision</h1>
         <h2>Compassionate care, effectively done.</h2>
@@ -51,7 +51,7 @@ layout: default
         <p>We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.</p>
         <!-- <a class="learn-more">Learn More &#x2192;</a> -->
     </div>
-    <div class="home-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
+    <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
 </section>
 <section class="home-section" id="different" style="flex-wrap: wrap">
     <div style="width: 90%; margin: 30px; auto;"><h1 class="small">Our Promise</h1></div>
