@@ -24,6 +24,7 @@ nav {
         flex-basis: 20%;
         a {
             display: none;
+            font-size: 13px;
         }
         a.nav-icon {
             font-size: 36px;
@@ -38,7 +39,6 @@ nav {
             a {
                 display: block;
                 text-align: right;
-                font-size: 7px !important;
             }
             a.nav-icon { order: -1; }
         }
@@ -134,9 +134,9 @@ nav {
 }
 
 .site > section {
-    padding: 10vh 5vw;
+    padding: 10vw 5vw;
     @media all and (max-width: 768px) {
-        padding: 10vh 5vw;
+        // padding: 10vh 5vw;
     }
 }
 
@@ -214,8 +214,10 @@ section {
 @media all and (max-width: 768px) {
     section {
         h1 {
-            order: -1;
+            order: -3;
         }
+        h2 { order: -2; }
+
         .section-content, .section-text, .section-image {
             width: 100%;
             max-width: 100%;
@@ -427,8 +429,12 @@ section#featured_post {
     align-items: flex-start;
     margin: 2%;
 
+    @media screen and (max-width: 760px) {
+        flex-basis: 100%;
+    }
+
     .post-image {
-        width: 360px;
+        width: 100%;
         height: 260px;
         background-position: top center;
         background-size: cover;
