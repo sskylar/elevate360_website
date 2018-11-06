@@ -1,7 +1,8 @@
-<nav>
+<nav id="nav">
         {% for item in site.data.nav.toc %}
-            <a class="{% if item.url == page.url %}active{% endif %}"
+            <a class="nav-item {% if item.url == page.url %}active{% endif %}"
                 href="{{ item.url }}"
             >{{ item.title }}</a>
         {% endfor %}
+        <a class="nav-icon" id="nav_icon">&#9776;</a>
 </nav>

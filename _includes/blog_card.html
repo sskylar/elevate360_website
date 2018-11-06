@@ -1,6 +1,6 @@
 <div class="blog-card">
     <a href="{{ include.post.url }}" class="post-image" style="background-image: url('{{ include.post.post_image }}')"></a>
-    <h4 class="green">{{ include.post.title }}</h4>
+    <h4><a href="{{ include.post.url }}" class="green">{{ include.post.title }}</a></h4>
     {{ include.post.excerpt }}
     <a class="learn-more" href="{{ include.post.url }}">Read More &#x2192;</a>
 </div>

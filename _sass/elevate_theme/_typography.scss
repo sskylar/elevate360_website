@@ -7,9 +7,12 @@ h1 {
 }
 
 h2 {
-  font-size: 44px;
+  font-size: 3.5vw; // 44px
   font-weight: 400;
   color: $greyish-brown;
+  @media screen and (max-width: 425px) {
+      font-size: 6.5vw; 
+  }
 }
 
 h3 {

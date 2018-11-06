@@ -7,6 +7,7 @@ section-image-2: "/assets/images/c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-
 section-image-3: "/assets/images/josh-couch-475118-unsplash@2x.jpg"
 layout: default
 ---
+{% include mobile_hero.html image=page.background-image message="Need Help?" %}
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
