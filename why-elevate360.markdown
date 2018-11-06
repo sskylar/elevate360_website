@@ -4,6 +4,7 @@ date: 2018-10-25 04:41:00 Z
 background-image: "/assets/images/why_elevate360_hero@2x.jpg"
 section-image-1: "/assets/images/new-york-438391@2x.jpg"
 ---
+
 {% include mobile_hero.html image=page.background-image message="Let's Talk" %}
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
