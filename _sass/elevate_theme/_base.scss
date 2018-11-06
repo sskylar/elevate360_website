@@ -28,6 +28,11 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 780px) {
+    * {
+        font-size: 90%  !important;
+    }
+}
 
 
 /**
