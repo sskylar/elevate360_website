@@ -46,22 +46,21 @@ h1.small {
   text-transform: uppercase;
   color: $avocado;
   width: 100%;
+  display: flex;
 
   &:after {
     content: '';
-    display: block;
-    border-bottom: 1px solid $avocado;
-    width: 80%;
-    margin-left: 20%;
-    margin-top: -9px;
+    display: flex;
+    margin-left: 2%;
+    align-self: center;
+    flex-grow: 1;
+    height: 1px;
+    background-color: $avocado;
   }
 }
 
 h1.small-full-width {
-  &::after {
-    width: 90%;
-    margin-left: 10%; 
-  }
+  
 }
 
 .post-content {

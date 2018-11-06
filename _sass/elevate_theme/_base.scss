@@ -152,6 +152,10 @@ a {
         width: 250px;
         height: 53px;
         line-height: 53px;
+
+        @media screen and (max-width: 450px) {
+            line-height: 21px;
+        }
     }
 
     &.bordered {
