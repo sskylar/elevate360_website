@@ -1,8 +1,9 @@
 ---
 title: Terms of Service
-layout: markdown
 date: 2018-11-07 04:45:00 Z
+layout: markdown
 ---
+
 # Terms of Service
 
 *Last updated: November 01, 2018*
