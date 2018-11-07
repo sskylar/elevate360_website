@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    {% include head.html %}
+    {% seo %}
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.url }}{{ page.image.image }}">
+        <meta name="twitter:image:src" content="{{ site.url }}{{ page.image.image }}">
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}/assets/images/elevate-logo@2x.png ">
+        <meta name="twitter:image:src" content="{{ site.url }}/assets/images/elevate-logo@2x.png ">
+    {% endif %}
+</head>
+<body>
+    {% include header.html %}
+    <div class="site">
+
+        <section style="text-align: left; display: block;">
+            {{ content }}
+        </section>
+
+    </div>
+    {% include footer.html %}
+    <script src="{{ 'assets/javascript/main.js' | relative_url }}"></script>
+</body>
+</html>
