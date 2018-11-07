@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-layout: markdown
 date: 2018-11-06 04:45:00 Z
+layout: markdown
 ---
 
 Effective date: November 06, 2018
