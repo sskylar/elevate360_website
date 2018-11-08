@@ -14,7 +14,8 @@ section-image-1: "/assets/images/new-york-438391@2x.jpg"
         <p>
             Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
         </p>
-        <a class="button rounded bordered" href="tel:1-212-204-8430">Let's Talk  &nbsp;&#x260E;</a>
+        <a href="tel:1-212-204-8430" class="button rounded bordered only-desktop">212-204-8430</a>
+        <a href="tel:1-212-204-8430" class="button rounded bordered only-mobile">Let's Talk  &nbsp;&#x260E;</a>
     </div>
 </section>
 

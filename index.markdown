@@ -25,7 +25,8 @@ layout: default
         <h3>Call Us Today, Be Seen Tomorrow!</h3>
         <h5>Schedule a free 15-minute consultation - 212-204-8430</h5>
     </div>
-    <a href="tel:1-212-204-8430" class="button rounded">call now</a>
+    <a href="tel:1-212-204-8430" class="button rounded only-desktop">212-204-8430</a>
+    <a href="tel:1-212-204-8430" class="button rounded only-mobile">call now</a>
 </div>
 <section class="home-section" id="what_we_do">
     <div class="section-text">
@@ -57,9 +58,9 @@ layout: default
 </section>
 <section class="home-section" id="different" >
     <div style="width: 90%; margin: 5vw auto; order: -2"><h1 class="small">Our Promise</h1></div>
-    <div class="section-text">
-        <h2>How are we different?</h2>
-    </div>
+    
+    <h2 style="margin: 0 5vw">How are we different?</h2>
+    
     <div class="section-text">
         <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
         <!-- <a class="learn-more">Learn More &#x2192;</a> -->
