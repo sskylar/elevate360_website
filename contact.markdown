@@ -3,7 +3,7 @@ title: Contact Us
 date: 2018-10-31 18:17:00 Z
 ---
 
-<section>
+<section id="contact_intro">
     <h1 class="small small-full-width">contact</h1>
     <div class="section-text">
         <h2>Contact Us</h2>

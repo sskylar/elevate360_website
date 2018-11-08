@@ -55,8 +55,8 @@ layout: default
     </div>
     <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
 </section>
-<section class="home-section" id="different" style="flex-wrap: wrap">
-    <div style="width: 90%; margin: 30px; auto;"><h1 class="small">Our Promise</h1></div>
+<section class="home-section" id="different" >
+    <div style="width: 90%; margin: 5vw auto; order: -2"><h1 class="small">Our Promise</h1></div>
     <div class="section-text">
         <h2>How are we different?</h2>
     </div>

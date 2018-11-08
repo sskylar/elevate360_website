@@ -147,7 +147,7 @@ nav {
     flex-wrap: wrap;
     color: #fff;
     justify-content: space-around;
-    padding: 10vw 5vw;
+    padding: 5vw;
     
     h3 {
         font-size: 32px;
@@ -189,7 +189,7 @@ section {
         display: flex;
         flex-flow: column;
         padding: 5% 5%;
-        width: 40%;
+        width: 45%;
 
         .learn-more {
             align-self: flex-end;
@@ -197,7 +197,7 @@ section {
     }
     .section-image {
         width: 50%;
-        min-height: 500px;
+        height: 100%;
         background-position: center center;
         background-size: cover;
     }
@@ -221,6 +221,9 @@ section {
         .section-content, .section-text, .section-image {
             width: 100%;
             max-width: 100%;
+        }
+        .section-image {
+            height: 80vw;
         }
 
         .section-text {
@@ -384,9 +387,17 @@ section.home-section {
             font-size: 13px;
         }
     }
+    @media screen and (max-width: 760px) {
+        padding: 5vw 1vw;
+        min-width: 100%;
+        margin: 3% 0;
+    }
 }
 .team-bio-text {
     flex-basis: 60%;
+    @media screen and (max-width: 760px) {
+        flex-basis: 80%;
+    }
 }
 .team-bio-photo {
     flex: 0 0 25%;
@@ -397,6 +408,9 @@ section.home-section {
 
 
 // =============  contact =============== //
+#contact_intro, #contact_form {
+    padding: 5vw;
+}
 
 #contact_form {
     background-color: #fff;
@@ -455,6 +469,7 @@ section#featured_post {
       list-style: none;
       margin-left: 0;
       display: flex;
+      flex-wrap: wrap;
 
       > * {
           padding: 4px 8px;
