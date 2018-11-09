@@ -4,7 +4,7 @@ date: 2018-10-28 15:51:00 Z
 ---
 
 <section id="meet_our_staff">
-    <h1 style="width: 100%;">Our Team</h1>
+    <h1 class="small" style="width: 100%;">Our Team</h1>
     <div class="section-text">
         <h2>Meet Our Staff</h2>
     </div>
@@ -27,7 +27,7 @@ date: 2018-10-28 15:51:00 Z
 
 <script>
     (function scope(){    
-        var titles = document.querySelectorAll('h1.small');
+        var titles = document.querySelectorAll('.team-bio h1.small');
         var text_blocks = document.querySelectorAll('.team-bio-card .team-bio-text');
         var cards = document.querySelectorAll('.team-bio-card');
 

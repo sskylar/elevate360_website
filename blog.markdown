@@ -5,10 +5,10 @@ date: 2018-10-25 04:45:00 Z
 
 <section id="featured_post">
     {% assign first_post = site.posts[0] %}
-    <h1 class="small">New Post</h1>
-    <a href="{{ first_post.url }}"><h2>{{ first_post.title}}</h2></a>
-    <a href="{{ first_post.url }}" class="section-image" style="background-image: url('{{ first_post.post_image }}')"></a>
+    <a href="{{ first_post.url }}" class="section-image" style="background-image: url('{{ first_post.post_image }}');"></a>
     <div class="section-text">
+        <h1 class="small">New Post</h1>
+        <h2><a href="{{ first_post.url }}" >{{ first_post.title}}</a></h2>
         <p>{{ first_post.excerpt }}</p>
         <a class="learn-more" href="{{ first_post.url }}">Read More &#x2192;</a>
     </div>
