@@ -28,8 +28,8 @@ defaults:
   values:
     layout: post
     permalink: "/posts/:title/"
-    author: 
-    post_image: 
+    author:
+    post_image:
 - scope:
     path: ''
     type: pages
@@ -42,7 +42,7 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
 url: http://blog.elevate360.com
 show_excerpts: false
@@ -50,6 +50,7 @@ minima:
   date_format: "%b %-d, %Y"
 theme: minima
 permalink: pretty
+image: "https://s3.amazonaws.com/www-elevate360-com/assets/images/seo.png"
 twitter:
   username: elevate360NYC
 plugins:
