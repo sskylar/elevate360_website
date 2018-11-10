@@ -50,7 +50,7 @@ minima:
   date_format: "%b %-d, %Y"
 theme: minima
 permalink: pretty
-image: "/assets/images/seo.png"
+image: /assets/images/seo.png
 twitter:
   username: elevate360NYC
 plugins:
