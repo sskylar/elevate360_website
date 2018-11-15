@@ -1,6 +1,6 @@
 ---
 title: Why Elevate360?
-date: 2018-10-25 04:41:00 Z
+date: 2018-10-25 00:41:00 -04:00
 background-image: "/assets/images/why_elevate360_hero@2x.jpg"
 section-image-1: "/assets/images/new-york-438391@2x.jpg"
 ---
@@ -22,8 +22,8 @@ section-image-1: "/assets/images/new-york-438391@2x.jpg"
 <section>
     <div class="section-content">
         <h2>{{ page.title }}</h2>
-        <p>In short, because we do treatment right.  Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
-        </p>
+        <p>In short, because we do treatment right.
+        </p></br>
         <p>
         All our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, compulsive behaviors, and other psychological issues. 
         </p>
