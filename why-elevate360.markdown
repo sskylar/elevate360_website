@@ -22,7 +22,7 @@ section-image-1: "/assets/images/new-york-438391@2x.jpg"
 <section>
     <div class="section-content">
         <h2>{{ page.title }}</h2>
-        <p>In short, because we do treatment right. All our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, compulsive behaviors, and other psychological issues. 
+        <p>In short, because we do treatment right. All of our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, compulsive behaviors, and other psychological issues. 
         </p>
         <p>
         According to the Substance Abuse and Mental Health Services Administration (SAMHSA), only about 10% of people struggling with addiction receive specialty addiction treatment.  Of those who engage in care, only a tiny percentage receive evidence-based care.  Comparatively, approximately 75% of people with high blood pressure and diabetes receive evidence-based treatments. Part of the reason for this is that the majority of addiction treatment staff providing care in the United States lack the knowledge, training, and education required to offer effective evidence-based treatments.  
