@@ -105,6 +105,8 @@ nav {
         display: flex;
         flex-flow: column;
         flex-basis: 20%;
+        font-size: 14px;
+        line-height: 1.75;
         a { color: #fff; }
 
         @media screen and (max-width: 450px) {
