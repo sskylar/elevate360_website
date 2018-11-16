@@ -101,11 +101,18 @@ nav {
         font-size: 60% !important;
     }
 
+    h3 {
+        .text {
+            display: block;
+            @include hide-text;
+        }
+    }
+
     #quick_links, #customer_care {
         display: flex;
         flex-flow: column;
         flex-basis: 20%;
-        font-size: 14px;
+        font-size: $small-font-size;
         line-height: 1.75;
         a { color: #fff; }
 
