@@ -119,7 +119,7 @@ nav {
             display: block;
             width: 38px;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 450px) {
                 width: 24px;
             }
 
@@ -173,31 +173,58 @@ nav {
         }
 
         #contact {
+            width: 100%;
+            max-width: 400px;
+            height: 40px;
             flex-basis: 100%;
-            text-align: right;
+            border-bottom: 2px solid $off-white;
+
+            @include placeholder-text($off-white, 400);
+
+            input {
+                padding: 0 20px 0 20px;
+                height: 38px;
+                width: calc(100% - 110px);
+                color: #fff;
+                background-color: $dark-grey;
+                border: 0;
+            }
+            button {
+                padding: 0 20px 0 20px;
+                width: 110px;
+                height: 38px;
+                color: $dark-grey;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                border: 0;
+                background-color: $off-white;
+            }
         }
 
-        #social_links a {
-            margin: 10px;
-            margin-left: 24px;
-            margin-right: 24px;
+        #social_links {
+            a {
+                margin: 10px;
+                margin-left: 24px;
+                margin-right: 24px;
 
-            &:last-child {
-                margin-right: 0;
-            }
-            &:first-child {
-                margin-left: 0;
-            }
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
 
-            .text {
-                display: none;
-            }
-            .icon {
-                display: inline-block;
-                width: 18px;
-                svg {
-                    path {
-                        fill: #fbfbfb;
+                .text {
+                    display: none;
+                }
+                .icon {
+                    display: inline-block;
+                    width: 18px;
+                    svg {
+                        path {
+                            fill: #fbfbfb;
+                        }
                     }
                 }
             }
