@@ -102,9 +102,14 @@ nav {
     }
 
     h3 {
+        margin: 0;
         .text {
             display: block;
             @include hide-text;
+        }
+        .icon {
+            display: block;
+            width: 38px;
         }
     }
 
