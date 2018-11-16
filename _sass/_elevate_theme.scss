@@ -34,6 +34,16 @@ $on-laptop:        800px !default;
   cursor: pointer;
 }
 
+@mixin hide-text {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.hide-text {
+  @include hide-text;
+}
+
 body, html {
     box-sizing: border-box;
 }

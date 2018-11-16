@@ -93,42 +93,171 @@ nav {
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-start;
     align-content: center;
     padding: 0 5%;
 
-    @media screen and (max-width: 760px) {
-        font-size: 60% !important;
+    @media screen and (max-width: 768px) {
+        padding: 10%;
+        height: auto;
+    }
+
+    h3 {
+        flex: 0 1 100%;
+        margin: 0 0 64px 0;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 24px;
+        }
+
+        .text {
+            display: block;
+            @include hide-text;
+        }
+        .icon {
+            display: block;
+            width: 38px;
+
+            @media screen and (max-width: 450px) {
+                width: 24px;
+            }
+
+            svg {
+                path {
+                    &.base { fill: $avocado; }
+                    &.top { fill: #fbfbfb; }
+                }
+            }
+        }
     }
 
     #quick_links, #customer_care {
         display: flex;
         flex-flow: column;
-        flex-basis: 20%;
+        flex: 1 0 20%;
+        max-width: 250px;
+        font-size: $small-font-size;
+        line-height: 1.75;
         a { color: #fff; }
 
+        @media screen and (max-width: 768px) {
+            flex-basis: 100%;
+            margin-bottom: 24px;
+            max-width: 768px;
+
+            h4 {
+                margin-bottom: 12px;
+                width: 80%;
+                border-bottom: 1px solid $off-white;
+            }
+        }
+
         @media screen and (max-width: 450px) {
-            flex-basis: 50%;
+            font-size: 12px;
+
+            h4 {
+                margin-bottom: 8px;
+                font-size: 12px;
+            }
         }
     }
     #social {
+        margin-left: auto; // "floats" div to the right
         flex-basis: 50%;
         justify-content: flex-end;
         display: flex;
         flex-flow: row wrap;
+        max-width: 500px;
 
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 768px) {
             flex-basis: 100%;
-            margin-top: 5vw;
+            justify-content: center;
+            max-width: 768px;
+            margin-top: 10vw;
         }
 
         #contact {
+            width: 100%;
+            max-width: 500px;
+            height: 40px;
             flex-basis: 100%;
-            text-align: right;
+            border-bottom: 2px solid $off-white;
+
+            @include placeholder-text($off-white, 400);
+
+            @media screen and (max-width: 768px) {
+                margin-bottom: 48px;
+                max-width: 100%;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin-bottom: 36px;
+                height: 23px;
+                font-size: 12px;
+                border-bottom-width: 1px;
+            }
+
+            input {
+                padding: 0 20px 0 20px;
+                height: 38px;
+                width: calc(100% - 110px);
+                color: #fff;
+                background-color: $dark-grey;
+                border: 0;
+
+                @media screen and (max-width: 768px) {
+                    padding-left: 0;
+                }
+                @media screen and (max-width: 450px) {
+                    width: calc(100% - 90px);
+                    height: 22px;
+                }
+            }
+            button {
+                padding: 0 20px 0 20px;
+                width: 110px;
+                height: 38px;
+                color: $dark-grey;
+                font-weight: 700;
+                text-transform: uppercase;
+                text-align: center;
+                border: 0;
+                background-color: $off-white;
+
+                @media screen and (max-width: 450px) {
+                    width: 90px;
+                    height: 22px;
+                }
+            }
         }
 
-        #social_links a {
-            margin: 10px;
+        #social_links {
+            a {
+                margin: 10px;
+                margin-left: 24px;
+                margin-right: 24px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+                &:first-child {
+                    margin-left: 0;
+                }
+
+                .text {
+                    display: none;
+                }
+                .icon {
+                    display: inline-block;
+                    width: 18px;
+                    svg {
+                        path {
+                            fill: #fbfbfb;
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -1,7 +1,12 @@
 <div class="site-footer">
-    <div style="width: 100%; margin-bottom: 5%;">
-        <img src="{{ '/assets/images/logo-bug.svg' }} ">
-    </div>
+    <h3>
+        <span class="text">
+            {{ site.title }}
+        </span>
+        <span class="icon">
+            {% include svg/logo-bug.svg %}
+        </span>
+    </h3>
     <div id="quick_links">
         <h4>Quick Links</h4>
         <a href="/our-staff">Our Staff</a>
@@ -16,13 +21,28 @@
         <a href="/privacy-policy">Privacy Policy</a>
     </div>
     <div id="social">
-        <div id="contact">
-            <!-- <input type="text" id="contact" placeholder="Email Address"><button type="submit">submit</button> -->
-        </div>
+        <form id="contact">
+            <input type="text" id="contact" placeholder="Email Address"><button type="submit">Submit</button>
+        </form>
         <div id="social_links">
-            <a href="https://twitter.com/elevate360nyc" target="_blank"><img src="{{ '/assets/images/social/twitter.svg' }}"></a>
-            <a href="https://www.facebook.com/elevate360nyc/" target="_blank"><img src="{{ '/assets/images/social/facebook.svg' }}"></a>
-            <a href="https://www.instagram.com/elevate360nyc/" target="_blank"><img src="{{ '/assets/images/social/instagram.svg' }}"></a>
+            <a href="https://twitter.com/elevate360nyc" target="_blank">
+                <span class="text">Twitter</span>
+                <span class="icon">
+                    {% include svg/social/twitter.svg %}
+                </span>
+            </a>
+            <a href="https://www.facebook.com/elevate360nyc/" target="_blank">
+                <span class="text">Facebook</span>
+                <span class="icon">
+                    {% include svg/social/facebook.svg %}
+                </span>
+            </a>
+            <a href="https://www.instagram.com/elevate360nyc/" target="_blank">
+                <span class="text">Instagram</span>
+                <span class="icon">
+                    {% include svg/social/instagram.svg %}
+                </span>
+            </a>
         </div>
     </div>
 </div>
