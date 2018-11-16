@@ -181,6 +181,18 @@ nav {
 
             @include placeholder-text($off-white, 400);
 
+            @media screen and (max-width: 768px) {
+                margin-bottom: 48px;
+                max-width: 100%;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin-bottom: 36px;
+                height: 23px;
+                font-size: 12px;
+                border-bottom-width: 1px;
+            }
+
             input {
                 padding: 0 20px 0 20px;
                 height: 38px;
@@ -188,6 +200,14 @@ nav {
                 color: #fff;
                 background-color: $dark-grey;
                 border: 0;
+
+                @media screen and (max-width: 768px) {
+                    padding-left: 0;
+                }
+                @media screen and (max-width: 450px) {
+                    width: calc(100% - 90px);
+                    height: 22px;
+                }
             }
             button {
                 padding: 0 20px 0 20px;
@@ -199,6 +219,11 @@ nav {
                 text-align: center;
                 border: 0;
                 background-color: $off-white;
+
+                @media screen and (max-width: 450px) {
+                    width: 90px;
+                    height: 22px;
+                }
             }
         }
 
