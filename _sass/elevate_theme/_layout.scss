@@ -159,9 +159,10 @@ nav {
         display: flex;
         flex-flow: row wrap;
 
-        @media screen and (max-width: 450px) {
+        @media screen and (max-width: 768px) {
             flex-basis: 100%;
-            margin-top: 5vw;
+            justify-content: center;
+            margin-top: 10vw;
         }
 
         #contact {
@@ -171,6 +172,15 @@ nav {
 
         #social_links a {
             margin: 10px;
+            margin-left: 24px;
+            margin-right: 24px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+            &:first-child {
+                margin-left: 0;
+            }
         }
     }
 }
