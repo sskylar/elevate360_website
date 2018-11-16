@@ -93,6 +93,7 @@ nav {
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-start;
     align-content: center;
     padding: 0 5%;
@@ -102,7 +103,8 @@ nav {
     }
 
     h3 {
-        margin: 0;
+        flex: 0 1 100%;
+        margin: 0 0 64px 0;
         .text {
             display: block;
             @include hide-text;
@@ -116,7 +118,8 @@ nav {
     #quick_links, #customer_care {
         display: flex;
         flex-flow: column;
-        flex-basis: 20%;
+        // flex-basis: 20%;
+        flex: 1 0 20%;
         font-size: $small-font-size;
         line-height: 1.75;
         a { color: #fff; }
