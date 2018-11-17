@@ -2,29 +2,36 @@
 layout: default
 ---
 
-<section id="meet_our_staff">
-    <h1 class="small">Our Services</h1>
-    <div class="section-text">
-        <h2>{{ page.title }}</h2>
-    </div>
-    <div class="section-text">
-        <p>
-            {{ content }}
-        </p>
-    </div>
-</section>
+{% include section-type1.html
+    id="service_subsection_header"
+    h1="Our Services"
+    h2=page.title
+    content=content
+%}
 
-<section>
+<section id="services_grid">
     {%- for card in site[page.collection] -%}
-        {{ card.title }}
+        {% include services_card.html card=card %}
     {%- endfor -%}
 </section>
 
+{% if page.callout %}
+    {% include section-callout.html
+        h3="Patients can remain connected to one another through the Connections mobile app which is available to all Elevate360 patients."
+        h5="Because addiction is a chronic health issue, recurrences are a part of the recovery process, and patients work with their therapists to plan for these emergencies in advance so that they are not taken by surprise if they occur.  Staying in contact with the Elevate360 community can help patients keep minor slips from becoming full relapses."
+        button_msg="Download the App"
+        button_mobile="Download the App"
+        button_href="#"
+    %}
+{% endif %}
+
 {% if page.footer-section %}
-{% assign footer = page.footer-section[0] %}
- <section id="service_subfooter">
-    <h1 class="small">{{ footer.title }}</h1>
-    <h2>{{ footer.callout }}</h2>
-    <p>{{ footer.copy }}</p>
- </section>
+    {% assign footer = page.footer-section[0] %}
+
+    {% include section-type1.html
+        id="service_subfooter"
+        h1=footer.title
+        h2=footer.callout
+        content=footer.copy
+    %}
 {% endif %}

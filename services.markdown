@@ -50,16 +50,9 @@ service-cards:
         </div>
     {% endfor %}
 </section>
-
-<section id="service_trainings">
-    <h1 class="small small-full-width">trainings</h1>
-    <div class="section-text">
-        <h2>Trainings for Clinicians</h2>
-    </div>
-    <div class="section-text">
-        <p>
-        The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community. 
-        </p>
-        <!-- <a href="" class="learn-more">Learn More &#x2192;</a> -->
-    </div>
-</section>
+{% include section-type1.html
+    id="ervice_trainings"
+    h1="Trainings"
+    h2="Trainings for Clinicians"
+    content="The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community."
+%}

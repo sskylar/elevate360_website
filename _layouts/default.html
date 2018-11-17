@@ -10,7 +10,7 @@
 </head>
 <body>
     {% include header.html %}
-    <div class="site">
+    <div class="site" id="{{ page.title | downcase | replace: ' ', '-' }}">
 
     {{ content }}
 
