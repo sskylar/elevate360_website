@@ -1,47 +1,136 @@
 // ======================== //
 
 nav {
-  display: flex;
-  flex-basis: 50%;
-  justify-content: flex-start;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    @media screen and (max-width: 1224px) {
+      padding: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        position: relative;
+        margin-left: auto; // "floats" div to the right
+    }
 
     a, a:visited {
         font-weight: 500;
         font-size: 14px;
         text-transform: uppercase;
         color: $greyish-brown;
-        margin: 5px 20px;
+        margin: 0 15px;
+        padding: 5px;
+
+        @media screen and (max-width: 1224px) {
+            margin: 0 10px;
+        }
+
+        &:first-child {
+            @media screen and (max-width: 960px) {
+                margin-left: -5px;
+            }
+        }
     }
     a.active {
         color: $avocado;
     }
-    a.nav-icon {display: none;}    
+}
+a.nav-icon {
+    display: none;
 
+    .icon {
+        svg {
+            height: 100%;
+            path {
+                opacity: 1;
+                transition: all ease 150ms;
+            }
+        }
+    }
+
+    &.open {
+        .icon {
+            svg {
+                path {
+                    &.middle { opacity: 0; }
+                    &.top {
+                        transform: rotate(45deg);
+                        transform-origin: 2px 4px;
+                    }
+                    &.bottom {
+                        transform: rotate(-45deg);
+                        transform-origin: 2.5px 10.5px;
+                    }
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 768px) {
     nav {
-        flex-basis: 20%;
+        display: block;
+        flex-basis: 35%;
+        top: 90px;
+        right: -1px;
+        padding-bottom: 0;
+        background-color: #fff;
+
         a {
             display: none;
             font-size: 13px;
         }
-        a.nav-icon {
-            font-size: 36px;
-            display: inline-block;
+        a.nav-item {
+            position: relative;
         }
         &.collapsed {
-            background-color: #fff;
+            padding-bottom: 10px;
             flex-direction: column;
             align-self: flex-start;
             align-items: flex-end;
-            z-index: 1;
             a {
                 display: block;
                 text-align: right;
             }
-            a.nav-icon { order: -1; }
         }
+    }
+    a.nav-icon {
+        position: absolute;
+        display: inline-block;
+        top: 32px;
+        right: 10%;
+        width: 28px;
+        height: 28px;
+        font-size: 36px;
+        color: $dark-grey;
+        z-index: 1;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .text { display: none; }
+        .icon {
+            svg {
+                path {
+                    fill: $dark-grey;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    nav {
+        &.collapsed {
+            right: calc(10% - 16px);
+        }
+    }
+    a.nav-icon {
+        top: 36px;
+        width: 18px;
+        height: 18px;
+        right: 10%;
+        font-size: 24px;
     }
 }
 
@@ -55,24 +144,95 @@ nav {
 .site-header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
-
-    height: 93px;
+    padding-left: 110px;
+    padding-right: 110px;
+    height: 90px;
     background-color: #fff;
+
+    @media screen and (max-width: 1224px) {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 960px) {
+        align-items: flex-start;
+        height: 130px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     
-    img {
-        width: 190px;
+    h1 {
+        margin: 0 40px 0 0;
+
+        @media screen and (max-width: 1224px) {
+            margin-right: 20px;
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 960px) {
+            flex-basis: 100%;
+            margin: 30px 0 5px 0;
+        }
+
+        @media screen and (max-width: 450px) {
+            margin-right: 0;
+            margin-left: 10%;
+        }
+
+        a {
+            display: block;
+            .text {
+                display: none;
+            }
+            .logo {
+                display: block;
+                width: 200px;
+
+                @media screen and (max-width: 450px) {
+                    width: 142px;
+                }
+
+                svg {
+                    path {
+                        &.grey { fill: $dark-grey; }
+                        &.green { fill: $avocado; }
+                    }
+                }
+            }
+        }
     }
     .cta {
+        margin-left: auto; // "floats" div to the right
         background-color: $avocado;
         color: #fff;
-        height: 39px;
-        line-height: 39px;
+        height: 40px;
+        line-height: 40px;
         font-size: 14px;
+        font-weight: 700;
         text-align: center;
-        padding: 0 10px;
+        padding: 0 15px;
         cursor: pointer;
+
+        @media screen and (max-width: 960px) {
+            margin-top: -6px
+        }
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        .wide {
+            @media screen and (min-width: 961px) and (max-width: 1052px) {
+                display: none;
+            }
+            @media screen and (max-width: 800px) {
+                display: none;
+            }
+        }
     }
 }
 @media screen and (max-width: 450px) {
@@ -83,7 +243,6 @@ nav {
 
         >a { flex-basis: 50%; }
         img { width: 100%; margin-left: 5vw;}
-        .cta { display: none; }
     }
 }
 .site-footer {
