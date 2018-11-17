@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section id="meet_our_staff">
+    <h1 class="small">Our Services</h1>
+    <div class="section-text">
+        <h2>{{ page.title }}</h2>
+    </div>
+    <div class="section-text">
+        <p>
+            {{ content }}
+        </p>
+    </div>
+</section>
+
+<section>
+    {%- for card in site[page.collection] -%}
+        {{ card.title }}
+    {%- endfor -%}
+</section>
+
+{% if page.footer-section %}
+{% assign footer = page.footer-section[0] %}
+ <section id="service_subfooter">
+    <h1 class="small">{{ footer.title }}</h1>
+    <h2>{{ footer.callout }}</h2>
+    <p>{{ footer.copy }}</p>
+ </section>
+{% endif %}
