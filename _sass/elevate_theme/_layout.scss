@@ -36,7 +36,37 @@ nav {
         color: $avocado;
     }
 }
-a.nav-icon {display: none;}
+a.nav-icon {
+    display: none;
+
+    .icon {
+        svg {
+            height: 100%;
+            path {
+                opacity: 1;
+                transition: all ease 150ms;
+            }
+        }
+    }
+
+    &.open {
+        .icon {
+            svg {
+                path {
+                    &.middle { opacity: 0; }
+                    &.top {
+                        transform: rotate(45deg);
+                        transform-origin: 2px 4px;
+                    }
+                    &.bottom {
+                        transform: rotate(-45deg);
+                        transform-origin: 2.5px 10.5px;
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     nav {
         display: block;
@@ -62,20 +92,30 @@ a.nav-icon {display: none;}
                 display: block;
                 text-align: right;
             }
-            a.nav-icon { order: -1; }
         }
     }
     a.nav-icon {
         position: absolute;
         display: inline-block;
-        top: 16px;
+        top: 32px;
         right: 10%;
+        width: 28px;
+        height: 28px;
         font-size: 36px;
         color: $dark-grey;
         z-index: 1;
 
         &:hover {
             cursor: pointer;
+        }
+
+        .text { display: none; }
+        .icon {
+            svg {
+                path {
+                    fill: $dark-grey;
+                }
+            }
         }
     }
 }
@@ -86,7 +126,9 @@ a.nav-icon {display: none;}
         }
     }
     a.nav-icon {
-        top: 28px;
+        top: 36px;
+        width: 18px;
+        height: 18px;
         right: 10%;
         font-size: 24px;
     }

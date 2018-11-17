@@ -5,4 +5,11 @@
             >{{ item.title }}</a>
         {% endfor %}
 </nav>
-<a class="header nav-icon" id="nav_icon">&#9776;</a>
+<a class="header nav-icon" id="nav_icon">
+  <span class="text">
+    Open Menu
+  </span>
+  <span class="icon">
+    {% include svg/menu-toggle.svg %}
+  </span>
+</a>
