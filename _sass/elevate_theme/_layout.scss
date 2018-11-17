@@ -82,11 +82,13 @@ a.nav-icon {display: none;}
 @media screen and (max-width: 450px) {
     nav {
         &.collapsed {
-            right: 8px;
+            right: calc(10% - 16px);
         }
     }
     a.nav-icon {
-        right: 5vw;
+        top: 28px;
+        right: 10%;
+        font-size: 24px;
     }
 }
 
@@ -131,7 +133,7 @@ a.nav-icon {display: none;}
 
         @media screen and (max-width: 450px) {
             margin-right: 0;
-            margin-left: 5vw;
+            margin-left: 10%;
         }
 
         a {
@@ -142,6 +144,10 @@ a.nav-icon {display: none;}
             .logo {
                 display: block;
                 width: 200px;
+
+                @media screen and (max-width: 450px) {
+                    width: 142px;
+                }
 
                 svg {
                     path {
