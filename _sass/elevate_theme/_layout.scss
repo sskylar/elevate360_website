@@ -2,8 +2,7 @@
 
 nav {
   display: flex;
-  flex-basis: 50%;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px;
 
     a, a:visited {
@@ -11,7 +10,8 @@ nav {
         font-size: 14px;
         text-transform: uppercase;
         color: $greyish-brown;
-        margin: 5px 20px;
+        margin: 0 15px;
+        padding: 5px;
     }
     a.active {
         color: $avocado;
@@ -55,23 +55,36 @@ nav {
 .site-header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    // justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-
-    height: 93px;
+    padding-left: 110px;
+    padding-right: 110px;
+    height: 90px;
     background-color: #fff;
     
-    img {
-        width: 190px;
+    h1 {
+        margin: 0 40px 0 0;
+        width: 220px;
+        a {
+            display: block;
+            .text {
+                display: none;
+            }
+            .logo {
+                display: block;
+            }
+        }
     }
     .cta {
+        margin-left: auto; // "floats" div to the right
         background-color: $avocado;
         color: #fff;
-        height: 39px;
-        line-height: 39px;
+        height: 40px;
+        line-height: 40px;
         font-size: 14px;
         text-align: center;
-        padding: 0 10px;
+        padding: 0 15px;
         cursor: pointer;
     }
 }
