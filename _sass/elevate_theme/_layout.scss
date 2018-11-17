@@ -35,36 +35,57 @@ nav {
     a.active {
         color: $avocado;
     }
-    a.nav-icon {display: none;}
-
 }
+a.nav-icon {display: none;}
 @media screen and (max-width: 768px) {
     nav {
-        flex-basis: 20%;
-        height: 90px;
+        display: block;
+        flex-basis: 35%;
+        top: 90px;
+        padding-bottom: 0;
+        background-color: #fff;
+
         a {
             display: none;
             font-size: 13px;
         }
-        a.nav-icon {
-            position: absolute;
-            top: 10px;
-            right: 0;
-            font-size: 36px;
-            display: inline-block;
+        a.nav-item {
+            position: relative;
         }
         &.collapsed {
-            background-color: #fff;
+            padding-bottom: 10px;
             flex-direction: column;
             align-self: flex-start;
             align-items: flex-end;
-            z-index: 1;
             a {
                 display: block;
                 text-align: right;
             }
             a.nav-icon { order: -1; }
         }
+    }
+    a.nav-icon {
+        position: absolute;
+        display: inline-block;
+        top: 16px;
+        right: 56px;
+        font-size: 36px;
+        color: $dark-grey;
+        z-index: 1;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    nav {
+        &.collapsed {
+            right: 8px;
+        }
+    }
+    a.nav-icon {
+        right: 24px;
     }
 }
 
