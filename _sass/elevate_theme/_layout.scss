@@ -9,6 +9,11 @@ nav {
       padding: 0;
     }
 
+    @media screen and (max-width: 768px) {
+        position: relative;
+        margin-left: auto; // "floats" div to the right
+    }
+
     a, a:visited {
         font-weight: 500;
         font-size: 14px;
@@ -30,17 +35,21 @@ nav {
     a.active {
         color: $avocado;
     }
-    a.nav-icon {display: none;}    
+    a.nav-icon {display: none;}
 
 }
 @media screen and (max-width: 768px) {
     nav {
         flex-basis: 20%;
+        height: 90px;
         a {
             display: none;
             font-size: 13px;
         }
         a.nav-icon {
+            position: absolute;
+            top: 10px;
+            right: 0;
             font-size: 36px;
             display: inline-block;
         }
@@ -81,7 +90,7 @@ nav {
         padding-right: 56px;
     }
 
-    @media screen and (max-width: 960px) {
+    @media screen and (min-width: 769px) and (max-width: 960px) {
         align-items: flex-start;
         height: 130px;
     }
@@ -93,7 +102,7 @@ nav {
             margin-right: 20px;
         }
 
-        @media screen and (max-width: 960px) {
+        @media screen and (min-width: 769px) and (max-width: 960px) {
             flex-basis: 100%;
             margin: 30px 0 5px 0;
         }
@@ -116,6 +125,7 @@ nav {
         height: 40px;
         line-height: 40px;
         font-size: 14px;
+        font-weight: 700;
         text-align: center;
         padding: 0 15px;
         cursor: pointer;
@@ -124,12 +134,16 @@ nav {
             margin-top: -6px
         }
 
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
         .wide {
             @media screen and (min-width: 961px) and (max-width: 1052px) {
-                display: none;   
+                display: none;
             }
             @media screen and (max-width: 800px) {
-                display: none;   
+                display: none;
             }
         }
     }
@@ -142,7 +156,6 @@ nav {
 
         >a { flex-basis: 50%; }
         img { width: 100%; margin-left: 5vw;}
-        .cta { display: none; }
     }
 }
 .site-footer {
