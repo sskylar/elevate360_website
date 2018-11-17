@@ -4,5 +4,12 @@
                 href="{{ item.url }}"
             >{{ item.title }}</a>
         {% endfor %}
-        <a class="nav-icon" id="nav_icon">&#9776;</a>
 </nav>
+<a class="header nav-icon" id="nav_icon">
+  <span class="text">
+    Open Menu
+  </span>
+  <span class="icon">
+    {% include svg/menu-toggle.svg %}
+  </span>
+</a>
