@@ -21,6 +21,10 @@ collections:
   uploads:
     title: Uploads
     output: true
+  treatment-programs:
+    title: Treatment Programs
+    output: true
+    layout: default
 defaults:
 - scope:
     path: ''

@@ -434,9 +434,16 @@ a.nav-icon {
     flex-basis: 100%;
     flex-wrap: wrap;
     color: #fff;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     padding: 5vw;
     
+    >div {
+        flex-basis: 60%;
+        @media screen and (max-width: 768px) {
+            flex-basis: 100%;
+        }
+    }
     h3 {
         font-size: 32px;
         letter-spacing: 0.3px;
@@ -622,7 +629,7 @@ section.home-section {
     }
 }
 
-#different {
+section.type1 {
     padding: 0;
     align-items: flex-start;
 
@@ -646,6 +653,25 @@ section.home-section {
 #service_cards {
     align-items: flex-start;
     background-color: #fff;
+}
+
+#services_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
+
+    .services-card {
+        background-color: $pale-blue-50;
+        padding: 1vw 5vw;
+        height: 100%;
+        align-content: flex-start;
+    }
+}
+
+section#service_subfooter {
+    h2 { font-size: 2vw; }
 }
 
 // ============== staff ================ //

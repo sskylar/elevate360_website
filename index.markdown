@@ -56,15 +56,10 @@ layout: default
     </div>
     <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
 </section>
-<section class="" id="different" >
-    <div style="width: 90%; margin: 5vw auto 0; order: -2"><h1 class="small">Our Promise</h1></div>
-    
-    <div class="section-text">
-        <h2 style="margin: 0;">How are we different?</h2>
-    </div>
-    
-    <div class="section-text">
-        <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
-        <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-    </div>
-</section>
+
+{% include section-type1.html
+    id="different"
+    h1="Our Promise"
+    h2="How are we different"
+    content="The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient."
+%}
