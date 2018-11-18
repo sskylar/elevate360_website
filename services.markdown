@@ -51,7 +51,7 @@ service-cards:
     {% endfor %}
 </section>
 {% include section-type1.html
-    id="ervice_trainings"
+    id="service_trainings"
     h1="Trainings"
     h2="Trainings for Clinicians"
     content="The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community."
