@@ -1,6 +1,7 @@
 ---
 title: Additional Services
-date: 2018-09-07 20:22:00 Z
+position: 3
+date: 2018-09-07 16:22:00 -04:00
 ---
 
 Additional services including family and couples therapy are added to the individualized treatment for individuals depending on their needs.
