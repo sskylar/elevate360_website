@@ -20,14 +20,13 @@ layout: default
         <a class="button rounded" href="/contact">get email updates</a>
     </div>
 </section>
-<div class="cta cta-green">
-    <div>
-        <h3>Call Us Today, Be Seen Tomorrow!</h3>
-        <h5>Schedule a free 15-minute consultation - 212-204-8430</h5>
-    </div>
-    <a href="tel:1-212-204-8430" class="button rounded only-desktop">212-204-8430</a>
-    <a href="tel:1-212-204-8430" class="button rounded only-mobile">call now</a>
-</div>
+{% include section-callout.html
+    h3="Call Us Today, Be Seen Tomorrow!"
+    h5="Schedule a free 15-minute consultation - 212-204-8430"
+    button_msg="212-204-8430"
+    button_mobile="call now"
+    button_href="tel:1-212-204-8430"
+%}
 <section class="home-section" id="what_we_do">
     <div class="section-text">
         <h1 class="small">what do we do?</h1>
