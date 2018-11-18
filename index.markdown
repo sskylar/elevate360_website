@@ -1,6 +1,6 @@
 ---
 title: Welcome to Elevate360 Wellness
-date: 2018-08-26 05:08:00 Z
+date: 2018-08-26 01:08:00 -04:00
 background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
 section-image-1: "/assets/images/aaron-burson-242126-unsplash@2x.jpg"
 section-image-2: "/assets/images/c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-copy@2x.jpg"
