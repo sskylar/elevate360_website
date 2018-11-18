@@ -1,6 +1,6 @@
 ---
 title: Our Staff
-date: 2018-10-28 15:51:00 Z
+date: 2018-10-28 11:51:00 -04:00
 ---
 
 {% include section-type1.html

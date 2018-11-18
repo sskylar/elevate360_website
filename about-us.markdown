@@ -1,6 +1,6 @@
 ---
 title: About Us
-date: 2018-10-25 04:42:00 Z
+date: 2018-10-25 00:42:00 -04:00
 background-image: "/assets/images/hero@2x.jpg"
 section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
 ---
