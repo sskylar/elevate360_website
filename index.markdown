@@ -1,6 +1,6 @@
 ---
 title: Welcome to Elevate360 Wellness
-date: 2018-08-26 05:08:00 Z
+date: 2018-08-26 01:08:00 -04:00
 background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
 section-image-1: "/assets/images/aaron-burson-242126-unsplash@2x.jpg"
 section-image-2: "/assets/images/c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-copy@2x.jpg"
@@ -20,14 +20,13 @@ layout: default
         <a class="button rounded" href="/contact">get email updates</a>
     </div>
 </section>
-<div class="cta cta-green">
-    <div>
-        <h3>Call Us Today, Be Seen Tomorrow!</h3>
-        <h5>Schedule a free 15-minute consultation - 212-204-8430</h5>
-    </div>
-    <a href="tel:1-212-204-8430" class="button rounded only-desktop">212-204-8430</a>
-    <a href="tel:1-212-204-8430" class="button rounded only-mobile">call now</a>
-</div>
+{% include section-callout.html
+    h3="Call Us Today, Be Seen Tomorrow!"
+    h5="Schedule a free 15-minute consultation - 212-204-8430"
+    button_msg="212-204-8430"
+    button_mobile="call now"
+    button_href="tel:1-212-204-8430"
+%}
 <section class="home-section" id="what_we_do">
     <div class="section-text">
         <h1 class="small">what do we do?</h1>
@@ -56,15 +55,10 @@ layout: default
     </div>
     <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
 </section>
-<section class="" id="different" >
-    <div style="width: 90%; margin: 5vw auto 0; order: -2"><h1 class="small">Our Promise</h1></div>
-    
-    <div class="section-text">
-        <h2 style="margin: 0;">How are we different?</h2>
-    </div>
-    
-    <div class="section-text">
-        <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
-        <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-    </div>
-</section>
+
+{% include section-type1.html
+    id="different"
+    h1="Our Promise"
+    h2="How are we different"
+    content="The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient."
+%}

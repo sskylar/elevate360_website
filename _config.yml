@@ -18,6 +18,10 @@ collections:
     title: Staff
     output: true
     layout: default
+  treatment-programs:
+    title: Treatment Programs
+    output: true
+    layout: default
   uploads:
     title: Uploads
     output: true

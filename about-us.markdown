@@ -1,6 +1,6 @@
 ---
 title: About Us
-date: 2018-10-25 04:42:00 Z
+date: 2018-10-25 00:42:00 -04:00
 background-image: "/assets/images/hero@2x.jpg"
 section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
 ---
@@ -32,14 +32,10 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
     </div>
     <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
-
-<section id="meet_our_staff">
-    <h1 class="small small-full-width">our team</h1>
-    <div class="section-text">
-        <h2>Meet Our Staff</h2>
-    </div>
-    <div class="section-text">
-        <p>The clinical team at Elevate360 is a group of expert addiction psychologists who are passionate about their work and about using the most effective treatments for substance use disorders. We have an unwavering commitment to the use of research supported treatment techniques and we use them to support patients as they strive towards their goals.</p>
-        <a href="/our-staff" class="learn-more">Our Staff &#x2192;</a>
-    </div>
-</section>
+{% include section-type1.html
+    id="meet_our_staff"
+    h1="Our Team"
+    h2="Meet Our Staff"
+    content="The clinical team at Elevate360 is a group of expert addiction psychologists who are passionate about their work and about using the most effective treatments for substance use disorders. We have an unwavering commitment to the use of research supported treatment techniques and we use them to support patients as they strive towards their goals."
+    href="/our-staff"
+%}
