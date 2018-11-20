@@ -1,13 +1,12 @@
 ---
 title: Kamala Greene
-date: 2018-10-28 23:52:00 -04:00
+date: 2018-10-29 03:52:00 Z
 position: 7
 layout: default
 name: KAMALA GREENE GÉNECÉ, PHD
 job_title: Psychologist
-photo: staff/kamala-greene@2x.jpg
+photo: "staff/kamala-greene@2x.jpg"
 ---
-
 {% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">

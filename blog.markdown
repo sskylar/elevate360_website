@@ -1,8 +1,7 @@
 ---
 title: Blog
-date: 2018-10-25 00:45:00 -04:00
+date: 2018-10-25 04:45:00 Z
 ---
-
 <section id="featured_post">
     {% assign first_post = site.posts[0] %}
     {% assign post_image = first_post.post_image | remove_first: '/uploads/' | url_decode %}

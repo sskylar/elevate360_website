@@ -1,13 +1,12 @@
 ---
 title: JEANE RAJACIC-POPPE
-date: 2018-10-28 23:52:00 -04:00
+date: 2018-10-29 03:52:00 Z
 position: 3
 layout: default
 name: JEANE RAJACIC-POPPE, PH.D
 job_title: Psychologist
-photo: staff/jeane-r@2x.jpg
+photo: "staff/jeane-r@2x.jpg"
 ---
-
 {% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">

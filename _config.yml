@@ -58,9 +58,12 @@ twitter:
 facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
-assets:
+## assets setup
+# remember to set `JEKYLL_ENV=production` for all of the asset goodies
+assets: # see https://github.com/envygeeks/jekyll-assets for defaults/options
+  # compression: false # true on JEKYLL_ENV=production
   sources:
-  - _uploads
+    - _uploads
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap

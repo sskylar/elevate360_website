@@ -1,10 +1,9 @@
 ---
 title: Why Elevate360?
 date: 2018-10-25 00:41:00 -04:00
-background-image: why_elevate360_hero@2x.jpg
-section-image-1: new-york-438391@2x.jpg
+background-image: "why_elevate360_hero@2x.jpg"
+section-image-1: "new-york-438391@2x.jpg"
 ---
-
 {% assign background_image = page.background-image | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_1 = page.section-image-1 | remove_first: '/uploads/' | url_decode %}
 

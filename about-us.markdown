@@ -1,10 +1,9 @@
 ---
 title: About Us
 date: 2018-10-25 00:42:00 -04:00
-background-image: hero@2x.jpg
-section-image-1: kari-shea-580156-unsplash@2x.jpg
+background-image: "hero@2x.jpg"
+section-image-1: "kari-shea-580156-unsplash@2x.jpg"
 ---
-
 {% assign background_image = page.background-image | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_1 = page.section-image-1 | remove_first: '/uploads/' | url_decode %}
 
