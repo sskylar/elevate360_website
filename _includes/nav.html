@@ -2,7 +2,7 @@
   <div class="inner-container">
     <ul class="primary">
       {% for item in site.data.nav.toc %}
-        <li class="nav-item{% if item.url == page.url %} active{% endif %}{% if forloop.index == 3 %} no-secondary{% endif %}">
+        <li class="nav-item{% if item.url == page.url %} active{% endif %}{% if forloop.index == 3 %} no-secondary{% endif %}{% if forloop.index == 1 %} wide{% endif %}">
           <a href="{{ item.url }}" class="top-level-link">
             {{ item.title }}
           </a>
@@ -28,6 +28,9 @@
               <li><a href="#">Item Short Name</a></li>
               <li><a href="#">Longer Name Should Mess Stuff Up</a></li>
             </ul>
+          {% endif %}
+          {% if forloop.index == 3 %}
+            <span class="secondary-placeholder"></span>
           {% endif %}
         </li>
       {% endfor %}

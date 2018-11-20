@@ -1,6 +1,16 @@
 const DropMenu = {
   init: () => {
+    DropMenu.watchMobileTrigger()
     return DropMenu.watchPrimaryLinks()
+  },
+  watchMobileTrigger: () => {
+    const nav_node = document.getElementById('nav')
+    const nav_icon = document.getElementById('nav_icon')
+
+    nav_icon.onclick = function click() {
+        nav_node.classList.toggle('open')
+        nav_icon.classList.toggle('open')
+    }
   },
   watchPrimaryLinks: () => {
     const openMenu = (e) => {
