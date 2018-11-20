@@ -2,11 +2,12 @@
 title: Welcome to Elevate360 Wellness
 date: 2018-08-26 01:08:00 -04:00
 background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
-section-image-1: "aaron-burson-242126-unsplash@2x.jpg"
-section-image-2: "c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-copy@2x.jpg"
-section-image-3: "josh-couch-475118-unsplash@2x.jpg"
+section-image-1: aaron-burson-242126-unsplash@2x.jpg
+section-image-2: c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-copy@2x.jpg
+section-image-3: josh-couch-475118-unsplash@2x.jpg
 layout: default
 ---
+
 {% assign background_image = page.background-image | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_1 = page.section-image-1 | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_2 = page.section-image-2 | remove_first: '/uploads/' | url_decode %}

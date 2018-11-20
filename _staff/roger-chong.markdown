@@ -1,12 +1,13 @@
 ---
 title: Roger Chong
-date: 2018-10-29 03:52:00 Z
+date: 2018-10-28 23:52:00 -04:00
 position: 5
 layout: default
 name: ROGER CHONG, MBA, CPA
 job_title: Director of Finance and Operations
-photo: "staff/roger-chong@2x.jpg"
+photo: staff/roger-chong@2x.jpg
 ---
+
 {% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
