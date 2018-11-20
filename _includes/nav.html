@@ -1,8 +1,8 @@
-<nav class="main-nav expanded" id="nav">
+<nav class="main-nav" id="nav">
   <div class="inner-container">
     <ul class="primary">
       {% for item in site.data.nav.toc %}
-        <li class="nav-item{% if item.url == page.url %} active{% endif %}{% if forloop.index == 1 %} open{% endif %}">
+        <li class="nav-item{% if item.url == page.url %} active{% endif %}">
           <a href="{{ item.url }}" class="top-level-link">
             {{ item.title }}
           </a>
