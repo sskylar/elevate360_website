@@ -5,13 +5,12 @@ position: 3
 layout: default
 name: JEANE RAJACIC-POPPE, PH.D
 job_title: Psychologist
-photo: "staff/jeane-r@2x.jpg"
+photo: "/assets/images/staff/jeane-r@2x.jpg"
 ---
-{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
+<img class="team-bio-photo" src="{{ page.photo }}">
 <div class="team-bio-text">
     <h4>{{ page.job_title }}</h4>
     <p class="preview">

@@ -4,14 +4,13 @@ date: 2018-10-29 03:52:00 Z
 position: 1
 layout: default
 name: SARAH CHURCH, PH.D.
-photo: "staff/sarah-church@2x.jpg"
+photo: "/assets/images/staff/sarah-church@2x.jpg"
 job_title: CEO
 ---
-{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
+<img class="team-bio-photo" src="{{ page.photo }}">
 <div class="team-bio-text">
     <h4>Founder and Executive Director,  Elevate Wellness Centers</h4>
     <p class="preview">

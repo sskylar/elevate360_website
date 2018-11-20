@@ -5,13 +5,12 @@ position: 7
 layout: default
 name: KAMALA GREENE GÉNECÉ, PHD
 job_title: Psychologist
-photo: "staff/kamala-greene@2x.jpg"
+photo: "/assets/images/staff/kamala-greene@2x.jpg"
 ---
-{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
+<img class="team-bio-photo" src="{{ page.photo }}">
 <div class="team-bio-text">
     <h4>Psychologist</h4>
     <p class="preview">

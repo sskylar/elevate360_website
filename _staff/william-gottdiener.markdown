@@ -5,13 +5,12 @@ position: 6
 layout: default
 name: WILLIAM H. GOTTDIENER, PH.D.
 job_title: Psychologist
-photo: "staff/william-g@2x.jpg"
+photo: "/assets/images/staff/william-g@2x.jpg"
 ---
-{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
+<img class="team-bio-photo" src="{{ page.photo }}">
 <div class="team-bio-text">
     <h4>Psychologist</h4>
     <p class="preview">
