@@ -2,7 +2,7 @@
   <div class="inner-container">
     <ul class="primary">
       {% for item in site.data.nav.toc %}
-        <li class="nav-item{% if item.url == page.url %} active{% endif %}">
+        <li class="nav-item{% if item.url == page.url %} active{% endif %}{% if forloop.index == 3 %} no-secondary{% endif %}">
           <a href="{{ item.url }}" class="top-level-link">
             {{ item.title }}
           </a>

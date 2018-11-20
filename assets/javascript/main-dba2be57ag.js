@@ -7,9 +7,14 @@ const DropMenu = {
         if (e.target.classList.contains('top-level-link')) {
             const navListElement = e.target.closest('.nav-item')
 
-            navElement.classList.add('expanded')
+            // always close anything open
             DropMenu.closeAllSections(primayLinks)
-            DropMenu.openPrimarySection(navListElement)
+
+            // open the specific set of links, if they exist
+            if (!navListElement.classList.contains('no-secondary')) {
+                navElement.classList.add('expanded')
+                DropMenu.openPrimarySection(navListElement)                
+            }
         }
     }
 
