@@ -10,7 +10,8 @@ layout: default
 %}
 
 <section id="services_grid">
-    {%- for card in site[page.collection] -%}
+    {% assign collection = site[page.collection] | sort: 'position' %}
+    {%- for card in collection -%}
         {% include services_card.html card=card %}
     {%- endfor -%}
 </section>

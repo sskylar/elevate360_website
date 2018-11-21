@@ -1,10 +1,10 @@
 ---
 title: Treatment Programs
 date: 2018-10-28 11:51:00 -04:00
-published: false
+published: true
 collection: treatment-programs
 footer-section:
-- title: DWI Screening & Assessment
+  title: DWI Screening & Assessment
   callout: Several Elevate360 psychologists are OASAS approved providers of clinical
     screening and assessment services for the NYS Impaired Driving Offender program.
   copy: If you have been charged with or convicted of an impaired driving offense

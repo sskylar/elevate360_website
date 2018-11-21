@@ -22,6 +22,17 @@ collections:
     title: Treatment Programs
     output: true
     layout: default
+  therapies-used:
+    title: Therapies Used
+    output: true
+    layout: default
+  how-we-treat:
+    title: How we Treat
+    output: true
+    layout: default
+  uploads:
+    title: Uploads
+    output: true
   uploads:
     title: Uploads
     output: true
