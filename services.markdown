@@ -8,17 +8,17 @@ service-cards:
   image: "/assets/images/conor-sexton-560983-unsplash@2x.jpg"
   copy: Treatment is individually tailored to each patient and can be modified as
     necessary to meet the specific needs of each patient.
-  page_slug: treatment_programs
+  page_slug: treatment-programs
 - title: How We Treat
   image: "/assets/images/eduard-militaru-133851-unsplash@2x.jpg"
   copy: Every patient participates in an initial comprehensive evaluation to determine
     their areas of strength and the areas in which they may need improvement and support.
-  page_slug: how_we_treat
+  page_slug: how-we-treat
 - title: Therapies Used at Elevate360
   image: "/assets/images/bridge-560983@2x.jpg"
   copy: Elevate360 specializes in the outpatient treatment of people struggling with
     alcohol and substance use and related disorders.
-  page_slug: our_therapies
+  page_slug: therapies-used
 ---
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
@@ -46,7 +46,7 @@ service-cards:
             <img src="{{ card.image }}">
             <h4>{{ card.title }}</h4>
             <p>{{ card.copy }}</p>
-            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
+            <a href="/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
         </div>
     {% endfor %}
 </section>
