@@ -1,7 +1,6 @@
 ---
 title: How we Treat
 date: 2018-10-28 11:51:00 -04:00
-published: true
 collection: how-we-treat
 layout: services
 ---

@@ -1,7 +1,6 @@
 ---
 title: Treatment Programs
 date: 2018-10-28 11:51:00 -04:00
-published: true
 collection: treatment-programs
 footer-section:
   title: DWI Screening & Assessment

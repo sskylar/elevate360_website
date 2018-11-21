@@ -11,6 +11,10 @@ collections:
   home:
     title: Home
     output: true
+  how-we-treat:
+    title: How we Treat
+    output: true
+    layout: default
   posts:
     title: Posts
     output: true
@@ -18,21 +22,14 @@ collections:
     title: Staff
     output: true
     layout: default
-  treatment-programs:
-    title: Treatment Programs
-    output: true
-    layout: default
   therapies-used:
     title: Therapies Used
     output: true
     layout: default
-  how-we-treat:
-    title: How we Treat
+  treatment-programs:
+    title: Treatment Programs
     output: true
     layout: default
-  uploads:
-    title: Uploads
-    output: true
   uploads:
     title: Uploads
     output: true
