@@ -5,9 +5,19 @@ toc:
  
 - title: Services
   url: /services/
+  subitems:
+    - page: Treatment Programs
+      url: /treatment-programs/
+    - page: How We Treat
+      url: /how-we-treat/
+    - page: Therapies Used
+      url: /therapies-used/
 
 - title: About Us
   url: /about-us/
+  subitems:
+    - page: Our Staff
+      url: /our-staff/
 
 - title: Blog
   url: /blog

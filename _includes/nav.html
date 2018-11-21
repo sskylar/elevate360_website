@@ -6,31 +6,12 @@
           <a href="{{ item.url }}" class="top-level-link">
             {{ item.title }}
           </a>
-          {% if forloop.index == 1 %}
+          {% if item.subitems %}
             <ul class="secondary">
-              <li><a href="#">Additional Item</a></li>
-              <li><a href="#">Additional</a></li>
-              <li><a href="#">Additional Item Longer Name</a></li>
-              <li><a href="#">Item Short Name</a></li>
-              <li><a href="#">Longer Name Should Mess Stuff Up</a></li>
+                {% for subitem in item.subitems %}
+                    <li><a href="{{ subitem.url }}">{{ subitem.page }}</a></li>
+                {% endfor %}
             </ul>
-          {% endif %}
-          {% if forloop.index == 2 %}
-            <ul class="secondary">
-              <li><a href="#">Additional</a></li>
-              <li><a href="#">Additional Item</a></li>
-            </ul>
-          {% endif %}
-          {% if forloop.index == 4 %}
-            <ul class="secondary">
-              <li><a href="#">Additional</a></li>
-              <li><a href="#">Additional Item Longer Name</a></li>
-              <li><a href="#">Item Short Name</a></li>
-              <li><a href="#">Longer Name Should Mess Stuff Up</a></li>
-            </ul>
-          {% endif %}
-          {% if forloop.index == 3 %}
-            <span class="secondary-placeholder"></span>
           {% endif %}
         </li>
       {% endfor %}
