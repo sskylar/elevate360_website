@@ -9,13 +9,15 @@ section-image-1: "/assets/images/new-york-438391@2x.jpg"
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
-        <h1>{{ page.title }}</h1>
-        <h2>In short, because we do treatment right.</h2>
-        <p>
-            Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
-        </p>
-        <a href="tel:1-212-204-8430" class="button rounded bordered only-desktop">212-204-8430</a>
-        <a href="tel:1-212-204-8430" class="button rounded bordered only-mobile">Let's Talk  &nbsp;&#x260E;</a>
+        <div class="section-content-inner">
+            <h1>{{ page.title }}</h1>
+            <h2>In short, because we do treatment right.</h2>
+            <p>
+                Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use.  
+            </p>
+            <a href="tel:1-212-204-8430" class="button rounded bordered only-desktop">212-204-8430</a>
+            <a href="tel:1-212-204-8430" class="button rounded bordered only-mobile">Let's Talk  &nbsp;&#x260E;</a>
+        </div>
     </div>
 </section>
 

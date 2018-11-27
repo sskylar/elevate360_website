@@ -25,11 +25,13 @@ service-cards:
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
+      <div class="section-content-inner">
         <h1>Our Services</h1>
         <h2>Compassionate care, effectively done</h2>
         <p>
             All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.
         </p>
+      </div>
     </div>
 </section>
 <section id="who_we_are">

@@ -912,6 +912,12 @@ section.hero {
     justify-content: flex-start;
     min-height: 44vw;
 
+    &.plant-image {
+        @media screen and (min-width: 769px) and (max-width: 1100px) {
+            background-position: center center;
+        }
+    }
+
     h1 {
         margin-bottom: 28px;
     }
@@ -934,6 +940,10 @@ section.hero {
 
         .section-content-inner {
             width: 50%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
         }
         @media screen and (min-width: 1441px) {
             max-width: (1440px - 90 - 90);

@@ -12,6 +12,10 @@ h2 {
   color: $greyish-brown;
   line-height: 100%;
   
+  @media screen and (max-width: 1140px) {
+      font-size: 36px;
+  }
+
   @media screen and (max-width: 425px) {
       font-size: 6.5vw; 
   }

@@ -10,7 +10,7 @@ layout: default
 
 {% include mobile_hero.html image=page.background-image message="Need Help?" %}
 
-<section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
+<section id="homepage_1" class="hero plant-image" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
         <div class="section-content-inner">
             <h1>Welcome to Elevate360 Wellness</h1>
