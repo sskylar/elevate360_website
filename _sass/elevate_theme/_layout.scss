@@ -601,10 +601,19 @@ a.nav-icon {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10vw 20px 10vw;
+
+    @media screen and (max-width: 1140px) {
+        padding: 20px 5vw 20px 5vw;
+    }
+
+    @media screen and (max-width: 930px) {
+        align-items: center;
+        text-align: center;
+    }
     
     >div {
-        flex-basis: 60%;
-        @media screen and (max-width: 768px) {
+        flex-basis: 70%;
+        @media screen and (max-width: 930px) {
             flex-basis: 100%;
         }
     }
@@ -613,17 +622,31 @@ a.nav-icon {
         font-size: 32px;
         letter-spacing: 0.3px;
         line-height: 140%;
+
+        @media screen and (max-width: 1140px) {
+            font-size: 28px;
+            letter-spacing: 0.2px;
+        }
     }
 
     h4 {
         margin: 0;
         font-size: 22px;
         line-height: 140%;
+
+        @media screen and (max-width: 1140px) {
+            font-size: 18px;
+        }
     }
 
     .button.rounded {
         height: 36px;
         line-height: 36px;
+
+        @media screen and (max-width: 930px) {
+            margin: 0 auto;
+            margin-top: 24px;
+        }
     }
 
     &.cta-orange {
