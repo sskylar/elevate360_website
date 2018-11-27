@@ -5,7 +5,7 @@ background-image: "/assets/images/hero@2x.jpg"
 section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
 ---
 
-{% include mobile_hero.html image=page.background-image message="Professional treatment <br />that works." %}
+{% include mobile_hero.html image=page.background-image message="Let’s Talk" %}
 
 <section id="about_us_hero" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">

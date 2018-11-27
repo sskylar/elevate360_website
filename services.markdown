@@ -21,6 +21,8 @@ service-cards:
   page_slug: therapies-used
 ---
 
+{% include mobile_hero.html image=page.background-image message="Treatment that works." %}
+
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
         <h1>Our Services</h1>
