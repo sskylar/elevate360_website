@@ -30,7 +30,7 @@ layout: default
 <section class="home-section" id="what_we_do">
     <div class="section-text">
         <h1 class="small">what do we do?</h1>
-        <h2>Exceptional addiction care</h2>
+        <h2>Exceptional <br class='only-desktop' />addiction care</h2>
         <p>We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use.</p>
         <!-- <a class="learn-more">Learn More &#x2192;</a> -->
     </div>
