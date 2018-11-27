@@ -600,7 +600,7 @@ a.nav-icon {
     color: #fff;
     justify-content: space-between;
     align-items: center;
-    padding: 5vw;
+    padding: 20px 10vw 20px 10vw;
     
     >div {
         flex-basis: 60%;
@@ -609,13 +609,21 @@ a.nav-icon {
         }
     }
     h3 {
+        margin: 0;
         font-size: 32px;
         letter-spacing: 0.3px;
+        line-height: 140%;
     }
 
     h4 {
+        margin: 0;
         font-size: 22px;
-        font-weight: 700;
+        line-height: 140%;
+    }
+
+    .button.rounded {
+        height: 36px;
+        line-height: 36px;
     }
 
     &.cta-orange {
@@ -627,7 +635,7 @@ a.nav-icon {
     &.cta-green {
         background-color: $avocado;
         h3 {
-            color: $greyish-brown;
+            color: #fff;
         }
     }
 }
