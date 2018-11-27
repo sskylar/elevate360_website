@@ -901,6 +901,12 @@ section {
     div:first-child {
         border-right: 2px solid #fff;
     }
+
+    a {
+        color: $greyish-brown;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
 }
 
 // ============ homepage =========== //
@@ -1004,6 +1010,7 @@ section.type1 {
         padding-top: 70px;
         padding-bottom: 0;
         width: 100%;
+        order: -2;
 
         h1 {
             margin-bottom: 0;
