@@ -586,34 +586,46 @@ a.nav-icon {
 }
 
 .site > section {
-    padding: 5vw 5vw;
-    @media all and (max-width: 768px) {
-        // padding: 10vh 5vw;
+    padding: 6vw;
+
+    @media all and (min-width: 1441px) {
+        padding: 90px;
     }
 }
 
 
 .site > .cta {
-    display: flex;
-    flex-basis: 100%;
-    flex-wrap: wrap;
-    color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10vw 20px 10vw;
+    display: block;
+    width: 100%;
 
-    @media screen and (max-width: 1140px) {
-        padding: 20px 5vw 20px 5vw;
-    }
-
-    @media screen and (max-width: 930px) {
+    .cta-inner {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding: 20px 12vw 20px 12vw;
+        color: #fff;
+        justify-content: space-between;
         align-items: center;
-        text-align: center;
+        
+        @media screen and (min-width: 1441px) {
+            padding: 20px 175px 20px 175px;
+            max-width: 1440px;
+        }
+
+        @media screen and (max-width: 1140px) {
+            padding: 20px 5vw 20px 5vw;
+        }
+
+        @media screen and (max-width: 930px) {
+            align-items: center;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding: 8vw;
+        }
     }
 
-    @media screen and (max-width: 768px) {
-        padding: 8vw;
-    }
     
     >div {
         flex-basis: 70%;
@@ -746,8 +758,12 @@ section {
         justify-content: center;
         display: flex;
         flex-flow: column;
-        padding: 5% 5%;
+        padding: 6vw;
         width: 50%;
+
+        .section-text-inner {
+            width: 100%;
+        }
 
         .learn-more {
             align-self: flex-end;
@@ -763,6 +779,14 @@ section {
             font-weight: 500;
             max-width: 520px;
         }
+
+        @media screen and (min-width: 1441px) {
+            padding: 80px;
+
+            .section-text-inner {
+                width: 550px;
+            }
+        }
     }
     .section-image {
         padding-bottom: 50%;
@@ -777,6 +801,12 @@ section {
         margin-left: 5%;
         background-position: center center;
         background-size: cover;
+    }
+
+    &.home-section:nth-child(odd) {
+        .section-text-inner {
+            align-self: flex-end;
+        }
     }
 }
 
@@ -876,6 +906,7 @@ section {
 // ============ homepage =========== //
 
 section.hero {
+    width: 100%;
     background-position: bottom right;
     background-size: cover;
     justify-content: flex-start;
@@ -895,7 +926,25 @@ section.hero {
     a.button.rounded {
         color: $dark-grey;
     }
+
+    .section-content {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+
+        .section-content-inner {
+            width: 50%;
+        }
+        @media screen and (min-width: 1441px) {
+            max-width: (1440px - 90 - 90);
+
+            .section-content-inner {
+                max-width: 630px;
+            }
+        }
+    }
 }
+
 @media screen and (max-width: 768px) {
     section.hero {
         background: none;
@@ -919,15 +968,30 @@ section.home-section {
 
 section.type1 {
     padding: 0;
-    align-items: flex-start;
     width: 100%;
 
+    @media screen and (min-width: 1441px) {
+        // max-width: 1265px;
+    }
+
+    .type1-inner {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: 60px;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 1440px;        
+    }
+
     .section-text {
-        padding: 3% 5%;
+        padding: 0 6vw;
         padding-top: 30px;
     }
     .section-text-wide {
-        padding: 5vw;
+        padding: 6vw;
+        padding-top: 70px;
         padding-bottom: 0;
         width: 100%;
 
