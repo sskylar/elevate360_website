@@ -920,9 +920,20 @@ section.home-section {
 section.type1 {
     padding: 0;
     align-items: flex-start;
+    width: 100%;
 
     .section-text {
         padding: 3% 5%;
+        padding-top: 30px;
+    }
+    .section-text-wide {
+        padding: 5vw;
+        padding-bottom: 0;
+        width: 100%;
+
+        h1 {
+            margin-bottom: 0;
+        }
     }
 }
 
