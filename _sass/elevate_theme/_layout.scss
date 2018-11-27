@@ -764,9 +764,25 @@ section {
 // ============ homepage =========== //
 
 section.hero {
-  background-position: bottom right;
-  background-size: cover;
-  justify-content: flex-start;
+    background-position: bottom right;
+    background-size: cover;
+    justify-content: flex-start;
+    min-height: 44vw;
+
+    h1 {
+        margin-bottom: 28px;
+    }
+    h2 {
+        margin-bottom: 1.75vw;
+    }
+
+    .button.rounded {
+        margin-top: 3vw;
+    }
+
+    a.button.rounded {
+        color: $dark-grey;
+    }
 }
 @media screen and (max-width: 768px) {
     section.hero {
