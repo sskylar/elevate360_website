@@ -758,8 +758,8 @@ section {
         }
     }
     .section-image {
+        padding-bottom: 50%;
         width: 50%;
-        height: 100%;
         background-position: center center;
         background-size: cover;
     }
@@ -785,7 +785,8 @@ section {
             max-width: 100%;
         }
         .section-image {
-            height: 80vw;
+            padding-bottom: percentage(293/320);
+            // height: 80vw;
         }
 
         .section-text {
@@ -900,10 +901,6 @@ section.home-section {
     justify-content: center;
     padding: 0;
     flex-basis: 100%;
-
-    .section-text {
-        min-height: 40vw;
-    }
 
     &#our_vision {
         background-color: #fff;
