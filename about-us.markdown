@@ -5,12 +5,12 @@ background-image: "/assets/images/hero@2x.jpg"
 section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
 ---
 
-{% include mobile_hero.html image=page.background-image message="Let's Talk" %}
+{% include mobile_hero.html image=page.background-image message="Professional treatment <br />that works." %}
 
 <section id="about_us_hero" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
         <h1>About Us</h1>
-        <h2>Professional treatment that works.</h2>
+        <h2>Professional treatment <br class="only-desktop" />that works.</h2>
         <p>
             Elevate is a boutique outpatient addiction treatment center located in Midtown Manhattan that uses state-of-the-art, science-based techniques, technology, and expertly trained doctoral level psychologists to provide patients with the highest quality therapeutic experience in addiction treatment.
         </p>

@@ -610,6 +610,10 @@ a.nav-icon {
         align-items: center;
         text-align: center;
     }
+
+    @media screen and (max-width: 768px) {
+        padding: 8vw;
+    }
     
     >div {
         flex-basis: 70%;
@@ -627,6 +631,12 @@ a.nav-icon {
             font-size: 28px;
             letter-spacing: 0.2px;
         }
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            letter-spacing: 0px;
+            font-weight: 500;
+        }
     }
 
     h4 {
@@ -636,6 +646,12 @@ a.nav-icon {
 
         @media screen and (max-width: 1140px) {
             font-size: 18px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: 700;
         }
     }
 
@@ -647,6 +663,11 @@ a.nav-icon {
             margin: 0 auto;
             margin-top: 24px;
         }
+
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            width: 120px;
+        }
     }
 
     &.cta-orange {
@@ -657,8 +678,17 @@ a.nav-icon {
     }
     &.cta-green {
         background-color: $avocado;
+
+        @media screen and (max-width: 768px) {
+            background-color: $maize;
+        }
+
         h3 {
             color: #fff;
+
+            @media screen and (max-width: 768px) {
+                color: $greyish-brown;
+            }
         }
     }
 }
@@ -756,7 +786,7 @@ section {
 
     &-3-up {
         flex-basis: 25%;
-        @media screen and (max-width: 760px) {
+        @media screen and (max-width: 768px) {
             flex-basis: 40%;
             margin-bottom: 5vw;
             border-bottom: 1px solid $pale-blue;
@@ -933,7 +963,7 @@ section#service_subfooter {
             font-size: 13px;
         }
     }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 768px) {
         padding: 5vw 1vw;
         min-width: 100%;
         margin: 3% 0;
@@ -941,7 +971,7 @@ section#service_subfooter {
 }
 .team-bio-text {
     flex-basis: 60%;
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 768px) {
         flex-basis: 90%;
         margin-top: 5vw;
     }
@@ -978,7 +1008,7 @@ section#featured_post {
     h2 a { color: $greyish-brown; }
 
     
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 768px) {
         h2 { order: -1; }
     }
 }
@@ -996,7 +1026,7 @@ section#featured_post {
     align-items: flex-start;
     margin: 2%;
 
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 768px) {
         flex-basis: 100%;
     }
 
@@ -1046,7 +1076,7 @@ section#featured_post {
       background-size: cover;
       height: 900px;
 
-      @media screen and (max-width: 760px) {
+      @media screen and (max-width: 768px) {
           height: 80vw;
       }
   }
@@ -1056,7 +1086,7 @@ section#featured_post {
       padding: 20px;
       margin: 0px auto;
 
-      @media screen and (max-width: 760px) {
+      @media screen and (max-width: 768px) {
         padding: 0;
       }
   }
