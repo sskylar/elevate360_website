@@ -904,11 +904,6 @@ section {
         .section-text {
             order: -1;
         }
-
-        // .side-image {
-        //     width: 90%;
-        //     margin: 0 0 0 -5vw;
-        // }
     }
 }
 
@@ -1424,20 +1419,26 @@ section#service_subfooter {
 
 // ============ Blog ============== //
 section#featured_post {
-    // align-items: flex-start;
+    width: 100%;
+    align-items: flex-start;
     h2 a { color: $greyish-brown; }
 
     
     @media screen and (max-width: 768px) {
         h2 { order: -1; }
     }
+
+    .section-text {
+        @media screen and (max-width: 1440px) {
+            padding-right: 0;
+        }
+    }
+    .section-image {
+        padding: 0;
+        height: 100%;
+    }
 }
 
-// .post-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-evenly;
-// }
 .recent-posts {
     .posts-list {
         padding-top: 40px;
