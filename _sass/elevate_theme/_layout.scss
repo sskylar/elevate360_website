@@ -1419,23 +1419,56 @@ section#service_subfooter {
 
 // ============ Blog ============== //
 section#featured_post {
+    padding-bottom: 0;
     width: 100%;
     align-items: flex-start;
-    h2 a { color: $greyish-brown; }
 
-    
-    @media screen and (max-width: 768px) {
-        h2 { order: -1; }
+    @media screen and (max-width: 450px) {
+        padding-top: 0;
+        padding-bottom: 20px;
     }
 
+    h2 a { color: $greyish-brown; }
+
     .section-text {
+        p {
+            font-weight: 500;
+        }
+
         @media screen and (max-width: 1440px) {
             padding-right: 0;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 0;
+            order: 1;
+
+            h1 {
+                &.small {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        @media screen and (max-width: 450px) {
+            h1 {
+                &.small {
+                    margin-bottom: 20px;
+                }
+            }
         }
     }
     .section-image {
         padding: 0;
         height: 100%;
+
+        @media screen and (max-width: 768px) {
+            display: inline-block;
+            padding-bottom: 100%;
+            margin-bottom: 40px;
+            height: auto;
+        }
+        @media screen and (max-width: 450px) {
+            margin-bottom: 24px;
+        }
     }
 }
 
