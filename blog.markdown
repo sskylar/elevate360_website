@@ -14,17 +14,18 @@ date: 2018-10-25 00:45:00 -04:00
     </div>
 </section>
 <section class="recent-posts">
-    <div class="">
+    <div>
         <h1 class="small">Recent Blog Posts</h1>
-        <div class="post-list">
-        {%- for post in site.posts -%}
-            {% if forloop.first %}
-                <!-- skip -->
-            {% else %}
-                {% include blog_card.html post=post %}
-            {% endif %}
-            
-        {%- endfor -%}
+        <div class="posts-list">
+            <div class="card-grid">
+                {%- for post in site.posts -%}
+                    {% if forloop.first %}
+                        {% comment %} skip first post {% endcomment %}
+                    {% else %}
+                        {% include blog_card.html post=post %}
+                    {% endif %}
+                {%- endfor -%}
+            </div>
         </div>
     </div>
 </section>

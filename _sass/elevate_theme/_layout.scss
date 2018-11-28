@@ -922,7 +922,8 @@ section {
 
 // =============  cards =============== //
 
-#service_cards {
+#service_cards,
+.recent-posts {
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -951,7 +952,8 @@ section {
             grid-row-gap: 20px;
         }
 
-        .card {
+        .card,
+        .blog-card {
             &-3-up {
                 margin-bottom: 0;
             }
@@ -959,7 +961,8 @@ section {
     }
 }
 
-.card {
+.card,
+.blog-card {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -975,7 +978,7 @@ section {
         margin: 25px 0;
 
         @media screen and (max-width: 450px) {
-            margin-bottom: 0;
+            margin-bottom: 5px;
             margin-top: 20px;
             font-size: 16px;
         }
@@ -1430,33 +1433,50 @@ section#featured_post {
     }
 }
 
-section.recent-posts {
-    background-color: $off-white;
-}
+// .post-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-evenly;
+// }
+.recent-posts {
+    .posts-list {
+        padding-top: 40px;
 
-.post-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+        @media screen and (max-width: 450px) {
+            padding-top: 20px;
+        }
+
+        .card-grid {
+            margin: 0;
+        }
+    }
 }
 .blog-card {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 25%;
     align-content: flex-start;
-    align-items: flex-start;
-    margin: 2%;
-
-    @media screen and (max-width: 768px) {
-        flex-basis: 100%;
-    }
 
     .post-image {
+        padding-bottom: percentage(260/372);
         width: 100%;
-        height: 260px;
         background-position: top center;
         background-size: cover;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+
+        @media screen and (max-width: 450px) {
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        font-weight: 500;
+        line-height: 175%;
+    }
+
+    a {
+        &.learn-more {
+            font-weight: 500;
+        }
     }
 }
 
