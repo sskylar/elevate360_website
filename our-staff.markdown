@@ -12,12 +12,13 @@ date: 2018-10-28 11:51:00 -04:00
 
 {% assign staff = site.staff | sort: 'position' %}
 <section id="staff_list">
-    {% for person in staff  %}
-        <div class="team-bio-card" aria-data-url="{{ person.url }}">
-            {{ person.content }}
-        </div>
-    {% endfor %}
-
+    <div class="grid-inner">
+        {% for person in staff  %}
+            <div class="team-bio-card" aria-data-url="{{ person.url }}">
+                {{ person.content }}
+            </div>
+        {% endfor %}
+    </div>
 </section>
 
 <script>
