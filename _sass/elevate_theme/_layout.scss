@@ -922,6 +922,13 @@ section {
 
 // =============  cards =============== //
 
+#service_cards {
+
+    @media screen and (max-width: 768px) {
+        justify-content: space-between;
+    }
+}
+
 .card {
     display: flex;
     justify-content: flex-start;
@@ -936,17 +943,29 @@ section {
         text-transform: uppercase;
         font-weight: 700;
         margin: 25px 0;
+
+        @media screen and (max-width: 450px) {
+            margin-bottom: 0;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    }
+
+    p {
+        @media screen and (max-width: 450px) {
+            font-size: $small-font-size;
+        }
     }
 
     &-3-up {
         flex-basis: 25%;
         @media screen and (max-width: 768px) {
-            flex-basis: 40%;
-            margin-bottom: 5vw;
-            border-bottom: 1px solid $pale-blue;
+            flex-basis: calc(50% - 15px);
+            margin-bottom: 40px;
         }
         @media screen and (max-width: 450px) {
             flex-basis: 100%;
+            margin-bottom: 20px;
         }
     }
 }

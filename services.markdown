@@ -48,7 +48,7 @@ service-cards:
 </section>
 <section id="service_cards">
     {% for card in page.service-cards %}
-        <div class="card card-3-up" id="card.page_slug">
+        <div class="card card-3-up" id="{{ card.page_slug }}">
             <img src="{{ card.image }}">
             <h4>{{ card.title }}</h4>
             <p>{{ card.copy }}</p>
