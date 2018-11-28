@@ -47,6 +47,7 @@ service-cards:
     </div>
 </section>
 <section id="service_cards">
+  <div class="card-grid">
     {% for card in page.service-cards %}
         <div class="card card-3-up" id="{{ card.page_slug }}">
             <img src="{{ card.image }}">
@@ -55,6 +56,7 @@ service-cards:
             <a href="/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
         </div>
     {% endfor %}
+  </div>
 </section>
 {% include section-type1.html
     id="service_trainings"
