@@ -10,10 +10,12 @@ layout: default
 %}
 
 <section id="services_grid">
-    {% assign collection = site[page.collection] | sort: 'position' %}
-    {%- for card in collection -%}
-        {% include services_card.html card=card %}
-    {%- endfor -%}
+    <div class="grid-inner">
+        {% assign collection = site[page.collection] | sort: 'position' %}
+        {%- for card in collection -%}
+            {% include services_card.html card=card %}
+        {%- endfor -%}
+    </div>
 </section>
 
 {% if page.callout %}

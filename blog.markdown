@@ -13,7 +13,7 @@ date: 2018-10-25 00:45:00 -04:00
         <a class="learn-more" href="{{ first_post.url }}">Read More &#x2192;</a>
     </div>
 </section>
-<section>
+<section class="recent-posts">
     <div class="">
         <h1 class="small">Recent Blog Posts</h1>
         <div class="post-list">
