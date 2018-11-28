@@ -860,7 +860,6 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    min-width: 350px;
 
     img {
         width: 100%;
@@ -1150,7 +1149,7 @@ section#service_subfooter {
                 padding: 20px 20px 40px 20px;
             }
 
-            .team-bio {
+            .team-bio-card-inner {
                 align-items: flex-start;
                 justify-content: flex-start;
             }
@@ -1219,6 +1218,55 @@ section#service_subfooter {
             margin-right: 18px;
             width: 100%;
             max-width: 200px;
+        }
+    }
+}
+
+// bio page
+
+.team-bio {
+    display: block;
+    margin: 0 auto;
+    max-width: 1440px;
+
+    h1 {
+        &.small {
+            width: 100%;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+
+    h4 {
+        text-transform: uppercase;
+    }
+
+    .team-bio-photo {
+        display: block;
+        width: 33%;
+        max-width: 280px;
+        float: left;
+    }
+    .team-bio-text {
+        width: 64%;
+        float: right;
+    }
+
+    @media screen and (max-width: 450px) {
+        .team-bio-photo,
+        .team-bio-text {
+            width: 100%;
+            max-width: 100%;
+            float: none;
+        }
+        .team-bio-photo {
+            margin-bottom: 20px;
+        }
+
+        .team-bio-text {
+            h4, p {
+                font-size: $small-font-size;
+            }
         }
     }
 }
