@@ -25,32 +25,38 @@ service-cards:
 
 <section id="homepage_1" class="hero" style="background-image: url('{{ page.background-image }}')">
     <div class="section-content">
+      <div class="section-content-inner">
         <h1>Our Services</h1>
         <h2>Compassionate care, effectively done</h2>
         <p>
             All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.
         </p>
+      </div>
     </div>
 </section>
 <section id="who_we_are">
     <h1 class="small small-full-width">{{ page.title }}</h1>
-    <div class="section-content">
-        <h2>Our Services</h2>
-        <p>
-            All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.  Our compassionate staff provide respectful treatment aimed at increasing each patient’s internal motivation to make positive and sustained changes in their thinking and in their behavior.  Our goal is to help our patients have more fulfilling relationships and lives.
-        </p>
+    <div class="inner-content-holder">
+      <div class="section-content">
+          <h2>Our Services</h2>
+          <p>
+              All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.  Our compassionate staff provide respectful treatment aimed at increasing each patient’s internal motivation to make positive and sustained changes in their thinking and in their behavior.  Our goal is to help our patients have more fulfilling relationships and lives.
+          </p>
+      </div>
+      <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
     </div>
-    <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
 <section id="service_cards">
+  <div class="card-grid">
     {% for card in page.service-cards %}
-        <div class="card card-3-up" id="card.page_slug">
+        <div class="card card-3-up" id="{{ card.page_slug }}">
             <img src="{{ card.image }}">
             <h4>{{ card.title }}</h4>
             <p>{{ card.copy }}</p>
             <a href="/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
         </div>
     {% endfor %}
+  </div>
 </section>
 {% include section-type1.html
     id="service_trainings"

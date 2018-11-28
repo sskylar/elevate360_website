@@ -7,11 +7,15 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2vw; // 44px
+  font-size: 46px;
   font-weight: 400;
   color: $greyish-brown;
   line-height: 100%;
   
+  @media screen and (max-width: 1140px) {
+      font-size: 36px;
+  }
+
   @media screen and (max-width: 425px) {
       font-size: 6.5vw; 
   }
@@ -59,10 +63,6 @@ h1.small {
     height: 1px;
     background-color: $avocado;
   }
-}
-
-h1.small-full-width {
-  
 }
 
 .post-content {
