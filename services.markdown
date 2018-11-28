@@ -36,13 +36,15 @@ service-cards:
 </section>
 <section id="who_we_are">
     <h1 class="small small-full-width">{{ page.title }}</h1>
-    <div class="section-content">
-        <h2>Our Services</h2>
-        <p>
-            All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.  Our compassionate staff provide respectful treatment aimed at increasing each patient’s internal motivation to make positive and sustained changes in their thinking and in their behavior.  Our goal is to help our patients have more fulfilling relationships and lives.
-        </p>
+    <div class="inner-content-holder">
+      <div class="section-content">
+          <h2>Our Services</h2>
+          <p>
+              All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients.  Our compassionate staff provide respectful treatment aimed at increasing each patient’s internal motivation to make positive and sustained changes in their thinking and in their behavior.  Our goal is to help our patients have more fulfilling relationships and lives.
+          </p>
+      </div>
+      <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
     </div>
-    <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
 <section id="service_cards">
     {% for card in page.service-cards %}
