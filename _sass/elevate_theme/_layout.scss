@@ -1083,7 +1083,6 @@ section.type1 {
             margin: 60px;
             box-sizing: border-box;
             grid-template-columns: repeat(2, 1fr);
-            grid-auto-rows: 1fr;
             grid-column-gap: 40px;
             grid-row-gap: 40px;
         }
@@ -1141,15 +1140,14 @@ section#service_subfooter {
     width: 100%;
 
     .grid-inner {
-
-
         .team-bio-card {
-            padding: 30px;
+            position: relative;
+            padding: 30px 30px 60px 30px;
             width: 100%;
             background-color: $pale-blue-50;
 
             @media screen and (max-width: 450px) {
-                padding: 20px;
+                padding: 20px 20px 40px 20px;
             }
 
             .team-bio {
@@ -1195,6 +1193,17 @@ section#service_subfooter {
                     @media screen and (max-width: 450px) {
                         font-size: $small-font-size;
                     }
+                }
+            }
+
+            .learn-more {
+                position: absolute;
+                bottom: 20px;
+                right: 30px;
+
+                @media screen and (max-width: 450px) {
+                    bottom: 15px;
+                    right: 20px;
                 }
             }
         }

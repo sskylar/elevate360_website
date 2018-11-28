@@ -39,7 +39,7 @@ date: 2018-10-28 11:51:00 -04:00
             more.setAttribute('class', 'learn-more');
             more.setAttribute('href', url);
             more.innerHTML = 'Learn More &#x2192;';
-            text_blocks[i].append(more);
+            cards[i].append(more);
         }
     })();
 </script>
