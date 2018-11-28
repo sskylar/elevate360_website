@@ -305,6 +305,10 @@ a.nav-icon {
     flex-wrap: wrap;
     flex-basis: 100%;
 
+    @media screen and (min-width: 1024px) {
+        min-height: 900px;
+    }
+
     .content-page {
         display: flex;
         justify-content: flex-start;
