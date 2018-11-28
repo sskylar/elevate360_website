@@ -591,6 +591,67 @@ a.nav-icon {
     @media all and (min-width: 1441px) {
         padding: 90px;
     }
+
+    h1.small-full-width {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 100%;
+        max-width: 1090px;
+
+        @media screen and (max-width: 450px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .inner-content-holder {
+        display: flex;
+        margin: 0 auto;
+        padding: 40px;
+        width: 100%;
+        max-width: 1090px;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            padding: 0;
+        }
+
+        @media screen and (max-width: 450px) {
+            flex-wrap: wrap;
+        }
+
+        .section-content {
+            h2 {
+                margin-bottom: 40px;
+            }
+            p {
+                font-weight: 500;
+                line-height: 175%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 50%;
+            }
+
+            @media screen and (max-width: 450px) {
+                width: 100%;
+
+                p {
+                    font-size: $small-font-size;
+                }
+            }
+        }
+
+        .side-image {
+            align-self: flex-start;
+            @media screen and (max-width: 450px) {
+                margin: 0;
+                margin-top: 30px;
+                padding-bottom: 100%;
+                width: 100%;
+            }
+        }
+    }
 }
 
 
@@ -786,6 +847,7 @@ section {
         p {
             font-weight: 500;
             max-width: 520px;
+            line-height: 175%;
         }
 
         @media screen and (min-width: 1441px) {
@@ -794,6 +856,10 @@ section {
             .section-text-inner {
                 width: 550px;
             }
+        }
+
+        @media all and (max-width: 450px) {
+            font-size: $small-font-size;
         }
     }
     .section-image {
@@ -804,8 +870,9 @@ section {
     }
 
     .side-image {
-        height: 622px;
-        width: 410px;
+        padding-bottom: percentage((500 / 410) / 2);
+        width: 50%;
+        max-width: 410px;
         margin-left: 5%;
         background-position: center center;
         background-size: cover;
@@ -838,10 +905,10 @@ section {
             order: -1;
         }
 
-        .side-image {
-            width: 90%;
-            margin: 0 0 0 -5vw;
-        }
+        // .side-image {
+        //     width: 90%;
+        //     margin: 0 0 0 -5vw;
+        // }
     }
 }
 
@@ -956,6 +1023,11 @@ section.hero {
 
             @media screen and (max-width: 768px) {
                 width: 100%;
+
+                a.button.rounded {
+                    background-color: $maize;
+                    border: 0;
+                }
             }
         }
         @media screen and (min-width: 1441px) {
@@ -1042,11 +1114,13 @@ section.type1 {
 
 // =============  about us =============== //
 
-#who_we_are {
+#who_we_are,
+#why_elevate360 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 // =============  services (+ staff grid layout) =============== //
@@ -1126,6 +1200,11 @@ section#service_subfooter {
         font-size: 28px;
         font-weight: 500;
         line-height: 125%;
+
+        @media screen and (max-width: 450px) {
+            font-size: 18px;
+            line-height: 150%;
+        }        
     }
 }
 

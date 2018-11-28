@@ -22,17 +22,23 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
 </section>
 
 <section id="who_we_are">
-    <h1 class="small small-full-width">who we are</h1>
-    <div class="section-content">
-        <h2>Our Mission & Vision</h2>
-        <p>
-            We provide exceptional, science-based, compassionate care for patients and families struggling with alcohol, the misuse of pain medication, and other substance use disorders.
-            We have a deeply held belief that people struggling with addiction deserve professional treatment that works.
-            Through continuous research, evolving technologies, and evidence-based care, we are leading a revolution in addiction care with on
-        </p>
-        <!-- <a class="learn-more">Learn More &#x2192;</a> -->
+    <h1 class="small small-full-width">Who We Are</h1>
+    <div class="inner-content-holder">
+        <div class="section-content">
+            <h2>Our Mission & Vision</h2>
+            <p>
+                We provide exceptional, science-based, compassionate care for patients and families struggling with alcohol, the misuse of pain medication, and other substance use disorders.
+            </p>
+            <p>
+                We have a deeply held belief that people struggling with addiction deserve professional treatment that works.
+            </p>
+            <p>
+                Through continuous research, evolving technologies, and evidence-based care, we are leading a revolution in addiction care with on
+            </p>
+            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
+        </div>
+        <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
     </div>
-    <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
 </section>
 {% include section-type1.html
     id="meet_our_staff"
