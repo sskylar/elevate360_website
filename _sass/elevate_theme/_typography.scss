@@ -16,8 +16,10 @@ h2 {
       font-size: 36px;
   }
 
-  @media screen and (max-width: 425px) {
-      font-size: 6.5vw; 
+  @media screen and (max-width: 450px) {
+      font-size: 24px; 
+      line-height: 125%;
+      letter-spacing: 0;
   }
 }
 
