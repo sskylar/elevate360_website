@@ -3,14 +3,15 @@ title: Sarah Church
 date: 2018-10-28 23:52:00 -04:00
 position: 1
 name: Sarah Church, Ph.D.
-photo: "/assets/images/staff/sarah-church@2x.jpg"
 job_title: CEO
+photo: "staff/sarah-church@2x.jpg"
 layout: default
 ---
+{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{{ page.photo }}">
+<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
 <div class="team-bio-text">
     <h4>Founder and Executive Director,  Elevate Wellness Centers</h4>
     <p class="preview">

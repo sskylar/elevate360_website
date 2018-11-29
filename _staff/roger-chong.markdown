@@ -4,13 +4,14 @@ date: 2018-10-28 23:52:00 -04:00
 position: 5
 name: Roger Chong, MBA, CPA
 job_title: Director of Finance and Operations
-photo: "/assets/images/staff/roger-chong@2x.jpg"
+photo: "staff/roger-chong@2x.jpg"
 layout: default
 ---
+{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{{ page.photo }}">
+<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
 <div class="team-bio-text">
     <h4>DIRECTOR OF FINANCE AND OPERATIONS</h4>
     <p class="preview">

@@ -4,13 +4,14 @@ date: 2018-10-28 23:52:00 -04:00
 position: 7
 name: Kamala Greene Génecé, Ph.D
 job_title: Psychologist
-photo: "/assets/images/staff/kamala-greene@2x.jpg"
+photo: "staff/kamala-greene@2x.jpg"
 layout: default
 ---
+{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{{ page.photo }}">
+<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
 <div class="team-bio-text">
     <h4>Psychologist</h4>
     <p class="preview">

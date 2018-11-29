@@ -1,6 +1,6 @@
 <section class="type1" id="{{ include.id }}">
     {% if include.photo-side == "left" %}
-        <div class="section-image" style="background-image: url('{{ include.photo }}')"></div>
+        <div class="section-image" style="background-image: url('{% asset '{{ include.photo }}' @path %}')"></div>
     {% endif %}
     <div class="section-text">
         <div class="section-text-inner">
@@ -13,6 +13,6 @@
         </div>
     </div>
     {% if include.photo-side != "left" %}
-        <div class="section-image" style="background-image: url('{{ include.photo }}')"></div>
+        <div class="section-image" style="background-image: url('{% asset '{{ include.photo }}' @path %}')"></div>
     {% endif %}
 </section>

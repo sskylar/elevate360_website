@@ -1,8 +1,8 @@
 ---
 title: Our Technology
 date: 2018-10-28 11:51:00 -04:00
-background-image: "/assets/images/hero-technology@2x.jpg"
-section-image-1: "/assets/images/chess-photo@2x.jpg"
+background-image: "hero-technology@2x.jpg"
+section-image-1: "chess-photo@2x.jpg"
 ---
 
 {% include mobile_hero.html image=page.background-image message="Our Technology." %}

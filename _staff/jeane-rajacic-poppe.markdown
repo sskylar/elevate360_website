@@ -4,13 +4,14 @@ date: 2018-10-28 23:52:00 -04:00
 position: 3
 name: Jeane Rajacic-Poppe, Ph.D
 job_title: Psychologist
-photo: "/assets/images/staff/jeane-r@2x.jpg"
+photo: "staff/jeane-r@2x.jpg"
 layout: default
 ---
+{% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{{ page.photo }}">
+<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
 <div class="team-bio-text">
     <h4>{{ page.job_title }}</h4>
     <p class="preview">
