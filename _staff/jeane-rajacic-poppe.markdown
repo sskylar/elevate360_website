@@ -1,11 +1,11 @@
 ---
-title: JEANE RAJACIC-POPPE
+title: Jeane Rajacic-Poppe
 date: 2018-10-28 23:52:00 -04:00
 position: 3
-layout: default
-name: JEANE RAJACIC-POPPE, PH.D
+name: Jeane Rajacic-Poppe, Ph.D
 job_title: Psychologist
 photo: "/assets/images/staff/jeane-r@2x.jpg"
+layout: default
 ---
 
 <section class="team-bio">
