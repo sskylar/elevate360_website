@@ -799,6 +799,10 @@ a.nav-icon {
             }
         }
 
+        @media screen and (max-width: 450px) {
+            background-color: $maize;
+        }
+
         h3 {
             color: #fff;
 
