@@ -790,6 +790,10 @@ a.nav-icon {
 
         @media screen and (max-width: 768px) {
             background-color: $maize;
+
+            .cta-text {
+                width: 100%; 
+            }
         }
 
         h3 {
