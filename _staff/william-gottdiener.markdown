@@ -4,9 +4,10 @@ date: 2018-10-28 23:52:00 -04:00
 position: 6
 name: William H. Gottdiener, Ph.D.
 job_title: Psychologist
-photo: "staff/william-g@2x.jpg"
+photo: staff/william-g@2x.jpg
 layout: default
 ---
+
 {% assign bio_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 
 <section class="team-bio">
