@@ -3,7 +3,7 @@ title: Our Staff
 date: 2018-10-28 11:51:00 -04:00
 ---
 
-{% include section-type1.html
+{% include section-type2.html
     id="meet_our_staff"
     h1="Our Team"
     h2="Meet Our Staff"

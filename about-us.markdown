@@ -40,7 +40,7 @@ section-image-1: "/assets/images/kari-shea-580156-unsplash@2x.jpg"
         <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
     </div>
 </section>
-{% include section-type1.html
+{% include section-type2.html
     id="meet_our_staff"
     h1="Our Team"
     h2="Meet Our Staff"

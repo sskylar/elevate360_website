@@ -58,7 +58,7 @@ service-cards:
     {% endfor %}
   </div>
 </section>
-{% include section-type1.html
+{% include section-type2.html
     id="service_trainings"
     h1="Trainings"
     h2="Trainings for Clinicians"

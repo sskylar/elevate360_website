@@ -3,7 +3,7 @@ title: Contact Us
 date: 2018-10-31 14:17:00 -04:00
 ---
 
-{% include section-type1.html
+{% include section-type2.html
     id="contact_intro"
     h1="Contact"
     h2="Contact Us"

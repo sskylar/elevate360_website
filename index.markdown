@@ -30,48 +30,39 @@ layout: default
     button_mobile="call now"
     button_href="tel:1-212-204-8430"
 %}
-<section class="home-section" id="what_we_do">
-    <div class="section-text">
-        <div class="section-text-inner">
-            <h1 class="small">what do we do?</h1>
-            <h2>Exceptional <br class='only-desktop' />addiction care</h2>
-            <p>We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use.</p>
-            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-        </div>
-    </div>
-    <div class="section-image" style="background-image: url('{{ page.section-image-1 }}')">
-    </div>
-</section>
-<section class="home-section" id="how_are_we_different">
-    <div class="section-image" style="background-image: url('{{ page.section-image-2 }}')"></div>
-    <div class="section-text">
-        <div class="section-text-inner">
-            <h1 class="small">Our Promise</h1>
-            <h2>How are we Different</h2>
-            <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
-            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-        </div>
-    </div>
-</section>
-<section class="home-section" id="our_vision">
-    <div class="section-text">
-        <div class="section-text-inner">
-            <h1 class="small">Our Vision</h1>
-            <h2>Compassionate care, effectively done</h2>
-            <p>Through continuous research, evolving technologies, and evidence-based care, we plan to lead a revolution in addiction care with one simple goal: to help our patients create and live healthy and happy lives.</p>
-            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-        </div>
-    </div>
-    <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
-</section>
-<section class="home-section" id="our_belief">
-    <div class="section-image" style="background-image: url('{{ page.section-image-4 }}')"></div>
-    <div class="section-text">
-        <div class="section-text-inner">
-            <h1 class="small">Our Promise</h1>
-            <h2>Professional treatment that works.</h2>
-            <p>We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.</p>
-            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
-        </div>
-    </div>
-</section>
+
+{% include section-type1.html
+    id="what_we_do"
+    photo-side="right"
+    photo=page.section-image-1
+    h1="what do we do?"
+    h2="Exceptional <br class='only-desktop' />addiction care"
+    content="We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use."
+%}
+
+{% include section-type1.html
+    id="how_are_we_different"
+    photo-side="left"
+    photo=page.section-image-2
+    h1="Our Promise"
+    h2="How are we Different"
+    content="The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient."
+%}
+
+{% include section-type1.html
+    id="our_vision"
+    photo-side="right"
+    photo=page.section-image-3
+    h1="Our Vision"
+    h2="Compassionate care, effectively done"
+    content="Through continuous research, evolving technologies, and evidence-based care, we plan to lead a revolution in addiction care with one simple goal: to help our patients create and live healthy and happy lives."
+%}
+
+{% include section-type1.html
+    id="treatment"
+    photo-side="left"
+    photo=page.section-image-4
+    h1="Our Promise"
+    h2="Professional treatment that works."
+    content="We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works."
+%}

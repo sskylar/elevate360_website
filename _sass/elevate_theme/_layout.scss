@@ -924,7 +924,7 @@ section {
         background-size: cover;
     }
 
-    &.home-section:nth-child(odd) {
+    &.type1:nth-child(odd) {
         .section-text-inner {
             align-self: flex-end;
         }
@@ -1143,26 +1143,31 @@ section.hero {
     }
 }
 
-section.home-section {
+section#what_we_do {
+    background-color: $off-white;
+}
+section#our_vision {
+    background-color: $pale-blue;
+}
+section#treatment {
+    background-color: $off-white;
+}
+
+// ==============  SECTION TEMPLATES  ================== //
+
+section.type1 {
     display: flex;
     justify-content: center;
     padding: 0;
     flex-basis: 100%;
-
-    &#what_we_do {
-        background-color: $off-white;
-    }
-    &#our_belief {
-        background-color: $pale-blue;
-    }
 }
 
-section.type1 {
+section.type2 {
     padding: 0;
     width: 100%;
     background-color: $off-white;
 
-    .type1-inner {
+    .type2-inner {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
