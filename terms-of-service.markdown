@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-date: 2018-11-07 04:45:00 Z
+date: 2018-11-06 23:45:00 -05:00
 layout: markdown
 ---
 
@@ -9,7 +9,7 @@ layout: markdown
 *Last updated: November 01, 2018*
 
 Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the https://elevate360.com/ website (the "Service") operated by Elevate Psychological Services, PLLC ("us", "we", or "our").
-Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service.
+Your access to and use of the Service is conditioned upon your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who wish to access or use the Service..
 
 By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you do not have permission to access the Service.
 
