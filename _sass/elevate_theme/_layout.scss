@@ -792,7 +792,13 @@ a.nav-icon {
             background-color: $maize;
 
             .cta-text {
-                width: 100%; 
+                width: 100%;
+
+                h4 {
+                    a {
+                        color: #fff;
+                    } 
+                }
             }
         }
 
