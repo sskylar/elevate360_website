@@ -3,8 +3,9 @@ title: Welcome to Elevate360 Wellness
 date: 2018-08-26 01:08:00 -04:00
 background-image: "/uploads/sarah-dorweiler-211779-unsplash@2x.png"
 section-image-1: "/assets/images/aaron-burson-242126-unsplash@2x.jpg"
-section-image-2: "/assets/images/c-17676499-f-39-c-9-e-667-c-88-b-1035-af-430-f-copy@2x.jpg"
-section-image-3: "/assets/images/josh-couch-475118-unsplash@2x.jpg"
+section-image-2: "/assets/images/scott-webb-249006-unsplash@2x.jpg"
+section-image-3: "/assets/images/handful-of-flowers@2x.jpg"
+section-image-4: "/assets/images/josh-couch-475118-unsplash@2x.jpg"
 layout: default
 ---
 
@@ -41,32 +42,36 @@ layout: default
     <div class="section-image" style="background-image: url('{{ page.section-image-1 }}')">
     </div>
 </section>
-<section class="home-section" id="our_vision">
+<section class="home-section" id="how_are_we_different">
     <div class="section-image" style="background-image: url('{{ page.section-image-2 }}')"></div>
     <div class="section-text">
         <div class="section-text-inner">
-            <h1 class="small">Our Vision</h1>
-            <h2>Compassionate care, effectively done.</h2>
-            <p>Through continuous research, evolving technologies, and evidence-based care, we plan to lead a revolution in addiction care with one simple goal: to help our patients create and live healthy and happy lives.</p>
+            <h1 class="small">Our Promise</h1>
+            <h2>How are we Different</h2>
+            <p>The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient.</p>
             <!-- <a class="learn-more">Learn More &#x2192;</a> -->
         </div>
     </div>
 </section>
-<section class="home-section" id="our_belief">
+<section class="home-section" id="our_vision">
     <div class="section-text">
         <div class="section-text-inner">
-            <h1 class="small">Our Belief</h1>
-            <h2>Professional treatment that works.</h2>
-            <p>We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.</p>
+            <h1 class="small">Our Vision</h1>
+            <h2>Compassionate care, effectively done</h2>
+            <p>Through continuous research, evolving technologies, and evidence-based care, we plan to lead a revolution in addiction care with one simple goal: to help our patients create and live healthy and happy lives.</p>
             <!-- <a class="learn-more">Learn More &#x2192;</a> -->
         </div>
     </div>
     <div class="section-image" style="background-image: url('{{ page.section-image-3 }}')"></div>
 </section>
-
-{% include section-type1.html
-    id="different"
-    h1="Our Promise"
-    h2="How are we different"
-    content="The Elevate360 model differs from most addiction centers in that all of the treatment provided is based on scientifically proven techniques and we strive to make treatment interesting, engaging, accessible, and even, dare we say... fun for the patient."
-%}
+<section class="home-section" id="our_belief">
+    <div class="section-image" style="background-image: url('{{ page.section-image-4 }}')"></div>
+    <div class="section-text">
+        <div class="section-text-inner">
+            <h1 class="small">Our Promise</h1>
+            <h2>Professional treatment that works.</h2>
+            <p>We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.</p>
+            <!-- <a class="learn-more">Learn More &#x2192;</a> -->
+        </div>
+    </div>
+</section>
