@@ -114,6 +114,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-assets
+  jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
   minima

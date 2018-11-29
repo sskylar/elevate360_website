@@ -3,10 +3,14 @@ source 'http://rubygems.org'
 
 gem 'jekyll'
 gem 'minima'
-gem 'jekyll-sitemap'
-gem 'jekyll-seo-tag'
-gem 'jekyll-assets'
+
+group :jekyll_plugins do
+  gem 'jekyll-assets'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-feed'
+end
 
 group :development do
-    gem 'siteleaf', '~>2'
-  end
+  gem 'siteleaf', '~>2'
+end
