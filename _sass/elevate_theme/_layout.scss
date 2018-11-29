@@ -1482,6 +1482,10 @@ section#featured_post {
             font-weight: 500;
         }
 
+        a.learn-more {
+            float: right;
+        }
+
         @media screen and (max-width: 1440px) {
             padding-right: 0;
         }
