@@ -73,4 +73,6 @@ plugins:
 - jekyll-assets
 - jekyll-seo-tag
 - jekyll-sitemap
-exclude: ["Gemfile.lock", "node_modules"]
+exclude:
+- Gemfile.lock
+- node_modules
