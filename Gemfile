@@ -1,0 +1,16 @@
+# coding: utf-8
+source 'http://rubygems.org'
+
+gem 'jekyll'
+gem 'minima'
+
+group :jekyll_plugins do
+  gem 'jekyll-assets'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-feed'
+end
+
+group :development do
+  gem 'siteleaf', '~>2'
+end
