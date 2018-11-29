@@ -2,10 +2,10 @@
 title: Kamala Greene
 date: 2018-10-28 23:52:00 -04:00
 position: 7
-layout: default
-name: KAMALA GREENE GÉNECÉ, PHD
+name: Kamala Greene Génecé, Ph.D
 job_title: Psychologist
 photo: "/assets/images/staff/kamala-greene@2x.jpg"
+layout: default
 ---
 
 <section class="team-bio">
