@@ -76,3 +76,6 @@ plugins:
 exclude:
 - Gemfile.lock
 - node_modules
+- .gitignore
+- .ruby-version
+- README.md
