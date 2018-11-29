@@ -70,6 +70,6 @@ assets:
   sources:
   - _uploads
 plugins:
+- jekyll-assets
 - jekyll-seo-tag
 - jekyll-sitemap
-- jekyll-assets
