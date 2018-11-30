@@ -7,7 +7,7 @@ section-image-1: chess-photo@2x.jpg
 
 {% include mobile_hero.html image=page.background-image message="Our Technology." %}
 
-<section id="homepage_1" class="hero plant-image" style="background-image: url('{% asset '{{ page.background_image }}' @path %}')">
+<section id="homepage_1" class="hero plant-image" style="background-image: url('{% asset '{{ page.background-image }}' @path %}')">
     <div class="section-content">
         <div class="section-content-inner">
             <h1>Our Technology</h1>
