@@ -7,7 +7,7 @@ section-image-1: chess-photo@2x.jpg
 
 {% include mobile_hero.html image=page.background-image message="Our Technology." %}
 
-<section id="homepage_1" class="hero plant-image" style="background-image: url('{{ page.background-image }}')">
+<section id="homepage_1" class="hero plant-image" style="background-image: url('{% asset '{{ page.background_image }}' @path %}')">
     <div class="section-content">
         <div class="section-content-inner">
             <h1>Our Technology</h1>
@@ -31,7 +31,7 @@ section-image-1: chess-photo@2x.jpg
                 Research published in JAMA Psychiatry and The Journal of Dual Diagnosis demonstrated that the Connections mobile app significantly reduces the number of patients who relapse. For those who do relapse, use of the Connections app reduces the severity of the relapse and improves a patient’s likelihood of successful treatment completion.  We offer this additional technological support to our patients as part of our overall evidence-based approach to care.
             </p>
       </div>
-      <div class="side-image" style="background-image:url('{{ page.section-image-1 }}')"></div>
+      <div class="side-image" style="background-image:url('{% asset '{{ page.section-image-1 }}' @path %}')"></div>
     </div>
 </section>
 
