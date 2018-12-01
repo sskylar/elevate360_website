@@ -1005,6 +1005,7 @@ section {
 
 .card,
 .blog-card {
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1044,6 +1045,25 @@ section {
             flex-basis: 100%;
             margin-bottom: 20px;
         }
+    }
+
+    &.has-link {
+        padding-bottom: 20px;
+
+        @media screen and (max-width: 450px) {
+            padding-bottom: 12px;
+        }
+    }
+
+    .card-inner {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .learn-more {
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
 

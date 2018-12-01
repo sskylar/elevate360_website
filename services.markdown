@@ -53,10 +53,12 @@ service-cards:
   <div class="card-grid">
     {% for card in page.service-cards %}
         {% assign card_image = card.image | remove_first: '/uploads/' | url_decode %}
-        <div class="card card-3-up" id="{{ card.page_slug }}">
-            <img src="{% asset '{{ card_image }}' @path %}">
-            <h4>{{ card.title }}</h4>
-            <p>{{ card.copy }}</p>
+        <div class="card card-3-up has-link" id="{{ card.page_slug }}">
+            <div class="card-inner">
+              <img src="{% asset '{{ card_image }}' @path %}">
+              <h4>{{ card.title }}</h4>
+              <p>{{ card.copy }}</p>
+            </div>
             <a href="/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
         </div>
     {% endfor %}
