@@ -30,6 +30,10 @@ collections:
     title: Treatment Programs
     output: true
     layout: default
+  trainings:
+    title: Trainings for Clinicians
+    output: true
+    layout: default
   uploads:
     title: Uploads
     output: true
