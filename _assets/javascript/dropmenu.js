@@ -17,7 +17,7 @@
         },
         watchPrimaryLinks: () => {
             const openMenu = (e) => {
-                if (e.target.classList.contains('top-level-link')) {
+                if (e.target.classList.contains('top-level-link') && window.innerWidth > 768) {
                     const navListElement = e.target.closest('.nav-item');
 
                     // always close anything open
@@ -34,8 +34,10 @@
             }
 
             const closeMenu = (e) => {
-                navElement.setAttribute('class', 'main-nav');
-                DropMenu.closeAllSections(primayLinks);
+                if (window.innerWidth > 768) {
+                    navElement.setAttribute('class', 'main-nav');
+                    DropMenu.closeAllSections(primayLinks);
+                }
             }
 
             const navElement = document.getElementById('nav');
@@ -57,8 +59,10 @@
                     el.classList.remove('open');
                 });
             }
-            const nav_node = document.getElementById('nav');
-            nav_node.setAttribute('class', 'main-nav');
+            if (window.innerWidth > 768) {
+                const nav_node = document.getElementById('nav');
+                nav_node.setAttribute('class', 'main-nav');
+            }
         }
     };
 
