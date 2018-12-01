@@ -59,10 +59,8 @@
                     el.classList.remove('open');
                 });
             }
-            if (window.innerWidth > 768) {
-                const nav_node = document.getElementById('nav');
-                nav_node.setAttribute('class', 'main-nav');
-            }
+            const nav_node = document.getElementById('nav');
+            nav_node.setAttribute('class', 'main-nav');
         }
     };
 
