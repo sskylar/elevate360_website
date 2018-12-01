@@ -1,5 +1,5 @@
 ---
-title: Introduction to Screening, Brief Intervention, and Referral to Treatment (SBIRT) 
+title: Introduction to Screening, Brief Intervention, and Referral to Treatment (SBIRT)
 date: 2018-09-07 16:22:00 -04:00
 position: 4
 ---

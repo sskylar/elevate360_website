@@ -26,12 +26,12 @@ collections:
     title: Therapies Used
     output: true
     layout: default
-  treatment-programs:
-    title: Treatment Programs
-    output: true
-    layout: default
   trainings:
     title: Trainings for Clinicians
+    output: true
+    layout: default
+  treatment-programs:
+    title: Treatment Programs
     output: true
     layout: default
   uploads:
