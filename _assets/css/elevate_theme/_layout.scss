@@ -1005,6 +1005,7 @@ section {
 
 .card,
 .blog-card {
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1044,6 +1045,25 @@ section {
             flex-basis: 100%;
             margin-bottom: 20px;
         }
+    }
+
+    &.has-link {
+        padding-bottom: 20px;
+
+        @media screen and (max-width: 450px) {
+            padding-bottom: 12px;
+        }
+    }
+
+    .card-inner {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .learn-more {
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
 
@@ -1294,6 +1314,25 @@ section.type2 {
 
                 &:last-child {
                     margin-bottom: 0;
+                }
+            }
+        }
+
+        .services-card {
+            .learn-more {
+                bottom: 40px;
+                right: 40px;
+
+                @media screen and (max-width: 834px) {
+                    bottom: 20px;
+                    right: 20px;
+                }
+                @media screen and (max-width: 834px) {
+                    bottom: 12px;
+                }
+                @media screen and (max-width: 450px) {
+                    bottom: 10px;
+                    right: 10px;
                 }
             }
         }
@@ -1569,7 +1608,13 @@ section#featured_post {
 
     a {
         &.learn-more {
+            position: relative;
+            // display: block;
+            // width: 100%;
+            right: auto;
+            bottom: auto;
             font-weight: 500;
+            // text-align: right;
         }
     }
 }
