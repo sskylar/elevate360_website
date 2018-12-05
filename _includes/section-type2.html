@@ -5,7 +5,9 @@
             <h2 style="margin: 0;">{{ include.h2 }}</h2>
         </div>
         <div class="section-text">
-            <p>{{ include.content }}</p>
+            <div class="section-text-inner">
+                <p>{{ include.content }}</p>
+            </div>
             {% if include.href %}
                 <a href="{{ include.href }}" class="learn-more">Learn More &#x2192;</a>
             {% endif %}
