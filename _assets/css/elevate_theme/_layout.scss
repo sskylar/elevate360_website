@@ -789,14 +789,17 @@ a.nav-icon {
     &.cta-green {
         background-color: $avocado;
 
+        .cta-text {
+            h4 {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+
         @media screen and (max-width: 834px) {
             .cta-text {
                 width: 100%;
-                h4 {
-                    a {
-                        color: #fff;
-                    } 
-                }
             }
         }
 
