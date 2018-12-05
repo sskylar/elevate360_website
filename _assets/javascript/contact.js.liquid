@@ -31,11 +31,9 @@
           return console.log(response)
         }
         const successResult = (response, formAction) => {
-          console.log(response)
           const formElement = document.getElementById(`${formAction.replace('-','_')}_form`)
           const formHolderElement = formElement.closest('.form-holder')
-          const holderElement = formElement.closest('.holder')
-          const messageElements = holderElement.querySelectorAll('.message')
+          const messageElements = formHolderElement.querySelectorAll('.message')
 
           let bodyResponse = null
           if (response.bodyUsed) {
@@ -44,8 +42,8 @@
             bodyResponse = response.text()
           }
 
-          if (formHolderElement) {
-            formHolderElement.style.display = 'none'
+          if (formElement) {
+            formElement.style.display = 'none'
           }
 
           if (bodyResponse.result !== 'error') {

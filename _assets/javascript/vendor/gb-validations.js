@@ -69,7 +69,7 @@ const GBValidations = {
     return valid
   },
   validateProperty: (property, fieldElement) => {
-    let isEmailForm, isEmpty, isPhoneValid, isUrlFormat, phoneValue, valid
+    let isEmailFormat, isEmpty, isPhoneValid, isUrlFormat, phoneValue, valid
     const fieldValue = fieldElement.value
     valid = {
       check: true,
@@ -94,9 +94,9 @@ const GBValidations = {
       }
       return valid
     } else if (property === 'email') {
-      isEmailForm = fieldValue.match(/^([^@\s]+)@(([^@\s]+)+[a-z]{2,})$/)
+      isEmailFormat = fieldValue.match(/^([^@\s]+)@(([^@\s]+)+[a-z]{2,})$/)
       isEmpty = fieldValue === ''
-      if (!isEmpty && !isEmailForm) {
+      if (!isEmpty && !isEmailFormat) {
         valid = {
           check: false,
           message: 'enter a valid email address'
@@ -104,6 +104,7 @@ const GBValidations = {
       }
       return valid
     } else if (property === 'phone') {
+      isEmpty = fieldValue === ''
       isPhoneValid = false
       phoneValue = fieldValue.replace(/\D/g, '')
       if (phoneValue.length === 10) {
@@ -111,7 +112,7 @@ const GBValidations = {
       } else if (phoneValue.length === 11 && (phoneValue.charAt(0) === '1')) {
         isPhoneValid = true
       }
-      if (!isPhoneValid) {
+      if (!isEmpty && !isPhoneValid) {
         valid = {
           check: false,
           message: 'enter a valid phone number'
