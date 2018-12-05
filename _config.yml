@@ -70,6 +70,8 @@ twitter:
 facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
+# get this URL by generating a submission form on MailChimp
+mailchimp_url: https://grantblakeman.us5.list-manage.com/subscribe/post?u=87aafd5b1e115577345da9e06&id=f42c83a837
 assets:
   sources:
   - _uploads
