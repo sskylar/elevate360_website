@@ -2,6 +2,9 @@
 title: Advanced Motivational Interviewing Training
 date: 2018-09-07 16:22:00 -04:00
 position: 3
+back_href: /services/trainings-for-clinicians
+back_title: Trainings
+layout: tertiary
 ---
 
 In this higher-level Motivational Interviewing course, participants conduct MI sessions with Standardized Patients (SPs) and individual feedback is provided.

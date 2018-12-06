@@ -1,7 +1,10 @@
 ---
 title: Opioid Overdose Prevention Program (OOPP)
-date: 2018-09-07 16:22:00 -04:00
+date: 2018-12-06 15:13:00 -05:00
 position: 1
+back_href: /services/trainings-for-clinicians
+back_title: Trainings
+layout: tertiary
 ---
 
 The Elevate360 team is passionate about preventing overdose and our program is a NYS registered Opioid Overdose Prevention Program (OOPP). In partnership with NYC Department of Health and Mental Hygiene (DOHMH) we can provide Opioid Overdose Prevention Training in the community and can distribute naloxone kits free of charge. We also provide overdose prevention training and naloxone to our patients and their families when appropriate.

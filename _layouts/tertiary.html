@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% comment %}
+The tertiary layout expects:
+title: Opioid Overdose Prevention Program (OOPP)
+
+And has optional attributes:
+photo: staff/amy-colley@2x.jpg
+photo_alt: I am alt text
+back_href: /services/trainings-for-clinicians
+back_title: Trainings
+
+The `back_title` and `photo_alt` are not used if their respect `back_href` and `photo` are not utilized.
+{% endcomment %}
+
+<section class="content-page tertiary">
+  <header>
+    {% if page.back_href %}
+      <p class="back-link">
+        <a href="{{ page.back_href }}">&#x2190; Back{% if page.back_title %} to {{ page.back_title }}{% endif %}</a>
+      </p>
+    {% endif %}
+    <h1 class="small">{{ page.title }}</h1>
+  </header>
+  <article>
+    {% if page.photo %}
+      {% assign page_photo = page.photo | remove_first: '/uploads/' | url_decode %}
+      <div class="page-photo">
+        <img src="{% asset '{{ page_photo }}' @path %}"{% if page.photo_alt %} alt="{{ page.photo_alt }}"{% endif %}>
+      </div>
+    {% endif %}
+    <div class="tertiary-content-inner">
+      {{ content }}
+    </div>
+  </article>
+<section>
