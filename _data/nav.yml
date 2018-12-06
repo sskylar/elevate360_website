@@ -6,7 +6,7 @@ toc:
   subitems:
     - page: Frequently Asked Questions
       url: /faq/
- 
+
 - title: Services
   url: /services/
   class: services
@@ -27,7 +27,7 @@ toc:
   class: about
   subitems:
     - page: Our Staff
-      url: /our-staff/
+      url: /about-us/our-staff/
 
 - title: Blog
   url: /blog
