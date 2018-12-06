@@ -10,7 +10,7 @@ collections:
     output: true
   home:
     title: Home
-    output: true
+    output: false
   how-we-treat:
     title: How we Treat
     output: true
