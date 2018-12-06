@@ -39,6 +39,7 @@ layout: default
 
 {% include section-type1.html
     id="what_we_do"
+    href="/about-us/"
     photo-side="right"
     photo=section_image_1
     h1="what do we do?"
@@ -48,6 +49,7 @@ layout: default
 
 {% include section-type1.html
     id="how_are_we_different"
+    href="/why-elevate360/"
     photo-side="left"
     photo=section_image_2
     h1="Our Promise"
@@ -57,6 +59,7 @@ layout: default
 
 {% include section-type1.html
     id="our_vision"
+    href="/services/"
     photo-side="right"
     photo=section_image_3
     h1="Our Vision"
@@ -66,6 +69,7 @@ layout: default
 
 {% include section-type1.html
     id="treatment"
+    href="/treatment-programs/"
     photo-side="left"
     photo=section_image_4
     h1="Our Promise"
