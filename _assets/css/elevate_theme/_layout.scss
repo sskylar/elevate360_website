@@ -537,7 +537,7 @@ a.nav-icon {
             margin-top: 10vw;
         }
 
-        #contact {
+        .sign-up-form.form-holder {
             width: 100%;
             max-width: 500px;
             height: 40px;
@@ -584,6 +584,10 @@ a.nav-icon {
                 text-align: center;
                 border: 0;
                 background-color: $off-white;
+
+                &:hover {
+                    cursor: pointer;
+                }
 
                 @media screen and (max-width: 450px) {
                     width: 90px;
@@ -1499,20 +1503,114 @@ section#service_subfooter {
 
 
 // =============  contact =============== //
-#contact_intro, #contact_form {
+#contact_intro, .contact-form-holder {
     padding: 5vw;
 }
 
-#contact_form {
-    background-color: #fff;
+.contact-form-holder {
+    width: 100%;
 
-    #mc_embed_signup {
-        .button {
+    .callout {
+        @media screen and (max-width: 450px) {
+            font-size: $base-font-size;
+        }
+    }
+    #contact_form {
+        padding-top: 30px;
+        width: 100%;
+
+        @media screen and (max-width: 450px) {
+            padding-top: 12px;
+        }
+
+        p {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+
+            @media screen and (max-width: 450px) {
+                font-size: $small-font-size;
+            }
+
+            &.half {
+                width: 50%;
+
+                @media screen and (max-width: 834px) {
+                    width: 100%;
+                }
+            }
+
+            .required {
+                color: $red;
+            }
+
+            label {
+                display: block;
+                margin: 18px 0 6px 0;
+                width: 100%;
+                font-size: $base-font-size;
+
+                @media screen and (max-width: 450px) {
+                    font-size: $small-font-size;
+                }
+            }
+
+            input,
+            textarea {
+                padding: 12px;
+                width: 100%;
+                font-size: $base-font-size;
+                line-height: $base-line-height;
+                border: solid 1px #bebac0;
+
+                @media screen and (max-width: 450px) {
+                    padding: 6px;
+                    font-size: $small-font-size;
+                }
+
+                &:hover {
+                    border-color: $greyish-brown;
+                }
+                &:focus {
+                    border-color: $avocado;
+                }
+
+                &.error {
+                    border-color: $red;
+                }
+            }
+            textarea {
+                min-height: 180px;
+            }
+        }
+        .submit {
+            padding: 10px 20px;
+            margin-top: 20px;
+            color: #fff;
+            font-size: $base-font-size;
             background-color: $greyish-brown;
             border-radius: 0;
             float: right;
+
+            @media screen and (max-width: 450px) {
+                font-size: $small-font-size;
+            }
         }
     }
+
+    .message {
+        padding: 60px 0 60px 0;
+        p {
+            font-size: 18px;
+            
+            @media screen and (max-width: 450px) {
+                font-size: $base-font-size;
+            }
+
+        }
+    }
+
 }
 
 // =============  FAQ =============== //
