@@ -340,6 +340,46 @@ a.nav-icon {
                 font-size: $small-font-size;
             }
         }
+
+        &.tertiary {
+            display: block;
+            width: 100%;
+
+            h1 {
+                &.small {
+                    display: flex;
+                    flex: 100% 0 0;
+                    flex-basis: 100%;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+            }
+
+            article {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                width: 100%;
+
+                .page-photo {
+                    flex-basis: 33%;
+                    order: 1;
+                    background-color: pink;
+
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+                .tertiary-content-inner {
+                    flex-basis: 60%;
+                    order: 0;
+                    background-color: yellow;
+                }
+
+            }
+        }
     }
 }
 
