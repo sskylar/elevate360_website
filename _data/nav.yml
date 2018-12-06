@@ -5,29 +5,29 @@ toc:
   class: why
   subitems:
     - page: Frequently Asked Questions
-      url: /faq/
- 
+      url: /why-elevate360/faq/
+
 - title: Services
   url: /services/
   class: services
   subitems:
     - page: Treatment Programs
-      url: /treatment-programs/
+      url: /services/treatment-programs/
     - page: How We Treat
-      url: /how-we-treat/
+      url: /services/how-we-treat/
     - page: Therapies Used
-      url: /therapies-used/
+      url: /services/therapies-used/
     - page: Trainings
-      url: /trainings-for-clinicians/
+      url: /services/trainings-for-clinicians/
     - page: Our Technology
-      url: /our-technology/
+      url: /services/our-technology/
 
 - title: About Us
   url: /about-us/
   class: about
   subitems:
     - page: Our Staff
-      url: /our-staff/
+      url: /about-us/our-staff/
 
 - title: Blog
   url: /blog
