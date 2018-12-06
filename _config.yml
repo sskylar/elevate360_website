@@ -18,6 +18,7 @@ collections:
   staff:
     title: Staff
     output: true
+    permalink: "/about-us/our-staff/:title"
     layout: default
   therapies-used:
     title: Therapies Used
@@ -40,7 +41,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/blog/:title"
     author: 
     post_image: 
 - scope:
