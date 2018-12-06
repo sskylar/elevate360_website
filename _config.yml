@@ -27,6 +27,10 @@ collections:
     title: Trainings for Clinicians
     output: true
     layout: default
+  trainings_new:
+    title: Trainings for Clinicians
+    output: true
+    permalink: "/services/trainings-for-clinicians/:name"
   treatment-programs:
     title: Treatment Programs
     output: true
