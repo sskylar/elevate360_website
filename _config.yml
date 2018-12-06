@@ -19,6 +19,7 @@ collections:
     title: Staff
     output: true
     layout: default
+    permalink: "/about-us/our-staff/:title"
   therapies-used:
     title: Therapies Used
     output: true
@@ -41,8 +42,8 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title"
-    author: 
-    post_image: 
+    author:
+    post_image:
 - scope:
     path: ''
     type: pages
@@ -55,7 +56,7 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 url: https://elevate360.com
