@@ -8,9 +8,6 @@ collections:
   authors:
     title: Authors
     output: true
-  home:
-    title: Home
-    output: false
   how-we-treat:
     title: How we Treat
     output: true
