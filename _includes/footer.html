@@ -31,9 +31,7 @@
             </p>
         </div>
     <div id="social">
-        <form id="sign_up_form" action="{{ site.mailchimp_url }}" method="POST">
-            <input id="email" type="email" placeholder="Email Address" name="EMAIL" data-validates="presence email"><button class="submit" type="submit">Submit</button>
-        </form>
+        {% include sign_up_form.html %}
         <div id="social_links">
             <a href="https://twitter.com/elevate360nyc" target="_blank">
                 <span class="text">Twitter</span>

@@ -71,8 +71,7 @@ facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
 # get this URL by generating a submission form on MailChimp
-mailchimp_url: https://grantblakeman.us5.list-manage.com/subscribe/post?u=87aafd5b1e115577345da9e06&id=f42c83a837
-# mailchimp_url: https://elevate360.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
+mailchimp_url: https://elevate360.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
 # add a Formcarry id for the contact form
 formcarry_form_id: s1U09JSk80i
 formcarry_email_subject: "An email from your website!"

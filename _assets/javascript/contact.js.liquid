@@ -116,7 +116,7 @@
         if (!formElement.classList.contains('in-progress')) {
           const postData = (url = ``, data = {}) => {
             return fetch(url, {
-              method: 'POST',
+              method: method,
               mode: 'no-cors',
               headers: {
                 'Accept': acceptType,
@@ -139,15 +139,18 @@
           })
 
           if (formAction === 'sign-up') {
-            urlToCall = '{{ site.mailchimp_url | replace: "/post?", "/post-json?" }}&c=?'
+            method = 'GET'
+            formData = Contact.grabFormData(formElement, 'json')
+            urlToCall = `{{ site.mailchimp_url | replace: "/post?", "/post-json?" }}&c=?&EMAIL=${JSON.parse(formData).EMAIL}`
             acceptType = 'application/json'
             contentType = 'application/json; charset=utf-8'
-            formData = Contact.grabFormData(formElement, 'json')
+            formData = null
           } else if (formAction === 'contact') {
+            method = 'POST'
+            formData = Contact.grabFormData(formElement, 'queryString')
             urlToCall = 'https://formcarry.com/s/{{ site.formcarry_form_id }}'
             acceptType = 'application/json'
             contentType = 'application/x-www-form-urlencoded; charset=utf-8'
-            formData = Contact.grabFormData(formElement, 'queryString')
           }
           return postData(urlToCall, formData)
             .then(response => successResult(response, formAction))
