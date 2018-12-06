@@ -11,7 +11,7 @@ collections:
   how-we-treat:
     title: How we Treat
     output: true
-    layout: default
+    permalink: "/services/how-we-treat/:name"
   posts:
     title: Posts
     output: true
@@ -22,7 +22,7 @@ collections:
   therapies-used:
     title: Therapies Used
     output: true
-    layout: default
+    permalink: "/services/therapies-used/:name"
   trainings:
     title: Trainings for Clinicians
     output: true
@@ -30,7 +30,7 @@ collections:
   treatment-programs:
     title: Treatment Programs
     output: true
-    layout: default
+    permalink: "/services/treatment-programs/:name"
   uploads:
     title: Uploads
     output: true
