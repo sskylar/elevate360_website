@@ -1,5 +1,5 @@
 ---
-title: How we Treat
+title: How We Treat
 date: 2018-10-28 11:51:00 -04:00
 collection: how-we-treat
 layout: services
