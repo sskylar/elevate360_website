@@ -69,7 +69,7 @@ layout: default
 
 {% include section-type1.html
     id="treatment"
-    href="/treatment-programs/"
+    href="/services/treatment-programs/"
     photo-side="left"
     photo=section_image_4
     h1="Our Promise"

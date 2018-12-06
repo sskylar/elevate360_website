@@ -12,7 +12,7 @@ layout: default
 
 <section class="team-bio">
 <h1 class="small">{{ page.name }}</h1>
-<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}">
+<img class="team-bio-photo" src="{% asset '{{ bio_photo }}' @path %}" alt="{% if page.name %}{{ page.name }}{% else %}Staff Photo{% endif %}">
 <div class="team-bio-text">
     <h4>Psychologist</h4>
     <p class="preview">

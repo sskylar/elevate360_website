@@ -8,7 +8,7 @@ layout: markdown
 
 *Effective date: November 06, 2018*
 
-Elevate360 (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the http://www.elevate360.com website (the &quot;Service&quot;).
+Elevate360 (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the elevate360.com website (the &quot;Service&quot;).
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
