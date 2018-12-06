@@ -1,7 +1,7 @@
 ---
 title: Trainings for Clinicians
 date: 2018-10-28 11:51:00 -04:00
-collection: trainings_new
+collection: trainings
 section-image-1: training@2x.jpg
 layout: trainings
 ---
