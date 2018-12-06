@@ -12,6 +12,7 @@
     max-height: 90px;
     background-color: #fff;
     transition: all 0.2s cubic-bezier(0.49, 0.99, 0.54, 0.98);
+    z-index: 20;
 
     @media screen and (max-width: 960px) {
         top: 50px;
@@ -345,13 +346,24 @@ a.nav-icon {
             display: block;
             width: 100%;
 
-            h1 {
-                &.small {
-                    display: flex;
-                    flex: 100% 0 0;
-                    flex-basis: 100%;
-                    font-size: 18px;
-                    text-transform: uppercase;
+            header {
+                h1 {
+                    &.small {
+                        display: flex;
+                        flex: 100% 0 0;
+                        flex-basis: 100%;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                p {
+                    &.back-link {
+                        padding-bottom: 30px;
+                        a {
+                            color: $greyish-brown;
+                        }
+                    }
                 }
             }
 
@@ -365,7 +377,6 @@ a.nav-icon {
                 .page-photo {
                     flex-basis: 33%;
                     order: 1;
-                    background-color: pink;
 
                     img {
                         display: block;
@@ -375,7 +386,6 @@ a.nav-icon {
                 .tertiary-content-inner {
                     flex-basis: 60%;
                     order: 0;
-                    background-color: yellow;
                 }
 
             }
@@ -411,7 +421,7 @@ a.nav-icon {
     h1 {
         position: relative;
         margin: 0 40px 0 0;
-        z-index: 1;
+        z-index: 21;
 
         @media screen and (min-width: 769px) and (max-width: 960px) {
             flex-basis: 100%;
@@ -455,7 +465,7 @@ a.nav-icon {
         text-align: center;
         padding: 0 15px;
         cursor: pointer;
-        z-index: 2;
+        z-index: 21;
 
         @media screen and (max-width: 960px) {
             margin-top: 18px
