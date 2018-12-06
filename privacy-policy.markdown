@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-date: 2018-11-06 04:45:00 Z
+date: 2018-11-05 23:45:00 -05:00
 layout: markdown
 ---
 
