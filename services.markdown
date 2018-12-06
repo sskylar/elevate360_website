@@ -55,18 +55,18 @@ service-cards:
         {% assign card_image = card.image | remove_first: '/uploads/' | url_decode %}
         <div class="card card-3-up has-link" id="{{ card.page_slug }}">
             <div class="card-inner">
-              <img src="{% asset '{{ card_image }}' @path %}">
+              <img src="{% asset '{{ card_image }}' @path %}" alt="{{ card.title }}">
               <h4>{{ card.title }}</h4>
               <p>{{ card.copy }}</p>
             </div>
-            <a href="/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
+            <a href="/services/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
         </div>
     {% endfor %}
   </div>
 </section>
 {% include section-type2.html
     id="service_trainings"
-    href="/trainings-for-clinicians/"
+    href="/services/trainings-for-clinicians/"
     h1="Trainings"
     h2="Trainings for Clinicians"
     content="The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community."
