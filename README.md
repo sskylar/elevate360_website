@@ -10,5 +10,7 @@ hosted on Amazon S3:
 (web@elevate360.com)
 
 local dev w/ jekyll:
-bundle exec jekyll serve
+`bundle exec jekyll serve`
 
+Check site for broken links, mis-shappen tags, missing `alt` attributes, and other HTML oddities:
+`bundle exec rake html_proofer`

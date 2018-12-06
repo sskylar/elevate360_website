@@ -83,3 +83,4 @@ exclude:
 - ".gitignore"
 - ".ruby-version"
 - README.md
+- Rakefile
