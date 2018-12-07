@@ -10,13 +10,12 @@
 </head>
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
+
     <div class="site" id="{{ page.title | downcase | replace: ' ', '-' }}">
-
-    {{ content }}
-
+        {{ content }}
     </div>
-    {% include footer.html %}
 
+    {% include footer.html %}
     {% include script.html %}
 </body>
 </html>
