@@ -1,5 +1,5 @@
 ---
-title: Hero
+title: What We Do
 position: 3
 h1: what do we do?
 h2: Exceptional <br class='only-desktop' />addiction care
