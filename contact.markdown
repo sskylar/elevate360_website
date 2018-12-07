@@ -13,7 +13,7 @@ date: 2018-10-31 14:17:00 -04:00
 <section class="contact-form-holder">
     <div class="section-content">
         <h3 class="callout">
-            Have questions sor want to set up an appointment? We’d love to hear from you!  We aim to respond to all inquiries within 24 hours.
+            Have questions or want to set up an appointment? We’d love to hear from you!  We aim to respond to all inquiries within 24 hours.
         </h3>
 
         <div class="form-holder">
