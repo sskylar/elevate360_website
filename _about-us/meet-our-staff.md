@@ -1,10 +1,10 @@
 ---
-title: "Meet Our Staff"
+title: Meet Our Staff
 date: 2018-12-06 00:00:00 -05:00
 position: 3
-id: "meet_our_staff"
-h1: "Our Team"
-h2: "Meet Our Staff"
+id: meet_our_staff
+h1: Our Team
+h2: Meet Our Staff
 href: "/about-us/our-staff"
 ---
 

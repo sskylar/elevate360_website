@@ -1,13 +1,14 @@
 ---
 title: Why Elevate360?
-layout: why_elevate360
 date: 2018-10-25 00:41:00 -04:00
+layout: why_elevate360
 background-image: why_elevate360_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
-phone_number: "212-204-8430"
-h2: "In short, because we do treatment right."
-hero-content: "Our professional staff uses proven therapeutic techniques and technology to provide care which aims to help each patient develop a meaningful life in recovery that is more compelling than a life consumed with substance use."
-
+phone_number: 212-204-8430
+h2: In short, because we do treatment right.
+hero-content: Our professional staff uses proven therapeutic techniques and technology
+  to provide care which aims to help each patient develop a meaningful life in recovery
+  that is more compelling than a life consumed with substance use.
 ---
 
 In short, because we do treatment right. All of our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, compulsive behaviors, and other psychological issues.

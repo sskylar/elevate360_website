@@ -1,12 +1,17 @@
 ---
 title: Services
-layout: services_main
 date: 2018-10-28 11:47:00 -04:00
-h2: "Compassionate care, effectively done"
+layout: services_main
+h2: Compassionate care, effectively done
 background-image: aaron-burson-242126-fullwidth@2x.jpg
 section-image-1: micheile-henderson-597870-unsplash-copy-2@2x.jpg
-short-content: "All the treatments provided at Elevate360 are scientifically proven approaches and are incorporated into a comprehensive treatment program that is interesting, engaging, accessible, and even fun for our patients."
-trainings-content: "The Elevate360 team is a group of skilled psychologists who are clinicians, researchers, and experts in addiction and the conditions that commonly occur along with substance use. We routinely provide a variety of trainings both at Elevate360 and in the community."
+short-content: All the treatments provided at Elevate360 are scientifically proven
+  approaches and are incorporated into a comprehensive treatment program that is interesting,
+  engaging, accessible, and even fun for our patients.
+trainings-content: The Elevate360 team is a group of skilled psychologists who are
+  clinicians, researchers, and experts in addiction and the conditions that commonly
+  occur along with substance use. We routinely provide a variety of trainings both
+  at Elevate360 and in the community.
 service-cards:
 - title: Treatment Programs
   image: conor-sexton-560983-unsplash@2x.jpg

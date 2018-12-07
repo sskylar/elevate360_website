@@ -1,5 +1,5 @@
 ---
-title: "Our Mission & Vision"
+title: Our Mission & Vision
 date: 2018-12-06 00:00:00 -05:00
 position: 2
 ---

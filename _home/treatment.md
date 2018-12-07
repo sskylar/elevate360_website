@@ -1,8 +1,8 @@
 ---
-title: "Treatment"
-h1: "Our Promise"
-h2: "Professional treatment that works."
+title: Treatment
 position: 6
+h1: Our Promise
+h2: Professional treatment that works.
 ---
 
 We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.
