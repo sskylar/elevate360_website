@@ -2,6 +2,9 @@
 title: Introduction to Screening, Brief Intervention, and Referral to Treatment (SBIRT)
 date: 2018-09-07 16:22:00 -04:00
 position: 4
+back_href: "/services/trainings-for-clinicians"
+back_title: Trainings
+layout: tertiary
 ---
 
 Introduction to Screening, Brief Intervention, and Referral to Treatment (SBIRT) is a comprehensive, public health approach to the delivery of early intervention and treatment services for patients with alcohol and substance use disorders and for those who are at risk of developing these disorders.
