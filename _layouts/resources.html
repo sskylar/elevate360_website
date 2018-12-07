@@ -6,17 +6,22 @@ layout: default
     id="about_us_resources"
     h1=page.subtitle
     h2=page.title
-    content=""
+    content=content
 %}
 
-<p>Stuff here</p>
-{% if page.collection %}
-    <section id="services_grid">
-        <div class="grid-inner">
-            {% assign collection = site[page.collection] | sort: 'position' %}
-            {%- for card in collection -%}
-                {% include services_card.html card=card %}
-            {%- endfor -%}
-        </div>
-    </section>
-{% endif %}
+<section class="resources-top-list">
+    <div>
+        <h1 class="small">Recent Blog Posts</h1>
+        {% if page.collection %}
+            <div id="services_grid">
+                <div class="grid-inner">
+                    {% assign collection = site[page.collection] | sort: 'position' %}
+                    {%- for card in collection -%}
+                        {% include services_card.html card=card %}
+                    {%- endfor -%}
+                </div>
+            </div>
+        {% endif %}
+
+    </div>
+</section>
