@@ -14,36 +14,22 @@ date: 2018-10-28 11:51:00 -04:00
 <section id="staff_list">
     <div class="grid-inner">
         {% for person in staff  %}
+            {% assign excerpt_html = person.content | split: '</h4>' %}
+            {% assign subtitle = excerpt_html[0] | strip_html %}
+            {% assign excerpt_html_two = excerpt_html[1] | split: '</p>' %}
+            {% assign excerpt = excerpt_html_two[0] | strip_html %}
             <div class="team-bio-card" aria-data-url="{{ person.url }}">
-                {{ person.content }}
+                <section class="team-bio-card-inner">
+                    {% assign bio_photo = person.photo | remove_first: '/uploads/' | url_decode %}
+                    <img src="{% asset '{{ bio_photo }}' @path %}" class="team-bio-photo" alt="{% if person.photo_alt %}{{ person.photo_alt }}{% else %}{{ person.title }}{% endif %}" />
+                    <div class="team-bio-text">
+                        <h1>{{ person.full_title }}</h1>
+                        <h4>{{ subtitle }}</h4>
+                        <p class="preview">{{ excerpt }}</p>
+                    </div>
+                </section>
+                <a href="{{ person.url }}" class="learn-more">Learn More &#x2192;</a>
             </div>
         {% endfor %}
     </div>
 </section>
-
-<script>
-    (function scope(){    
-        var titles = document.querySelectorAll('.team-bio h1.small');
-        var text_blocks = document.querySelectorAll('.team-bio-card .team-bio-text');
-        var cards = document.querySelectorAll('.team-bio-card');
-        var bios = document.querySelectorAll('.team-bio');
-
-        for (let i = 0; i < titles.length; i++) {
-            titles[i].style = "display: none;"
-            const new_title = document.createElement('h1');
-            new_title.innerText = titles[i].innerText;
-            text_blocks[i].prepend(new_title);
-
-            const more = document.createElement('a');
-            const url = cards[i].getAttribute('aria-data-url');
-            // console.log(cards)
-            more.setAttribute('class', 'learn-more');
-            more.setAttribute('href', url);
-            more.innerHTML = 'Learn More &#x2192;';
-            cards[i].append(more);
-            // console.log(bios[i])
-            bios[i].classList.remove('team-bio');
-            bios[i].classList.add('team-bio-card-inner');
-        }
-    })();
-</script>
