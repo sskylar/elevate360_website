@@ -14,27 +14,34 @@ layout: default
 {% assign section_image_2 = page.section-image-2 | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_3 = page.section-image-3 | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_4 = page.section-image-4 | remove_first: '/uploads/' | url_decode %}
+{% assign home_content = site.home %}
+{% assign hero = home_content | where: "position", 1 | first %}
+{% assign callout = home_content | where: "position", 2 | first %}
+{% assign what_we_do = home_content | where: "position", 3 | first %}
+{% assign how_are_we_different = home_content | where: "position", 4 | first %}
+{% assign our_vision = home_content | where: "position", 5 | first %}
+{% assign treatment = home_content | where: "position", 6 | first %}
 
 {% include mobile_hero.html image=background_image message="Need Help?" %}
 
 <section id="homepage_1" class="hero plant-image" style="background-image: url('{% asset '{{ background_image }}' @path %}')">
     <div class="section-content">
         <div class="section-content-inner">
-            <h1>Welcome to Elevate360 Wellness</h1>
-            <h2>State of the art care, delivered compassionately.</h2>
+            <h1>{{ hero.h1 }}</h1>
+            <h2>{{ hero.h2 }}</h2>
             <p>
-                Elevate360 is a boutique outpatient addiction treatment center located in Midtown Manhattan that uses state-of-the-art, science-based techniques, technology, and highly trained doctoral level psychologists to provide patients with the highest quality therapeutic experience in addiction treatment.
+              {{ hero.content }}
             </p>
-            <a class="button rounded" href="/contact">get email updates</a>
+            <a class="button rounded" href="/contact">{{ hero.button_label }}</a>
         </div>
     </div>
 </section>
 {% include section-callout.html
-    h3="Call Us Today, <br class='only-mobile' />Be Seen Tomorrow!"
-    h4="Schedule a free <br class='only-mobile' />15-minute consultation <br class='only-mobile' /><span class='only-desktop'>- </span>212-204-8430"
-    button_msg="212-204-8430"
-    button_mobile="call now"
-    button_href="tel:1-212-204-8430"
+    h3=callout.h3
+    h4=callout.h4
+    button_msg=callout.button_msg
+    button_mobile=callout.button_mobile
+    button_href=callout.button_href
 %}
 
 {% include section-type1.html
@@ -42,9 +49,9 @@ layout: default
     href="/about-us/"
     photo-side="right"
     photo=section_image_1
-    h1="what do we do?"
-    h2="Exceptional <br class='only-desktop' />addiction care"
-    content="We provide exceptional individualized care for patients and families struggling with alcohol, pain medication, and other substance use."
+    h1=what_we_do.h1
+    h2=what_we_do.h2
+    content=what_we_do.content
 %}
 
 {% include section-type1.html

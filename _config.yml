@@ -9,9 +9,12 @@ collections:
     title: Authors
     output: true
   how-we-treat:
-    title: How we Treat
+    title: How We Treat
     output: true
     permalink: "/services/how-we-treat/:name"
+  home:
+    title: Home
+    output: false
   posts:
     title: Posts
     output: true
