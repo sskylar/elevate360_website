@@ -21,19 +21,19 @@ collections:
   staff:
     title: Staff
     output: true
-    permalink: "/about-us/our-staff/:title"
+    permalink: "/about-us/our-staff/:title/"
   therapies-used:
     title: Therapies Used
     output: true
-    permalink: "/services/therapies-used/:name"
+    permalink: "/services/therapies-used/:name/"
   trainings:
     title: Trainings for Clinicians
     output: true
-    permalink: "/services/trainings-for-clinicians/:name"
+    permalink: "/services/trainings-for-clinicians/:name/"
   treatment-programs:
     title: Treatment Programs
     output: true
-    permalink: "/services/treatment-programs/:name"
+    permalink: "/services/treatment-programs/:name/"
   uploads:
     title: Uploads
     output: true
