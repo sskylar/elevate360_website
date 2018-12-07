@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include section-type2.html
+    id="about_us_resources"
+    h1=page.subtitle
+    h2=page.title
+    content=""
+%}
+
+<p>Stuff here</p>
+{% if page.collection %}
+    <section id="services_grid">
+        <div class="grid-inner">
+            {% assign collection = site[page.collection] | sort: 'position' %}
+            {%- for card in collection -%}
+                {% include services_card.html card=card %}
+            {%- endfor -%}
+        </div>
+    </section>
+{% endif %}
