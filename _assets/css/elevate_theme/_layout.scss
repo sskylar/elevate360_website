@@ -694,7 +694,6 @@ a.nav-icon {
     padding: 6vw;
 
     @media all and (min-width: 1441px) {
-        display: block;
         padding: 90px;
     }
 
@@ -703,6 +702,10 @@ a.nav-icon {
         margin-bottom: 60px;
         width: 100%;
         max-width: 1090px;
+
+        @media all and (min-width: 2350px) {
+            max-width: 1400px
+        }
 
         @media screen and (max-width: 450px) {
             margin-bottom: 20px;
