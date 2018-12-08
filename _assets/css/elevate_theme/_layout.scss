@@ -1080,6 +1080,44 @@ section {
     }
 }
 
+.resources-top-list {
+    grid-template-columns: repeat(2, 1fr);
+
+    h1 {
+        &.small {
+            padding-top: 20px;
+        }
+    }
+    #resources_grid {
+        padding-top: 110px;
+        .grid-inner {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .card {
+        width: 100%;
+        .card-inner {
+            width: 100%;
+        }
+
+        .learn-more {
+            position: relative;
+            top: auto;
+            text-align: left;
+        }
+
+        .image {
+            display: block;
+            margin-bottom: 55px;
+            padding-bottom: percentage(375/510);
+            width: 100%;
+            background-position: center center;
+            background-size: cover;
+        }
+    }
+}
+
 .card,
 .blog-card {
     position: relative;
@@ -1330,6 +1368,7 @@ section.type2 {
 }
 
 #services_grid,
+#resources_grid,
 #staff_list {
     padding: 0;
     width: 100%;

@@ -10,18 +10,52 @@ layout: default
 %}
 
 <section class="resources-top-list">
-    <div>
-        <h1 class="small">Recent Blog Posts</h1>
-        {% if page.collection %}
-            <div id="services_grid">
-                <div class="grid-inner">
-                    {% assign collection = site[page.collection] | sort: 'position' %}
-                    {%- for card in collection -%}
-                        {% include services_card.html card=card %}
-                    {%- endfor -%}
+    <h1 class="small">Recent Blog Posts</h1>
+    <div id="resources_grid">
+        <div class="grid-inner">
+            {% assign publications = site.resources-publications | sort: 'position' %}
+            {% for card in publications | limit: 1 %}
+                {% assign card_image = card.image | remove_first: '/uploads/' | url_decode %}
+                <div class="card card-2-up has-link">
+                    <div class="card-inner">
+                        <span class="image" style="background-image: url('{% asset '{{ card_image }}' @path %}')">
+                            {{ card.title }}
+                        </span>
+                        <h4>Publications</h4>
+                        <p>{{ card.content }}</p>
+                    </div>
+                    <a href="/about-us/resources/publications" class="learn-more">Read More &#x2192;</a>
                 </div>
-            </div>
-        {% endif %}
+            {% endfor %}
 
+            {% assign media = site.resources-publications | sort: 'position' %}
+            {% for card in media | limit: 1 %}
+                {% assign card_image = card.image | remove_first: '/uploads/' | url_decode %}
+                <div class="card card-2-up has-link">
+                    <div class="card-inner">
+                        <span class="image" style="background-image: url('{% asset '{{ card_image }}' @path %}')">
+                            {{ card.title }}
+                        </span>
+                        <h4>Media</h4>
+                        <p>{{ card.content }}</p>
+                    </div>
+                    <a href="/about-us/resources/media" class="learn-more">See More &#x2192;</a>
+                </div>
+            {% endfor %}
+
+            {% comment %}
+            {% assign card_image = card.image | remove_first: '/uploads/' | url_decode %}
+            {% for card in page.service-cards %}
+                <div class="card card-3-up has-link" id="{{ card.page_slug }}">
+                    <div class="card-inner">
+                      <img src="{% asset '{{ card_image }}' @path %}" alt="{{ card.title }}">
+                      <h4>{{ card.title }}</h4>
+                      <p>{{ card.copy }}</p>
+                    </div>
+                    <a href="/services/{{ card.page_slug }}" class="learn-more">Learn More &#x2192;</a>
+                </div>
+            {% endfor %}
+            {% endcomment %}
+        </div>
     </div>
 </section>

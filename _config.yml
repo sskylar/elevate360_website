@@ -17,12 +17,10 @@ collections:
     output: true
   resources-media:
     title: Media
-    output: true
-    permalink: "/about-us/resources/media/:name/"
+    output: false
   resources-publications:
     title: Publications
-    output: true
-    permalink: "/about-us/resources/publications/:name/"
+    output: false
   staff:
     title: Staff
     output: true
