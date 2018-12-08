@@ -271,7 +271,7 @@ a.nav-icon {
         height: 28px;
         font-size: 36px;
         color: $dark-grey;
-        z-index: 1;
+        z-index: 22;
 
         &:hover {
             cursor: pointer;
@@ -1127,17 +1127,45 @@ section {
         padding: 60px 0 60px 0;
         width: 100%;
         border-bottom: 1px solid $avocado;
+
+        @media screen and (max-width: 450px) {
+            padding: 30px 0 50px 0;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+
         .item-inner {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 100%;
 
+            @media screen and (max-width: 450px) {
+                display: block;
+            }
+
             .item-content {
                 display: flex;
                 flex-basis: 76%;
                 justify-content: space-between;
                 align-items: flex-start;
+
+                @media screen and (max-width: 925px) {
+                    display: block;
+                    flex-basis: 70%;
+
+                    h3, p {
+                        width: 100%;
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    flex-basis: 65%;
+                }
+                @media screen and (max-width: 450px) {
+                    width: 100%;
+                    flex-basis: 100%;
+                }
             }
             h3, p {
                 display: block;
@@ -1146,6 +1174,13 @@ section {
             h3 {
                 font-size: 24px;
                 text-transform: uppercase;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+                @media screen and (max-width: 450px) {
+                    font-size: $small-font-size;
+                }
             }
             p {
                 position: relative;
@@ -1156,6 +1191,10 @@ section {
                     width: 100%;
                     text-align: right;
                 }
+
+                @media screen and (max-width: 450px) {
+                    font-size: $small-font-size;
+                }
             }
             .image {
                 display: block;
@@ -1163,6 +1202,21 @@ section {
                 flex-basis: 15%;
                 background-position: center center;
                 background-size: cover;
+
+                @media screen and (max-width: 925px) {
+                    padding-bottom: percentage((206 / 160) * .20);
+                    flex-basis: 20%;
+                }
+                @media screen and (max-width: 768px) {
+                    padding-bottom: percentage((206 / 160) * .25);
+                    flex-basis: 25%;
+                }
+                @media screen and (max-width: 450px) {
+                    margin-bottom: 20px;
+                    padding-bottom: percentage(375/510);
+                    width: 100%;
+                    flex-basis: 100%;
+                }
             }
         }
     }
