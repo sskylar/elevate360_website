@@ -4,14 +4,17 @@ timezone: America/New_York
 collections:
   about-us:
     title: About Us
-    output: true
+    output: false
   authors:
     title: Authors
     output: true
+  home:
+    title: Home
+    output: false
   how-we-treat:
-    title: How we Treat
+    title: How We Treat
     output: true
-    permalink: "/services/how-we-treat/:name/"
+    permalink: "/services/how-we-treat/:name"
   posts:
     title: Posts
     output: true
@@ -46,7 +49,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/blog/:title/"
+    permalink: "/blog/:title"
     author: 
     post_image: 
 - scope:

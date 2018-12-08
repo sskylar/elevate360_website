@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include section-type2.html
+    id=page.id
+    h1=page.h1
+    h2=page.h2
+    content=page.content
+%}
+
+<section class="contact-form-holder">
+    <div class="section-content">
+        <h3 class="callout">
+            Have questions or want to set up an appointment? We’d love to hear from you!  We aim to respond to all inquiries within 24 hours.
+        </h3>
+
+        <div class="form-holder">
+          {% include contact_form.html %}
+
+          <div class="message" style="display:none">
+            <p>
+                <strong>Your message has been sent!</strong>
+            </p>
+
+            <p>We will get back to you as soon as we can.</p>
+          </div>
+        </div>
+    </div>
+</section>
