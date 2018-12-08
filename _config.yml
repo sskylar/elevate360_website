@@ -15,9 +15,6 @@ collections:
     title: How We Treat
     output: true
     permalink: "/services/how-we-treat/:name/"
-  posts:
-    title: Posts
-    output: true
   resources-media:
     title: Media
     output: false
