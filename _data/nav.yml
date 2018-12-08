@@ -28,6 +28,8 @@ toc:
   subitems:
     - page: Our Staff
       url: /about-us/our-staff/
+    - page: Resources
+      url: /about-us/resources/
 
 - title: Blog
   url: /blog
