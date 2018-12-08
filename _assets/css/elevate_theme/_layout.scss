@@ -22,8 +22,8 @@
         transition: all 0.2s cubic-bezier(0.49, 0.99, 0.54, 0.98);
 
         &.why { max-height: 130px; }
-        &.services { max-height: 220px; }
-        &.about { max-height: 130px; }
+        &.services { max-height: 225px; }
+        &.about { max-height: 150px; }
     }
 
     @media screen and (max-width: 768px) {
@@ -271,7 +271,7 @@ a.nav-icon {
         height: 28px;
         font-size: 36px;
         color: $dark-grey;
-        z-index: 1;
+        z-index: 22;
 
         &:hover {
             cursor: pointer;
@@ -1041,7 +1041,8 @@ section {
 // =============  cards =============== //
 
 #service_cards,
-.recent-posts {
+.recent-posts,
+.resources-top-list {
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -1074,6 +1075,148 @@ section {
         .blog-card {
             &-3-up {
                 margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.resources-top-list {
+    grid-template-columns: repeat(2, 1fr);
+
+    h1 {
+        &.small {
+            padding-top: 20px;
+        }
+    }
+    #resources_grid {
+        padding-top: 110px;
+        .grid-inner {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .card {
+        width: 100%;
+        .card-inner {
+            width: 100%;
+        }
+
+        .learn-more {
+            position: relative;
+            top: auto;
+            text-align: left;
+        }
+
+        .image {
+            display: block;
+            margin-bottom: 55px;
+            padding-bottom: percentage(375/510);
+            width: 100%;
+            background-position: center center;
+            background-size: cover;
+        }
+    }
+}
+
+#resources_list {
+    display: block;
+    width: 100%;
+
+    .item {
+        display: block;
+        padding: 60px 0 60px 0;
+        width: 100%;
+        border-bottom: 1px solid $avocado;
+
+        @media screen and (max-width: 450px) {
+            padding: 30px 0 50px 0;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+
+        .item-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            @media screen and (max-width: 450px) {
+                display: block;
+            }
+
+            .item-content {
+                display: flex;
+                flex-basis: 76%;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                @media screen and (max-width: 925px) {
+                    display: block;
+                    flex-basis: 70%;
+
+                    h3, p {
+                        width: 100%;
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    flex-basis: 65%;
+                }
+                @media screen and (max-width: 450px) {
+                    width: 100%;
+                    flex-basis: 100%;
+                }
+            }
+            h3, p {
+                display: block;
+                flex-basis: 46%;
+            }
+            h3 {
+                font-size: 24px;
+                text-transform: uppercase;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+                @media screen and (max-width: 450px) {
+                    font-size: $small-font-size;
+                }
+            }
+            p {
+                position: relative;
+                a.learn-more {
+                    position: absolute;
+                    display: block;
+                    bottom: -40px;
+                    width: 100%;
+                    text-align: right;
+                }
+
+                @media screen and (max-width: 450px) {
+                    font-size: $small-font-size;
+                }
+            }
+            .image {
+                display: block;
+                padding-bottom: percentage((206 / 160) * .15);
+                flex-basis: 15%;
+                background-position: center center;
+                background-size: cover;
+
+                @media screen and (max-width: 925px) {
+                    padding-bottom: percentage((206 / 160) * .20);
+                    flex-basis: 20%;
+                }
+                @media screen and (max-width: 768px) {
+                    padding-bottom: percentage((206 / 160) * .25);
+                    flex-basis: 25%;
+                }
+                @media screen and (max-width: 450px) {
+                    margin-bottom: 20px;
+                    padding-bottom: percentage(375/510);
+                    width: 100%;
+                    flex-basis: 100%;
+                }
             }
         }
     }
@@ -1329,6 +1472,7 @@ section.type2 {
 }
 
 #services_grid,
+#resources_grid,
 #staff_list {
     padding: 0;
     width: 100%;

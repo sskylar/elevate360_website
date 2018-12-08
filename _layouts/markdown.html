@@ -10,15 +10,14 @@
 </head>
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
-    <div class="site">
 
+    <div class="site">
         <section class="content-page">
             {{ content }}
         </section>
-
     </div>
-    {% include footer.html %}
 
+    {% include footer.html %}
     {% include script.html %}
 </body>
 </html>
