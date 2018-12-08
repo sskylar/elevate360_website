@@ -1118,6 +1118,56 @@ section {
     }
 }
 
+#resources_list {
+    display: block;
+    width: 100%;
+
+    .item {
+        display: block;
+        padding: 60px 0 60px 0;
+        width: 100%;
+        border-bottom: 1px solid $avocado;
+        .item-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .item-content {
+                display: flex;
+                flex-basis: 76%;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            h3, p {
+                display: block;
+                flex-basis: 46%;
+            }
+            h3 {
+                font-size: 24px;
+                text-transform: uppercase;
+            }
+            p {
+                position: relative;
+                a.learn-more {
+                    position: absolute;
+                    display: block;
+                    bottom: -40px;
+                    width: 100%;
+                    text-align: right;
+                }
+            }
+            .image {
+                display: block;
+                padding-bottom: percentage((206 / 160) * .15);
+                flex-basis: 15%;
+                background-position: center center;
+                background-size: cover;
+            }
+        }
+    }
+}
+
 .card,
 .blog-card {
     position: relative;
