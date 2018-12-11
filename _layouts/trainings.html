@@ -9,12 +9,14 @@ layout: default
     content=""
 %}
 
+{% assign callout_h4 = "If you are interested in attending a training<br>or setting up a training at your program,<br>please call us at " | append: site.phone_number | append: "." %}
+{% assign phone_href = "tel:1-" | append: site.phone_number %}
 {% include section-callout.html
     h3="Call Us"
-    h4="If you are interested in attending a training<br>or setting up a training at your program,<br>please call us at 212-204-8430."
+    h4=callout_h4
     button_msg="Call Now"
     button_mobile="Call Now"
-    button_href="tel:1-212-204-8430"
+    button_href=phone_href
 %}
 
 <section id="services_grid">

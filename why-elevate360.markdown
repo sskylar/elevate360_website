@@ -4,7 +4,6 @@ date: 2018-10-25 00:41:00 -04:00
 layout: why_elevate360
 background-image: why_elevate360_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
-phone_number: 212-204-8430
 h2: In short, because we do treatment right.
 hero-content: Our professional staff uses proven therapeutic techniques and technology
   to provide care which aims to help each patient develop a meaningful life in recovery

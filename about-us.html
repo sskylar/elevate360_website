@@ -8,6 +8,7 @@ section-image-1: kari-shea-580156-unsplash@2x.jpg
 
 {% assign background_image = page.background-image | remove_first: '/uploads/' | url_decode %}
 {% assign section_image_1 = page.section-image-1 | remove_first: '/uploads/' | url_decode %}
+{% assign phone_number = site.phone_number %}
 
 {% include mobile_hero.html image=background_image message="Let’s Talk" %}
 
@@ -23,8 +24,8 @@ section-image-1: kari-shea-580156-unsplash@2x.jpg
             <p>
                 {{ about_us_hero.content }}
             </p>
-            <a href="tel:1-212-204-8430" class="button rounded only-desktop">{{ about_us_hero.phone_number }}</a>
-            <a href="tel:1-212-204-8430" class="button rounded only-mobile">{{ about_us_hero.action_button_label }}&nbsp;&#x260E;</a>
+            <a href="tel:1-{{ phone_number }}" class="button rounded only-desktop">{{ phone_number }}</a>
+            <a href="tel:1-{{ phone_number }}" class="button rounded only-mobile">{{ about_us_hero.action_button_label }}&nbsp;&#x260E;</a>
         </div>
     </div>
 </section>
