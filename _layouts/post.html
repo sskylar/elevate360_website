@@ -6,6 +6,8 @@ layout: default
     {% assign post_image = page.post_image | remove_first: '/uploads/' | url_decode %}
 {% endif %}
 
+{% assign content_with_phone_num = content | replace: "!PHONE_NUMBER!", site.phone_number %}
+
 <section class="post-holder">
     <div class="post">
         <header class="post-header">
@@ -24,7 +26,7 @@ layout: default
                 <p class="post-author">By <a href="{{ author.url }}">{{ page.author }}</a></p>
             {% endif %}
         </header>
-        
+
         {% if post_image %}
             <div class='hero-image'>
                 <div style="background-image: url('{% asset '{{ post_image }}' @path %}')" class="post-hero-image"></div>
@@ -32,7 +34,7 @@ layout: default
         {% endif %}
 
         <article class="post-content">
-            {{ content }}
+            {{ content_with_phone_num }}
         </article>
     </div>
 </section>

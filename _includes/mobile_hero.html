@@ -4,6 +4,6 @@
     <h2>{{ include.message }}</h2>
 </section>
 <div class="mobile-hero-call only-mobile">
-    <div id="phone">212-204-8430</div>
-    <div id="call-now"><a href="tel:1-212-204-8430">Call Now &#x260E;</a></div>        
+    <div id="phone">{{ site.phone_number }}</div>
+    <div id="call-now"><a href="tel:1-{{ site.phone_number }}">Call Now &#x260E;</a></div>
 </div>

@@ -7,13 +7,14 @@
     {% include head.html %}
     {% seo %}
     {% include page_image.html %}
+    {% assign content_with_phone_num = content | replace: "!PHONE_NUMBER!", site.phone_number %}
 </head>
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
 
     <div class="site">
         <section class="content-page">
-            {{ content }}
+            {{ content_with_phone_num }}
         </section>
     </div>
 

@@ -30,11 +30,12 @@ layout: default
 
 {% if page.footer-section %}
     {% assign footer = page.footer-section %}
+    {% assign content_with_phone_num = footer.copy | replace: "!PHONE_NUMBER!", site.phone_number %}
 
     {% include section-type2.html
         id="service_subfooter"
         h1=footer.title
         h2=footer.callout
-        content=footer.copy
+        content=content_with_phone_num
     %}
 {% endif %}

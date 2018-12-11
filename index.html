@@ -36,12 +36,14 @@ layout: default
         </div>
     </div>
 </section>
+{% assign callout_h4 = callout.h4 | append: site.phone_number %}
+{% assign phone_href = "tel:1-" | append: site.phone_number %}
 {% include section-callout.html
     h3=callout.h3
-    h4=callout.h4
-    button_msg=callout.button_msg
+    h4=callout_h4
+    button_msg=site.phone_number
     button_mobile=callout.button_mobile
-    button_href=callout.button_href
+    button_href=phone_href
 %}
 
 {% include section-type1.html

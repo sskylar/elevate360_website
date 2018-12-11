@@ -4,7 +4,7 @@ date: 2018-11-05 23:45:00 -05:00
 layout: markdown
 ---
 
-# Privacy Policy 
+# Privacy Policy
 
 *Effective date: November 06, 2018*
 
@@ -128,4 +128,4 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 If you have any questions about this Privacy Policy, please contact us:
 
 - By email: info@elevate360.com
-- By phone number: 212-204-8430
+- By phone: !PHONE_NUMBER!
