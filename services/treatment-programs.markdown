@@ -10,13 +10,6 @@ footer-section:
     and require screening or assessment services, call !PHONE_NUMBER! to get further
     information about our program or to schedule an appointment.
 callout: true
-footer:
-  title: DWI Screening & Assessment
-  callout: Several Elevate360 psychologists are OASAS approved providers of clinical
-    screening and assessment services for the NYS Impaired Driving Offender program.
-  copy: If you have been charged with or convicted of an impaired driving offense
-    and require screening or assessment services, call !PHONE_NUMBER! to get further
-    information about our program or to schedule an appointment.
 layout: services
 ---
 
