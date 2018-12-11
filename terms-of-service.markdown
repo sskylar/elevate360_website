@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
-subtitle: Terms of Service
 date: 2018-11-06 23:45:00 -05:00
+subtitle: Terms of Service
 layout: markdown
 ---
 

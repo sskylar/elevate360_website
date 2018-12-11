@@ -1,7 +1,7 @@
 ---
 title: FAQ
-subtitle: FAQ&#39;s
 date: 2018-11-05 23:45:00 -05:00
+subtitle: FAQ&#39;s
 layout: markdown
 class: faq
 ---
