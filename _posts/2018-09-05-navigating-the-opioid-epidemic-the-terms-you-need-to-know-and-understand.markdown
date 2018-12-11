@@ -1,6 +1,6 @@
 ---
 title: 'Navigating the Opioid Epidemic: The Terms You Need to Know and Understand'
-date: 2018-09-05 20:23:00 Z
+date: 2018-09-05 16:23:00 -04:00
 categories:
 - insights
 - blog
