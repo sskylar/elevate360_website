@@ -1,10 +1,9 @@
 ---
 title: Privacy Policy
+subtitle: Privacy Policy
 date: 2018-11-05 23:45:00 -05:00
 layout: markdown
 ---
-
-# Privacy Policy
 
 *Effective date: November 06, 2018*
 

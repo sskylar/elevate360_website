@@ -1,11 +1,10 @@
 ---
 title: FAQ
+subtitle: FAQ&#39;s
 date: 2018-11-05 23:45:00 -05:00
 layout: markdown
 class: faq
 ---
-
-# FAQ&#39;s
 
 1. **If I have a therapist already, do I have to give up my therapist to come to Elevate360?** Absolutely not!  The psychologists at Elevate360 welcome the opportunity to collaborate with outside practitioners whose patients would like to attend Elevate360 for specialized treatment while they continue to receive individual therapy, medication or other services from their outside therapist, psychiatrist or physician.
 
