@@ -1,16 +1,16 @@
 ---
 title: Why Elevate360?
 date: 2018-10-25 00:41:00 -04:00
-layout: why_elevate360
 background-image: why_elevate360_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
 h2: In short, because we do treatment right.
 hero-content: Our professional staff uses proven therapeutic techniques and technology
   to provide care which aims to help each patient develop a meaningful life in recovery
   that is more compelling than a life consumed with substance use.
+layout: why_elevate360
 ---
 
-In short, because we do treatment right. All of our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, compulsive behaviors, and other psychological issues.
+In short, because we do treatment right. All of our clinicians are doctorate level psychologists trained in providing care not only for substance use disorders, but also for the mental health issues that often occur along with alcohol and drug use which include depression, anxiety, trauma, chronic pain, and other psychological issues.
 
 According to the Substance Abuse and Mental Health Services Administration (SAMHSA), only about 10% of people struggling with addiction receive specialty addiction treatment.  Of those who engage in care, only a tiny percentage receive evidence-based care.  Comparatively, approximately 75% of people with high blood pressure and diabetes receive evidence-based treatments. Part of the reason for this is that the majority of addiction treatment staff providing care in the United States lack the knowledge, training, and education required to offer effective evidence-based treatments.  
 
