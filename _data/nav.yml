@@ -30,6 +30,8 @@ toc:
       url: /about-us/our-staff/
     - page: Resources
       url: /about-us/resources/
+    - page: Contact Us
+      url: /contact/
 
 - title: Blog
   url: /blog
