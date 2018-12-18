@@ -2,7 +2,7 @@
 title: |-
   The Opioid Crisis Has Entered the Workforce:
   What Is an Employer to Do?
-date: 2018-10-10 17:56:00 Z
+date: 2018-10-10 13:56:00 -04:00
 categories:
 - insights
 - blog
@@ -14,6 +14,7 @@ tags:
 - healthcare savings
 author: Sarah Church, Ph.D.
 post_image: "/uploads/Opioids%20in%20the%20Workplace-69d5b5.jpg"
+seo_keywords: opioids, workplace wellness, overdose, treatment, healthcare savings
 ---
 
 *As rates of opioid addiction and substance abuse continue to grow in the United States, the crisis is also beginning to negatively impact employers. A recent [New York Times article highlighted startling increases in overdoses](https://www.nytimes.com/2018/09/21/business/economy/opioid-overdose-workplace.html) in workplaces throughout the country. The National Safety Council reports that 70 percent of companies acknowledge being impacted by employees affected by prescription drug misuse — a development that drives absenteeism, accidents, injuries and other problematic behavior. In 2016, companies reportedly spent $2.6 billion for treatment of opioid abuse, a figure that doesn’t include additional losses due to performance issues and employee turnover. Dr. Sarah Church, the Founder of Elevate360, recently shared ways for employers to address the issues they face.*
