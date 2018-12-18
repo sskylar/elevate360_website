@@ -50,8 +50,9 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author:
-    post_image:
+    author: 
+    post_image: 
+    seo_keywords: 
 - scope:
     path: ''
     type: pages
@@ -67,6 +68,7 @@ defaults:
     medium:
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
+seo_site_keywords: addiction, addiction treatment
 url: https://elevate360.com
 phone_number: 212-204-8430
 show_excerpts: false
@@ -77,6 +79,7 @@ twitter:
 facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
+google_site_verification: XROlpfU_puNhq8kTgeSRd0oNdoPjLsWeiDpjmUScYbQ
 mailchimp_url: https://elevate360.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
 formcarry_form_id: s1U09JSk80i
 formcarry_email_subject: An email from your website!
