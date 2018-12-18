@@ -12,6 +12,7 @@ tags:
 - heroin
 author: Sarah Church, Ph.D.
 post_image: "/uploads/Demi%20Lovato.jpg"
+image_alt_text: "Demi Lovato"
 ---
 
 Countless fans, well-wishers and music lovers all over the world were waiting to learn more and understand what happened to Demi. Was it heroin? How close did she come to death? Will she enter treatment? What really happened?
