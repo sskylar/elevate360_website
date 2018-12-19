@@ -90,6 +90,7 @@ plugins:
 - jekyll-assets
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-feed
 exclude:
 - Gemfile.lock
 - node_modules
