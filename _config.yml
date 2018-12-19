@@ -91,6 +91,7 @@ plugins:
 - jekyll-assets
 - jekyll-seo-tag
 - jekyll-sitemap
+- jekyll-feed
 exclude:
 - Gemfile.lock
 - node_modules
@@ -98,3 +99,7 @@ exclude:
 - ".ruby-version"
 - README.md
 - Rakefile
+breadcrumbs:
+  root:
+    hide: true
+    image: false

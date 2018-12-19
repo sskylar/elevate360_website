@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta name="keywords" content="{{ keywords }}">
+    {% feed_meta %}
 
     {% include head.html %}
     {% seo %}
@@ -16,6 +17,7 @@
 </head>
 <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     {% include header.html %}
+    {% include nav-breadcrumbs.html %}
 
     <div class="site" id="{{ page.title | downcase | replace: ' ', '-' }}">
         {{ content }}
