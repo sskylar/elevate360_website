@@ -4,6 +4,7 @@ layout: default
 
 {% if page.post_image %}
     {% assign post_image = page.post_image | remove_first: '/uploads/' | url_decode %}
+    {% assign alt_text = page.image_alt_text %}
 {% endif %}
 
 {% assign content_with_phone_num = content | replace: "!PHONE_NUMBER!", site.phone_number %}
@@ -29,7 +30,10 @@ layout: default
 
         {% if post_image %}
             <div class='hero-image'>
-                <div style="background-image: url('{% asset '{{ post_image }}' @path %}')" class="post-hero-image"></div>
+                <div style="background-image: url('{% asset '{{ post_image }}' @path %}')"
+                     class="post-hero-image"
+                     role="img" aria-label="{{ alt_text }}">
+                 </div>
             </div>
         {% endif %}
 

@@ -11,6 +11,7 @@ tags:
 - medication assisted treatment
 author: Sarah Church, Ph.D.
 post_image: "/uploads/Navigating%202.jpg"
+image_alt_text: feet with arrows pointing several directions
 layout: post
 ---
 

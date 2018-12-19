@@ -14,6 +14,7 @@ tags:
 - healthcare savings
 author: Sarah Church, Ph.D.
 post_image: "/uploads/Opioids%20in%20the%20Workplace-69d5b5.jpg"
+image_alt_text: man holding glass of water next to several pills
 seo_keywords: opioids, workplace wellness, overdose, treatment, healthcare savings
 ---
 
@@ -38,7 +39,7 @@ share responsibility for keeping each other safe and healthy.
 
 1. Start by acknowledging that substance misuse can have a serious impact on the
 workplace.
- 
+
 2. Inform employees that you have a drug-free workplace policy and program during
 onboarding and periodically afterward.
 
