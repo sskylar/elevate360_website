@@ -3,7 +3,9 @@ title: Our Technology
 date: 2018-10-28 11:51:00 -04:00
 layout: our_technology
 background-image: hero-technology@2x.jpg
+background-image-alt-text: leafy plant
 section-image-1: chess-photo@2x.jpg
+section-image-1-alt-text: happy man looking at phone
 h2: Connections Mobile App
 h3: Elevate360 partnered with CHESS Health to provide the Connections mobile app to
   our patients.

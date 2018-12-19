@@ -1,6 +1,10 @@
 {% assign background_image = include.image | remove_first: '/uploads/' | url_decode %}
+{% assign alt_text = include.image_alt_text %}
 
-<section class="mobile-hero only-mobile" style="background-image: url('{% asset '{{ background_image }}' @path %}')">
+<section class="mobile-hero only-mobile"
+         style="background-image: url('{% asset '{{ background_image }}' @path %}')"
+         role="img"
+         aria-label="{{ image_alt_text }}">
     <h2>{{ include.message }}</h2>
 </section>
 <div class="mobile-hero-call only-mobile">
