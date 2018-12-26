@@ -1,6 +1,9 @@
 ---
 title: What parents (and everyone else!) should know about Juuling (Vaping)
 date: 2018-12-26 07:01:00 -05:00
+categories:
+- insights
+- blog
 tags:
 - juuling
 - smoking
