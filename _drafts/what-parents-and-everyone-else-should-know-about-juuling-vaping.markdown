@@ -18,7 +18,7 @@ You’ve probably heard a lot about teen vaping and Juuling in the news lately. 
 
 **So what is JUUL?**
 
-JUUL (pronouced like "jewel") is a private company that is one of the largest playres in the e-cigarette market.  They make a vaping device that looks like a flash drive, can be charged in any USB charging device, and comes in flavors like creme brulee, fruit medley and cool cucumber.
+JUUL (pronouced like "jewel") is a private company that is one of the largest players in the e-cigarette market.  They make a vaping device that looks like a flash drive, can be charged in any USB charging device, and comes in flavors like creme brulee, fruit medley and cool cucumber.
 
 **What is JUULing? **
 
