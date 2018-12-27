@@ -28,11 +28,11 @@ Juuling or vaping is when someone uses an e-cigarette by inhaling and exhaling t
 
 The jury is still out on this question.  While many e-cigarette companies discuss the safety of e-cigs over combustible cigarettes, we really don't know yet.  Because e-cigs are relatively new to the market, very few research studies have been conducted to determine the long-term effects of vaping.
 
-What we know for sure is that e-cigs contain high levels of nicotine and are therefore addictive.  We also know that people who try smoking at a younger age are more likely to develop dependence on nicotine and to have trouble quitting  Also, teens who use e-cigs like Juul are much more likely to start smoking cigarettes.
+What we know for sure is that e-cigs contain high levels of nicotine and are therefore addictive.  We also know that people who try smoking at a younger age are more likely to develop dependence on nicotine and to have trouble quitting.  Also, teens who use e-cigs like Juul are much more likely to start smoking cigarettes.
 
 An additional concern has arisen because the metal coils in vaping devices release small metal flakes when heated. When inhaled, these metal flakes travel deep into the lungs where they cause inflammation and can result in symptoms resembling asthma.
 
-Also, the e-liquid contains many chemicals which often include propylene glycol and glycerol, which when heated, break down to formaldehyde, a known carcinogen . Surprisingly, there is about much more formaldehyde in vapor than cigarette smoke.
+Also, the e-liquid contains many chemicals which often include propylene glycol and glycerol, which when heated, break down to formaldehyde, a known carcinogen. Surprisingly, there is much more formaldehyde in vapor than cigarette smoke.
 
 **Do you remember Joe Camel?**
 
@@ -42,7 +42,7 @@ Joe Camel was an advertising campaign for Camel cigarettes that ran from 1988-19
 
 Currently, high rates of teens, about 70%, report seeing advertising for e-cigs across multiple channels including, tv, newspaper, magazine ads, internet, and retail.  In 2016 advertising e-cigs directly to teens was banned, but online advertising is not regulated in the same way and often reaches teens who click on ads unknowingly.
 
-As rates of teen e-cig rise to concerning rates, the US government and the public increased pressure on Juul.  In November 2018 Juul voluntarily agreed to stop selling their flavored pods at retail stores and agreed to discontinue social media promotions. However, critics state that young users continue to post on their social media accounts, so Juul no longer needs to do their own advertising because teen users are doing it for them.  Teens end up being exposed to information about vaping on social media regularly.
+As rates of teen e-cig rise to concerning rates, the US government and the public increased pressure on Juul.  In November 2018 Juul voluntarily agreed to stop selling most of their flavored pods at retail stores and agreed to discontinue social media promotions. However, critics state that young users continue to post on their social media accounts, so Juul no longer needs to do their own advertising because teen users are doing it for them.  Teens end up being exposed to information about vaping on social media regularly.
 
 **What to tell your kids about vaping?**
 
