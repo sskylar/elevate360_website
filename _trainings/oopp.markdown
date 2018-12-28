@@ -4,6 +4,7 @@ date: 2018-12-06 15:13:00 -05:00
 tags:
 - overdose prevention
 - opioid overdose
+- naloxone
 position: 1
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
