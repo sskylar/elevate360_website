@@ -31,7 +31,7 @@ toc:
     - page: Resources
       url: /about-us/resources/
     - page: Contact Us
-      url: /contact/
+      url: /about-us/contact/
 
 - title: Blog
   url: /blog
