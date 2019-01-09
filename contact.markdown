@@ -4,6 +4,7 @@ date: 2018-10-31 14:17:00 -04:00
 layout: contact
 h1: Contact
 h2: Contact Us
+include_phone_number: true
 id: contact_intro
 ---
 
