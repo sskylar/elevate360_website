@@ -4,6 +4,12 @@ toc:
   url: /why-elevate360/
   class: why
   subitems:
+    - page: How We Treat
+      url: /why-elevate360/how-we-treat/
+    - page: Therapies Used
+      url: /why-elevate360/therapies-used/
+    - page: Our Technology
+      url: /why-elevate360/our-technology/
     - page: Frequently Asked Questions
       url: /why-elevate360/faq/
 
@@ -13,14 +19,8 @@ toc:
   subitems:
     - page: Treatment Programs
       url: /services/treatment-programs/
-    - page: How We Treat
-      url: /services/how-we-treat/
-    - page: Therapies Used
-      url: /services/therapies-used/
     - page: Trainings
       url: /services/trainings-for-clinicians/
-    - page: Our Technology
-      url: /services/our-technology/
 
 - title: About Us
   url: /about-us/
