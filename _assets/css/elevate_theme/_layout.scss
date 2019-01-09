@@ -1731,6 +1731,11 @@ section#service_subfooter {
 
 
 // =============  contact =============== //
+#contact_intro {
+  max-height: 18em;
+  min-width: 300px;
+}
+
 #contact_intro, .contact-form-holder {
     padding: 5vw;
 }
