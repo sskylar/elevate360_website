@@ -1,32 +1,24 @@
 ---
 layout: default
 collection: group-psychotherapy
+title: Group Psychotherapy Offerings
+back_href: "/services/treatment-programs"
+back_title: Treatment Programs
+
 ---
 
-{% comment %}
-This page is the same as Tertiary layout, but iterate through the collection.
-{% endcomment %}
+{% assign collection = site[page.collection] | sort: 'position' %}
 
-{% assign collection = site[page.collection] %}
 {% for doc in collection %}
+  {% assign content_with_phone_num = doc.content | replace: '!PHONE_NUMBER!', site.phone_number %}
   <section class="content-page tertiary">
     <header>
-      {% if page.back_href %}
-        <p class="back-link">
-          <a href="{{ page.back_href }}">&#x2190; Back{% if page.back_title %} to {{ page.back_title }}{% endif %}</a>
-        </p>
-      {% endif %}
-      <h1 class="small">{% if page.full_title %}{{ page.full_title }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h1 class="small">{{ doc.title }}</h1>
+      <h4>{{ doc.meeting_time }}</h4>
     </header>
     <article>
-      {% if page.photo %}
-        {% assign page_photo = page.photo | remove_first: '/uploads/' | url_decode %}
-        <div class="page-photo{% if page.photo_left == true %} photo-left{% endif %}">
-          <img src="{% asset '{{ page_photo }}' @path %}" alt="{% if page.photo_alt %}{{ page.photo_alt }}{% else %}{{ page.title }}{% endif %}">
-        </div>
-      {% endif %}
       <div class="tertiary-content-inner">
-        {{ doc.content }}
+        {{ content_with_phone_num }}
       </div>
     </article>
   <section>

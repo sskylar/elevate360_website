@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{% assign content_with_phone_num = page.content | replace: '!PHONE_NUMBER!', site.phone_number %}
 
 {% include section-type2.html
     id="service_subsection_header"
     h1="Our Services"
     h2=page.title
-    content=content
+    content=content_with_phone_num
 %}
 
 <section id="services_grid">
