@@ -1,11 +1,11 @@
 ---
 title: Women’s Mindfulness Support Network
+meeting_time: Wednesdays 11:00am-12:30pm
 date: 2019-01-24 16:22:00 -04:00
-position: 1
+position: 2
 back_href: "/services/treatment-programs"
 back_title: Treatment Programs
 layout: tertiary
 ---
 
-Wednesdays at 11:00am-12:30pm
-We’re delighted to share that we are recruiting patients for our eight-week mindfulness-based psychotherapy group for women who are interested in exploring their relationship with alcohol. Dr. Jennifer Smith will lead this group in their discussions examining the positive and negative consequences of alcohol use in their lives and will integrate mindfulness meditation practices into an exploration of motivation to change and traditional relapse prevention. Each week will incorporate a variety of techniques utilizing in mindfulness-based addiction treatment which include ‘awareness of breath’, progressive muscle relaxation, and ‘body scan’. Goals for the group members will be individualized and may include a reduction in stress and increased ability to respond to negative thoughts, sensations, and emotions with an attitude of nonjudgmental, acceptance, and present-moment awareness.  Participants will be asked to share their struggles and solution suggestions with one another -as much as they are comfortable to do so.  “Homework” assignments will be given each week as increased practice of mindfulness is associated with improved outcome. 
+We’re delighted to share that we are recruiting patients for our eight-week mindfulness-based psychotherapy group for women who are interested in exploring their relationship with alcohol. Dr. Jennifer Smith will lead this group in their discussions examining the positive and negative consequences of alcohol use in their lives and will integrate mindfulness meditation practices into an exploration of motivation to change and traditional relapse prevention. Each week will incorporate a variety of techniques utilizing in mindfulness-based addiction treatment which include ‘awareness of breath’, progressive muscle relaxation, and ‘body scan’. Goals for the group members will be individualized and may include a reduction in stress and increased ability to respond to negative thoughts, sensations, and emotions with an attitude of nonjudgmental, acceptance, and present-moment awareness.  Participants will be asked to share their struggles and solution suggestions with one another -as much as they are comfortable to do so.  “Homework” assignments will be given each week as increased practice of mindfulness is associated with improved outcome.
