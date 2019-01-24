@@ -1,10 +1,7 @@
 ---
 title: Psychodynamic Therapy Group for Substance Use Issues
 meeting_time: Tuesdays 6:00pm-7:00pm  
-date: 2019-01-24 16:24:00 -04:00
 position: 4
-back_href: "/services/treatment-programs"
-back_title: Treatment Programs
 layout: tertiary
 ---
 

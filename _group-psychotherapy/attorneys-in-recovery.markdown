@@ -1,10 +1,7 @@
 ---
 title: Attorneys in Recovery
 meeting_time: Thursdays 6:00pm-7:00pm
-date: 2019-01-24 16:22:00 -04:00
 position: 5
-back_href: "/services/treatment-programs"
-back_title: Treatment Programs
 layout: tertiary
 ---
 

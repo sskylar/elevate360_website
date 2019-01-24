@@ -1,7 +1,6 @@
 ---
 title: CBT Relapse Prevention Group
 meeting_time: Mondays 12:30pm-2:00pm  
-date: 2019-01-24 16:24:00 -04:00
 position: 3
 layout: tertiary
 ---

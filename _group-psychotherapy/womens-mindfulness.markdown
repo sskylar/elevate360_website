@@ -1,10 +1,7 @@
 ---
 title: Women’s Mindfulness Support Network
 meeting_time: Wednesdays 11:00am-12:30pm
-date: 2019-01-24 16:22:00 -04:00
 position: 2
-back_href: "/services/treatment-programs"
-back_title: Treatment Programs
 layout: tertiary
 ---
 

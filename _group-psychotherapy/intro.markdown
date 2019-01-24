@@ -1,10 +1,7 @@
 ---
 title: Group Psychotherapy Offerings
 meeting_time:
-date: 2019-01-24 16:24:00 -04:00
 position: 1
-back_href: "/services/treatment-programs"
-back_title: Treatment Programs
 layout: tertiary
 ---
 
