@@ -17,6 +17,8 @@ full_title: A longer title than you want in the <title> tag
 The `back_title` and `photo_alt` are not used if their respect `back_href` and `photo` are not utilized.
 {% endcomment %}
 
+{% assign content_with_phone_num = page.content | replace: '!PHONE_NUMBER!', site.phone_number %}
+
 <section class="content-page tertiary">
   <header>
     {% if page.back_href %}
@@ -34,7 +36,7 @@ The `back_title` and `photo_alt` are not used if their respect `back_href` and `
       </div>
     {% endif %}
     <div class="tertiary-content-inner">
-      {{ content }}
+      {{ content_with_phone_num }}
     </div>
   </article>
 <section>

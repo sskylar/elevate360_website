@@ -1,9 +1,11 @@
+{% assign excerpt_with_phone_num = include.card.excerpt | replace: '!PHONE_NUMBER!', site.phone_number %}
+
 <div class="card services-card">
     <div class="card-inner">
       <h4>{{ include.card.title }}</h4>
-      {{ include.card.excerpt }}
+      {{ excerpt_with_phone_num }}
     </div>
-    {% if  include.card.content.size > include.card.excerpt.size %}
+    {% if include.card.content.size > include.card.excerpt.size %}
         <a href="{{ include.card.url }}" class="learn-more">Learn More &#x2192;</a>
     {% endif %}
 </div>

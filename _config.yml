@@ -8,6 +8,9 @@ collections:
   authors:
     title: Authors
     output: true
+  group-psychotherapy:
+    title: Group Psychotherapy
+    output: false
   home:
     title: Home
     output: false
@@ -50,9 +53,9 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author: 
-    post_image: 
-    seo_keywords: 
+    author:
+    post_image:
+    seo_keywords:
 - scope:
     path: ''
     type: pages
@@ -65,7 +68,7 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment
