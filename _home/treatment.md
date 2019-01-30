@@ -5,4 +5,4 @@ h1: Our Promise
 h2: Professional treatment that works.
 ---
 
-We have a deeply held belief that people struggling with addiction deserve professional respectful treatment that works.
+We have a deeply held belief that people struggling with addiction deserve professional treatment that works.
