@@ -7,7 +7,7 @@ categories:
 - opioid use disorder
 - medications
 position: 2
-image: "/uploads/media-initial.jpg"
+image: "/uploads/TIP%2063.jpg"
 link: https://store.samhsa.gov/system/files/sma18-5063fulldoc.pdf
 ---
 
