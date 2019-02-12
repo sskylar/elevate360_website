@@ -8,6 +8,7 @@ photo: staff/roger-chong@2x.jpg
 photo_left: true
 back_href: "/about-us/our-staff"
 back_title: Our Staff
+show_zencare: false
 layout: tertiary
 ---
 

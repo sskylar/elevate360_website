@@ -9,6 +9,7 @@ photo_left: true
 back_href: "/about-us/our-staff"
 back_title: Our Staff
 video_src: https://www.youtube.com/embed/dWVLIr5VZzQ
+show_zencare: true
 layout: tertiary
 ---
 
