@@ -14,6 +14,9 @@ collections:
   home:
     title: Home
     output: false
+    seo_keywords: |-
+      private outpatient drug rehab centers, outpatient substance abuse treatment near me, outpatient drug rehab programs,
+      intensive outpatient program near me, outpatient rehab for substance abuse, Outpatient addiction treatment Midtown Manhattan, drug Rehab Midtown Manhattan, intensive outpatient program Midtown Manhattan, IOP near me, alcohol counseling near me
   how-we-treat:
     title: How We Treat
     output: true
