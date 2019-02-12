@@ -7,13 +7,9 @@ h2: In short, because we do treatment right.
 hero-content: Our professional staff uses proven therapeutic techniques and technology
   to provide care which aims to help each patient develop a meaningful life in recovery
   that is more compelling than a life consumed with substance use.
-seo_keywords: 'private outpatient drug rehab centers, outpatient substance abuse treatment
-  near me, outpatient drug rehab programs, intensive outpatient program near me, outpatient
-  rehab for substance abuse, Outpatient addiction treatment Midtown Manhattan, drug
-  Rehab Midtown Manhattan, intensive outpatient program Midtown Manhattan, IOP near
-  me, alcohol counseling near me
-
-'
+seo_keywords: "therapeutic techniques, therapeutic techniques for anxiety, evidence
+  based treatment addiction Manhattan, Addiction psychologists, Addiction experts,
+  Science-based health technology\n\n"
 layout: why_elevate360
 ---
 
