@@ -48,7 +48,7 @@ The `back_title` and `photo_alt` are not used if their respect `back_href` and `
       <div class="page-photo{% if page.photo_left == true %} photo-left{% endif %}">
         <img src="{% asset '{{ page_photo }}' @path %}" alt="{% if page.photo_alt %}{{ page.photo_alt }}{% else %}{{ page.title }}{% endif %}">
         {% if zencare_slug %}
-        <a href="https://zencare.co/{{ zencare_slug }}" target="_blank" class="zencare-logo">
+        <a href="https://zencare.co/{{ zencare_slug }}" target="_blank" class="zencare-logo only-desktop">
           <div class="zencareLogo" style="max-width: 200px; text-align: center; margin: auto; margin-top:20px;">
             <img src="https://s3.us-east-2.amazonaws.com/zencare/therapist_site/web+badges/zencare_therapist_turquoise_full_transparent.png" style="max-width: 200px;" alt="Zencare Trusted Therapist {{ page.title }}">
           </div>
