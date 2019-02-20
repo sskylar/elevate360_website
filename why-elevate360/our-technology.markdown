@@ -1,5 +1,7 @@
 ---
 title: Our Technology
+seo_keywords:
+seo_description:
 date: 2018-10-28 11:51:00 -04:00
 layout: our_technology
 background-image: hero-technology@2x.jpg
