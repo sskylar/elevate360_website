@@ -1,9 +1,9 @@
 ---
 title: Cognitive Behavioral Therapy (CBT)
-seo_description:
-seo_keywords:
 date: 2018-09-07 16:22:00 -04:00
 position: 1
+seo_description: 
+seo_keywords: 
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary

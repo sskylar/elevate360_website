@@ -1,9 +1,9 @@
 ---
 title: Individual Psychotherapy
-seo_keywords:
-seo_description:
 date: 2018-09-07 16:22:00 -04:00
 position: 3
+seo_keywords: 
+seo_description: 
 back_href: "/why-elevate360/how-we-treat/"
 back_title: How We Treat
 layout: tertiary

@@ -1,13 +1,13 @@
 ---
 title: Opioid Overdose Prevention Program (OOPP)
-seo_keywords:
-seo_description:
 date: 2018-12-06 15:13:00 -05:00
 tags:
 - overdose prevention
 - opioid overdose
 - naloxone
 position: 1
+seo_keywords: 
+seo_description: 
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
 layout: tertiary

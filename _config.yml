@@ -4,27 +4,22 @@ timezone: America/New_York
 collections:
   about-us:
     title: About Us
-    page_title: About Us
     output: false
-    seo_description:
-    seo_keywords:
+    page_title: About Us
   authors:
     title: Authors
     output: true
   group-psychotherapy:
     title: Group Psychotherapy
-    page_title: Group Psychotherapy
     output: false
-    seo_description:
-    seo_keywords:
+    page_title: Group Psychotherapy
   home:
     title: Home
+    output: false
     page_title: Welcome to Elevate360 Wellness
-    seo_description:
     seo_keywords: |-
       private outpatient drug rehab centers, outpatient substance abuse treatment near me, outpatient drug rehab programs,
       intensive outpatient program near me, outpatient rehab for substance abuse, Outpatient addiction treatment Midtown Manhattan, drug Rehab Midtown Manhattan, intensive outpatient program Midtown Manhattan, IOP near me, alcohol counseling near me
-    output: false
   how-we-treat:
     title: How We Treat
     output: true
@@ -64,10 +59,10 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author:
-    post_image:
-    seo_description:
-    seo_keywords:
+    author: 
+    post_image: 
+    seo_description: 
+    seo_keywords: 
 - scope:
     path: ''
     type: pages
@@ -80,7 +75,7 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium:
+    medium: 
 description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment

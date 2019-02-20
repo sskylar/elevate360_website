@@ -1,8 +1,8 @@
 ---
 title: Our Technology
-seo_keywords:
-seo_description:
 date: 2018-10-28 11:51:00 -04:00
+seo_keywords: 
+seo_description: 
 layout: our_technology
 background-image: hero-technology@2x.jpg
 section-image-1: chess-photo@2x.jpg

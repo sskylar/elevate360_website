@@ -1,9 +1,9 @@
 ---
 title: Psychological Treatment for Chronic Pain
-seo_keywords:
-seo_description:
 date: 2018-09-07 16:22:00 -04:00
 position: 6
+seo_keywords: 
+seo_description: 
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary

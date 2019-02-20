@@ -1,13 +1,13 @@
 ---
 title: Motivational Interviewing Training
-seo_keywords:
-seo_description:
 date: 2018-09-07 16:22:00 -04:00
 tags:
 - motivational interviewing
 - behavior change
 - clinician training
 position: 3
+seo_keywords: 
+seo_description: 
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
 layout: tertiary
