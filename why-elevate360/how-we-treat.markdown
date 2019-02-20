@@ -1,5 +1,7 @@
 ---
 title: How We Treat
+seo_keywords:
+seo_description:
 date: 2018-10-28 11:51:00 -04:00
 collection: how-we-treat
 layout: services
