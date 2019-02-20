@@ -4,7 +4,8 @@
 
 {% assign seo_source_collection = site.collections | where: "title", page.seo_source_collection | first %}
 {% if seo_source_collection %}
-{% assign keywords = seo_source_collection.seo_keywords %}
+  {% assign keywords = seo_source_collection.seo_keywords %}
+  {% assign description = seo_source_collection.seo_description %}
 {% endif %}
 
 {% if page['seo_keywords'] %}
