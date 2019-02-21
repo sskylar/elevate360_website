@@ -13,9 +13,7 @@ photo_left: true
 back_href: /services/trainings-for-clinicians
 back_title: Trainings
 full_title: A longer title than you want in the <title> tag
-
 video_src: The URL of the YouTube video to embed.  If omitted, no YouTube video will be embedded.
-
 show_zencare: Whether to show the link to the Zencare profile.
 zencare_slug: Normally not needed.  The slug is generated automatically from the page title, e.g. "Amy Colley" becomes amy-colley.
 A value in zencare_slug will override the automatically generated slug.
@@ -25,11 +23,16 @@ The `back_title` and `photo_alt` are not used if their respect `back_href` and `
 {% endcomment %}
 
 {% assign content_with_phone_num = page.content | replace: '!PHONE_NUMBER!', site.phone_number %}
+
 {% if page.show_zencare %}
   {% assign zencare_slug = page.title | slugify %}
   {% if page.zencare_slug %}
     {% assign zencare_slug = page.zencare_slug %}
   {% endif %}
+{% endif %}
+
+{% if page.photo %}
+  {% assign page_photo = page.photo | remove_first: '/uploads/' | url_decode %}
 {% endif %}
 
 
@@ -42,10 +45,9 @@ The `back_title` and `photo_alt` are not used if their respect `back_href` and `
     {% endif %}
     <h1 class="small">{% if page.full_title %}{{ page.full_title }}{% else %}{{ page.title }}{% endif %}</h1>
   </header>
-  <article>
-    {% if page.photo %}
-      {% assign page_photo = page.photo | remove_first: '/uploads/' | url_decode %}
-      <div class="page-photo{% if page.photo_left == true %} photo-left{% endif %}">
+  <article class="float-on-mobile">
+    {% if page_photo %}
+      <div class="only-desktop page-photo{% if page.photo_left == true %} photo-left{% endif %}">
         <img src="{% asset '{{ page_photo }}' @path %}" alt="{% if page.photo_alt %}{{ page.photo_alt }}{% else %}{{ page.title }}{% endif %}">
         {% if zencare_slug %}
         <a href="https://zencare.co/{{ zencare_slug }}" target="_blank" class="zencare-logo only-desktop">
@@ -57,6 +59,11 @@ The `back_title` and `photo_alt` are not used if their respect `back_href` and `
       </div>
     {% endif %}
     <div class="tertiary-content-inner">
+      {% if page_photo %}
+        <div class="only-mobile page-photo{% if page.photo_left == true %} photo-left{% endif %}">
+          <img src="{% asset '{{ page_photo }}' @path %}" alt="{% if page.photo_alt %}{{ page.photo_alt }}{% else %}{{ page.title }}{% endif %}">
+        </div>
+      {% endif %}
       {{ content_with_phone_num }}
       {% if page.video_src %}
       <div class="video-embed only-desktop">

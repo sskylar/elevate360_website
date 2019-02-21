@@ -367,6 +367,18 @@ a.nav-icon {
                 }
             }
 
+            @media screen and (max-width: 768px) {
+              article.float-on-mobile {
+                display: initial;
+
+                .page-photo {
+                  float: left;
+                  width: 40%;
+                  margin-right: 10px;
+                }
+              }
+            }
+
             article {
                 display: flex;
                 align-items: flex-start;
@@ -381,6 +393,7 @@ a.nav-icon {
 
                     &.photo-left {
                         order: -1;
+                        margin-right: 1em;
                     }
 
                     img {
