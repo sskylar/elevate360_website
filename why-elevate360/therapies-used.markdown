@@ -1,8 +1,9 @@
 ---
 title: Therapies Used
 date: 2018-10-28 11:51:00 -04:00
-seo_keywords: 
-seo_description: 
+seo_title: Motivational Interviewing & Supportive Expressive Therapy
+seo_keywords: motivational interviewing, motivational interviewing Midtown Manhattan, cognitive behavioral therapy, mindfulness based relapse prevention, community reinforcement approach, supportive expressive therapy, supportive expressive psychotherapy, psychodynamic therapy interventions
+seo_description: Motivational Interviewing and Supportive Expressive Therapy are research-backed therapies that are effective in treating addiction and behavioral issues.
 collection: therapies-used
 footer-section:
   title: Therapies Used

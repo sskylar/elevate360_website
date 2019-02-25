@@ -1,8 +1,9 @@
 ---
 title: Services
 date: 2018-10-28 11:47:00 -04:00
-seo_description: 
-seo_keywords: 
+seo_title: Comprehensive treatment center for mental health and substance abuse NY
+seo_description: Our comprehensive treatment program aims to be interesting, engaging, accessible and fun for patients. We assist in increasing patients’ internal motivation.
+seo_keywords: comprehensive treatment center, mental health and substance abuse ny
 layout: services_main
 h2: Compassionate care, effectively done
 background-image: aaron-burson-242126-fullwidth@2x.jpg

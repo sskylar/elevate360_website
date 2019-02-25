@@ -2,8 +2,9 @@
 title: Group Psychotherapy
 date: 2018-09-07 16:22:00 -04:00
 position: 4
-seo_keywords: 
-seo_description: 
+seo_title: Group Therapy for Alcohol and Drug Addiction | Midtown Manhattan
+seo_description: Elevate360 offers many therapy groups, some are skills based, some utilize cognitive behavioral techniques and others provide support for recovery. 
+seo_keywords: group therapy for alcohol near me, group therapy for addiction near me, recovery groups near me
 back_href: "/why-elevate360/how-we-treat/"
 back_title: How We Treat
 layout: tertiary

@@ -7,14 +7,20 @@
     {% assign is_blog = true %}
 {% endif %}
 
+{% if page.title %}
+{% assign page_title = page.title %}
+{% endif %}
 
 {% assign seo_source_collection = site.collections | where: "title", page.seo_source_collection | first %}
 {% if seo_source_collection %}
   {% assign page_title = seo_source_collection.page_title %}
+  {% if seo_source_collection.seo_title %}
+    {% assign page_title = seo_source_collection.seo_title %}
+  {% endif %}
 {% endif %}
 
-{% if page.title %}
-  {% assign page_title = page.title %}
+{% if page.seo_title %}
+  {% assign page_title = page.seo_title %}
 {% endif %}
 
 <title>
