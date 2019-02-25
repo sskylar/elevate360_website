@@ -5,7 +5,8 @@ collections:
   about-us:
     title: About Us
     output: false
-    page_title: Expert Addiction Psychologists | Professional Treatment for Substance Use Disorders
+    page_title: About Us
+    seo_title: Expert Addiction Psychologists | Professional Treatment for Substance Use Disorders
     seo_description: Need to find an addiction treatment center near you? Elevate360 has expert team of addiction psychologists at their treatment center in Midtown.
     seo_keywords: find a psychologist near me, mental health psychologist ny, addiction therapist, addiction psychologist, treatment for substance use disorders, addiction treatment center, addiction psychologist midtown, alcohol counseling near me, drug counselor midtown, addiction psychologists
   authors:
@@ -14,13 +15,15 @@ collections:
   group-psychotherapy:
     title: Group Psychotherapy
     output: false
-    page_title: Group psychotherapy options for addiction treatment | Recovery Rehabs NY
+    page_title: Group Psychotherapy
+    seo_title: Group psychotherapy options for addiction treatment | Recovery Rehabs NY
     seo_description: Elevate360 offers many therapy groups & recovery programs, some are skills based, some provide support and structure for living a balanced life.
     seo_keywords: substance use disorder treatment ny, recovery programs ny, recovery rehabs,  group treatment for drugs, group psychotherapy for addiction, groups for alcohol use, cognitive behavioral group,
   home:
     title: Home
     output: false
-    page_title: Outpatient Treatment Rehab for Substance Abuse Midtown Manhattan
+    page_title: Welcome to Elevate360 Wellness
+    seo_title: Outpatient Treatment Rehab for Substance Abuse Midtown Manhattan
     seo_description: Elevate360 is a private intensive outpatient program designed to treat people struggling with alcohol addiction and drug use and co-occurring mental health disorders.
     seo_keywords: |-
       private outpatient drug rehab centers, outpatient substance abuse treatment near me, outpatient drug rehab programs,
