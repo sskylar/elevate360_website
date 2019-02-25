@@ -1,7 +1,8 @@
 ---
-title: Individual therapy for alcohol and addiction
+title: Individual Psychotherapy
 date: 2018-09-07 16:22:00 -04:00
 position: 3
+seo_title: Individual therapy for alcohol and addiction
 seo_description: Our expert addiction psychologists provide individual therapy for addiction and psychological issues using multiple proven therapies including motivational interviewing and cognitive behavioral therapy.
 seo_keywords: individual therapy for addiction near me, individual therapy for alcohol near me, addiction psychologists
 back_href: "/why-elevate360/how-we-treat/"

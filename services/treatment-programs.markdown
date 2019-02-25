@@ -1,6 +1,7 @@
 ---
-title: Medication for Naltrexone, Suboxone, Vivitrol | Drug Treatment Programs NY
+title: Treatment Programs
 date: 2018-10-28 11:51:00 -04:00
+seo_title: Medication for Naltrexone, Suboxone, Vivitrol | Drug Treatment Programs NY
 seo_description: In addition to psychotherapy, when indicated, we support medications, including Suboxone/buprenorphine, Vivitrol, naltrexone and others to aid in recovery.
 seo_keywords: drug treatment programs NY, drug treatment programs Midtown Manhattan, substance abuse treatment program ny, naltrexone for alcohol, vivitrol shot, Suboxone, Buprenorphine near me
 collection: treatment-programs

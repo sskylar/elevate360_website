@@ -1,11 +1,12 @@
 ---
-title: Opioid Overdose Prevention Program | Narcan Training
+title: Opioid Overdose Prevention Program (OOPP)
 date: 2018-12-06 15:13:00 -05:00
 tags:
 - overdose prevention
 - opioid overdose
 - naloxone
 position: 1
+seo_title: Opioid Overdose Prevention Program | Narcan Training
 seo_description: Save a life! Learn how to prevent an overdose. Elevate360 offers best opioid overdose prevention training, Narcan training for better future.
 seo_keywords: opioid overdose prevention program, opioid overdose prevention training, opioid overdose training, narcan training, overdose training near me
 back_href: "/services/trainings-for-clinicians"

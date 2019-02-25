@@ -1,6 +1,7 @@
 ---
-title: Most effective therapeutic techniques to treat addiction Manhattan
+title: Why Elevate360?
 date: 2018-10-25 00:41:00 -04:00
+seo_title: Most effective therapeutic techniques to treat addiction Manhattan
 background-image: why_elevate360_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
 h2: In short, because we do treatment right.

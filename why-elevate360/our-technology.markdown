@@ -1,6 +1,7 @@
 ---
-title: CHESS Health - Connections Mobile app, Sober app | Recovery Technology
+title: Our Technology
 date: 2018-10-28 11:51:00 -04:00
+seo_title: CHESS Health - Connections Mobile app, Sober app | Recovery Technology
 seo_description: The Connections app is an evidence-based, comprehensive relapse prevention platform.  This technology & sober tools supports patients 24/7!
 seo_keywords: ACHESS app, CHESS health app, sober tools, Connections recovery app, recovery technology, mobile app for recovery, sober app
 layout: our_technology

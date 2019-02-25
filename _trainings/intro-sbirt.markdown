@@ -1,7 +1,8 @@
 ---
-title: SBIRT Training, Intervention Treatment and Recovery
+title: Introduction to Screening, Brief Intervention, and Referral to Treatment (SBIRT)
 date: 2018-09-07 16:22:00 -04:00
 position: 4
+seo_title: SBIRT Training, Intervention Treatment and Recovery
 seo_description:  Learn the basics of screening brief intervention and referral to treatment (SBIRT) for people with substance use disorders.
 seo_keywords: Screening Brief Intervention and Referral to Treatment, SBIRT training, Referral to treatment for addiction, Screening for drug and alcohol use
 back_href: "/services/trainings-for-clinicians"
