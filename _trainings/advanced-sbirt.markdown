@@ -1,9 +1,9 @@
 ---
-title: Advanced Screening, Brief Intervention and Referral to Treatment (SBIRT)
+title: Advanced Training in Screening Brief Intervention and Referral to Treatment (SBIRT)
 date: 2018-09-07 16:22:00 -04:00
 position: 5
-seo_keywords: 
-seo_description: 
+seo_description: Advanced SBIRT training helps healthcare professionals learn to identify substance use disorders and skilfully refer to treatment.  
+seo_keywords: SBIRT, Advanced SBIRT training, Brief interventions for addiction, Advanced training in SBIRT
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
 layout: tertiary

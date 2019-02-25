@@ -1,9 +1,9 @@
 ---
-title: Community Reinforcement Approach and Family Therapy (CRAFT)
+title: Community Reinforcement Approach and Family Therapy - CRAFT Therapy NY
 date: 2018-09-07 16:22:00 -04:00
 position: 5
-seo_keywords: 
-seo_description: 
+seo_description: CRAFT is proven treatment that teaches family and friends to help their loved ones to engage in treatment and decrease their substance use.
+seo_keywords: CRAFT therapy ny, craft treatment ny, community reinforcement approach and family therapy, Family therapy for addiction near me, CRAFT family therapy
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary

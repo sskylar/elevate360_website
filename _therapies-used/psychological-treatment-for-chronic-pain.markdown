@@ -1,9 +1,9 @@
 ---
-title: Psychological Treatment for Chronic Pain
+title: Psychological Management Treatment for Chronic Pain Near Me
 date: 2018-09-07 16:22:00 -04:00
 position: 6
-seo_keywords: 
-seo_description: 
+seo_description: Psychological pain management treatment can provide people with tools to better control their experience of pain that will help your body and your mind. 
+seo_keywords: psychological treatment for chronic pain, pain management psychotherapy, psychological pain management, treatment for chronic pain near me, individual therapy for chronic pain
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary

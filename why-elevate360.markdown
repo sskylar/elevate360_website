@@ -1,5 +1,5 @@
 ---
-title: Why Elevate360?
+title: Most effective therapeutic techniques to treat addiction Manhattan
 date: 2018-10-25 00:41:00 -04:00
 background-image: why_elevate360_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
@@ -7,12 +7,8 @@ h2: In short, because we do treatment right.
 hero-content: Our professional staff uses proven therapeutic techniques and technology
   to provide care which aims to help each patient develop a meaningful life in recovery
   that is more compelling than a life consumed with substance use.
-seo_keywords: therapeutic techniques, therapeutic techniques for anxiety, evidence-based
-  treatment addiction Manhattan, Addiction psychologists, Addiction experts, Science-based
-  health technology
-seo_description: Elevate360 is advancing addiction treatment by using therapeutic
-  techniques and science-based health technology to support recovery and wellness.
-  Consult our expert psychologists.
+seo_description: Elevate360 is advancing addiction treatment by using therapeutic techniques and science-based health technology to support recovery and wellness. Consult our expert psychologists.
+seo_keywords: therapeutic techniques, therapeutic techniques for anxiety, evidence based treatment addiction Manhattan, Addiction psychologists, Addiction experts, Science-based health technology
 layout: why_elevate360
 ---
 
