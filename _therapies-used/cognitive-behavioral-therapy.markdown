@@ -3,8 +3,14 @@ title: Cognitive Behavioral Therapy (CBT)
 date: 2018-09-07 16:22:00 -04:00
 position: 1
 seo_title: Cognitive Behavioral Therapy for anxiety, depression, addiction NYC
-seo_description: CBT reliably results in improvement in both functioning and quality of life. We offer cognitive behavioral therapy to treat anxiety and depression in Midtown Manhattan.
-seo_keywords: cognitive behavioral therapy for anxiety, CBT for anxiety and depression ny, cognitive behavioral therapy for anxiety and depression, cognitive behavioral therapy for addiction, CBT for alcohol, CBT for addiction, CBT midtown, cognitive behavioral therapy midtown, cognitive behavioral therapy near me, cognitive behavioral therapy addiction midtown Manhattan
+seo_description: CBT reliably results in improvement in both functioning and quality
+  of life. We offer cognitive behavioral therapy to treat anxiety and depression in
+  Midtown Manhattan.
+seo_keywords: cognitive behavioral therapy for anxiety, CBT for anxiety and depression
+  ny, cognitive behavioral therapy for anxiety and depression, cognitive behavioral
+  therapy for addiction, CBT for alcohol, CBT for addiction, CBT midtown, cognitive
+  behavioral therapy midtown, cognitive behavioral therapy near me, cognitive behavioral
+  therapy addiction midtown Manhattan
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary

@@ -3,8 +3,11 @@ title: Community Reinforcement Approach (CRA)
 date: 2018-09-07 16:22:00 -04:00
 position: 4
 seo_title: CRA - Community Reinforcement Approach | Behavioral Therapy for Drug Use
-seo_description: CRA helps people move toward recovery by eliminating positive reinforcement for drinking and drug use and enhancing positive reinforcement for non-drinking and drug using behaviors and activities.
-seo_keywords: community reinforcement approach, CRA, community reinforcement approach near me, behavioral therapy for drug use, behavioral therapy for alcohol use
+seo_description: CRA helps people move toward recovery by eliminating positive reinforcement
+  for drinking and drug use and enhancing positive reinforcement for non-drinking
+  and drug using behaviors and activities.
+seo_keywords: community reinforcement approach, CRA, community reinforcement approach
+  near me, behavioral therapy for drug use, behavioral therapy for alcohol use
 back_href: "/why-elevate360/therapies-used/"
 back_title: Therapies Used
 layout: tertiary
