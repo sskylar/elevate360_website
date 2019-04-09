@@ -14,6 +14,8 @@ tags:
 - psychotherapy
 author: Jennifer Smith
 post_image: "/uploads/Motivational%20Interviewing%20For%20Alcohol%20Use%20Disorder%20.jpg"
+seo_description: This article explains what Motivational Interviewing is and how it
+  can assist in treating patients struggling with alcohol use disorders.
 seo_keywords: motivational interviewing, alcohol use disorder, MI
 ---
 
