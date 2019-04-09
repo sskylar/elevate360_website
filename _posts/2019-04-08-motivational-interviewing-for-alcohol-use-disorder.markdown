@@ -1,12 +1,17 @@
 ---
 title: Motivational Interviewing For Alcohol Use Disorder
 date: 2019-04-08 20:19:00 -04:00
+categories:
+- treatment
+- therapy
+- mental health
+- addiction
 tags:
 - motivational interviewing
-- addiction therapy
 - alcohol use disorder
 - ambivalence
 - MI
+- psychotherapy
 author: Jennifer Smith
 post_image: "/uploads/Motivational%20Interviewing%20For%20Alcohol%20Use%20Disorder%20.jpg"
 seo_keywords: motivational interviewing, alcohol use disorder, MI
@@ -26,7 +31,7 @@ Here’s how motivational interviewing for alcohol use disorder works, as well a
 Motivational interviewing focuses on developing internal motivation, not skills
 Providers use motivational interviewing skills to assist clients in motivating themselves to commit to change.
 
-**Of particular interest is having clients:**
+Of particular interest is having clients
 
 1. Reduce their ambivalence about the behavior they want to/need to change.
 
@@ -60,7 +65,7 @@ In a meta-analysis of motivational interviewing research, where interventions pr
 
 When asked how much time it takes to “do” motivational interviewing, Bill Miller – one of the ‘founding fathers’ of motivational interviewing – compared the MI  approach to the enjoyment of  classical music. To paraphrase Dr. Miller, ‘MI is similar to a piece of classical music… having the time to listen to the whole piece will give people the most movement, but even just listening to some of it – the best parts of it –  will be able to move people.’
 
-**When searching for a motivational interviewing therapist for alcohol use disorder, look for someone who was trained by a “MINT” member  **
+**When searching for a motivational interviewing therapist for alcohol use disorder, look for someone who was trained by a “MINT” member**
 
 Although different types of providers can be trained in motivational interviewing, there is no official certification in motivational interviewing. That said, the best certification to look for is MINT – the “Motivational Interviewing Network of Trainers.” If someone is a member of MINT, they are skilled in motivational interviewing and have remained active in the motivational interviewing world; also, providers who have been trained by a MINT trainer are believed to have been well trained in motivational interviewing.
 
