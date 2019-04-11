@@ -19,8 +19,6 @@ seo_description: This article explains what Motivational Interviewing is and how
 seo_keywords: motivational interviewing, alcohol use disorder, MI
 ---
 
-**Motivational Interviewing For Alcohol Use Disorder**
-
 Fear of judgement is a powerful deterrent to treatment for individuals struggling with a substance use disorder of any sort, including alcohol. Some who have already tried to overcome their substance use – whether on their own, in support groups, rehab, or elsewhere – may have encountered frustration, perceived failure, and criticism from others.
 
 Enter motivational interviewing (MI). This highly effective therapy is designed to remove all semblance of judgment from therapy sessions, making room for empathy and self-empowerment instead. The goal of motivational interviewing is to strengthen the client’s inherent motivation to change, and find the resources for change within themselves. This, in turn, sets the stage for healing to begin.
