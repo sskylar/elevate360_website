@@ -17,7 +17,7 @@ If someone you love is struggling with an alcohol use, know that treatment is av
 
 Here’s what to know about how your loved one’s alcohol use impacts you and your family, and what you can do to help your loved one heal – while caring for your own wellbeing, too. 
 
-**1. ****Seek support: Don’t let shame, stigma, or lack of knowledge prevent you from seeking treatment** 
+**1. Seek support: Don’t let shame, stigma, or lack of knowledge prevent you from seeking treatment** 
 
 Family members often don’t know where to turn and feel that they can’t reach out to family and friends because of the shame and stigma associated with alcohol misuse. As a result, they feel isolated and hopeless.
 
@@ -41,7 +41,7 @@ CRAFT has two main goals: To support the family members, and to help them guide 
 
 This approach utilizes non-confrontational behavioral principles to motivate the person to enter treatment. Using these methods, families can learn to change their interactions with their loved one, which results in changes in their loved one’s behavior. CRAFT provides families with hopeful, positive, and effective alternatives to addressing alcohol and substance problems in their families.
 
-**4. To help your loved one through the recovery process, try positive reinforcement **
+**4. To help your loved one through the recovery process, try positive reinforcement**
 
 If you notice that they did something without using – in essence, “catch them” being good – you want to praise them. 
 
@@ -51,7 +51,8 @@ If your husband came directly home from work without going to a bar and having a
 
 People are more likely to repeat behaviors that are reinforced, so by praising them for the things they did right, you are increasing the chances they will repeat the positive non-drug using behavior. 
 
-**5. Not sure your loved one has an alcohol problem? **
+**5. Not sure your loved one has an alcohol problem?**
+
 Seek professional consultation to help you decide the appropriate course of action 
 For anyone wondering if their alcohol or drug use – or that of their loved ones – is interfering in their life: Don’t wait to come in to talk! Many people wait until there is a crisis or an urgent issue arises, but it’s better to come in early to make changes before things get out of control. 
 
