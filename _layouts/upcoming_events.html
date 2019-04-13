@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include section-type2.html
+    id="upcoming_events"
+    h1="Our Services"
+    h2="Upcoming Events"
+    content=""
+%}
+
+<!-- <h2>{{ site[page.collection] }}</h2> -->
+
+<section id="services_grid">
+    <div class="grid-inner">
+      {% assign today = "now" | date: "%s" | to_integer %}
+      <!-- {% assign upcoming_events = site[page.collection] | where_exp: "item", "item.event_date.to_integer > today" %} -->
+      {% assign all_events = site[page.collection] %}
+      {%- if all_events -%}
+        {% assign collection = all_events | sort: 'event_date' %}
+        {% unless collection %}
+        <h2>Check back later for upcoming events!</h2>
+        {% endunless %}
+        {% for card in collection %}
+          {% assign event_date = card.event_date | to_integer %}
+          {% if event_date >= today %}
+            {% include services_card.html card=card %}
+          {% else %}
+            <p>event {{ event_date }} is in the past; now = {{ today }} </p>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <h2>Check back later for upcoming events!</h2>
+      {%- endif -%}
+    </div>
+</section>
