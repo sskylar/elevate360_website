@@ -24,9 +24,7 @@ layout: default
         {% for card in collection %}
           {% assign event_date = card.event_date | to_integer %}
           {% if event_date >= today %}
-            {% include services_card.html card=card %}
-          {% else %}
-            <p>event {{ event_date }} is in the past; now = {{ today }} </p>
+            {% include event_card.html card=card %}
           {% endif %}
         {% endfor %}
       {% else %}
