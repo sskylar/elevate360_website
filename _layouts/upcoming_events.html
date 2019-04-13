@@ -12,19 +12,16 @@ layout: default
 <section id="services_grid">
     <div class="grid-inner">
       {% assign today = "now" | date: "%s" | to_integer %}
-      <!-- {% assign upcoming_events = site[page.collection] | where_exp: "item", "item.event_date.to_integer > today" %} -->
       {% assign all_events = site[page.collection] %}
+      {% include blank_event_card.html %}
       {%- if all_events -%}
         {% assign collection = all_events | sort: 'event_date' %}
-        {% include blank_event_card.html %}
         {% for card in collection %}
           {% assign event_date = card.event_date | to_integer %}
           {% if event_date >= today %}
             {% include event_card.html card=card %}
           {% endif %}
         {% endfor %}
-      {% else %}
-        {% include blank_event_card.html %}
       {%- endif -%}
     </div>
 </section>
