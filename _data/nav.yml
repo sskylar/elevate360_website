@@ -21,6 +21,8 @@ toc:
       url: /services/treatment-programs/
     - page: Trainings
       url: /services/trainings-for-clinicians/
+    - page: Upcoming Events
+      url: /services/upcoming-events/
 
 - title: About Us
   url: /about-us/

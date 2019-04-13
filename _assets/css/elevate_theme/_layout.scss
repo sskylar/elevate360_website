@@ -1530,6 +1530,12 @@ section.type2 {
             margin: 60px auto;
         }
 
+        .services-card.blank-upcoming-events {
+          &:not(:only-child) {
+            display: none;
+          }
+        }
+
         .services-card,
         .team-bio-card {
             background-color: $pale-blue-50;
