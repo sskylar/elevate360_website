@@ -2,14 +2,6 @@
 title: Advanced Motivational Interviewing
 event_date: 2019-05-08 13:00:00 -04:00
 event_url: http://bit.ly/2VRZ8Pj
-seo_title: Advanced Motivational Interviewing
-seo_description: Come and join Dr. Jennifer Smith, nationally recognized Motivational
-  Interviewing Network Trainer (MINT) in this high-level Motivational Interviewing
-  course. Participants will attend a four hour intensive didactic training and will
-  conduct two taped MI sessions with Standardized Patients (SPs) (trained actors)
-  and will receive two half hour phone supervision sessions with Dr. Smith who will
-  provide individualized verbal and written feedback.
-seo_keywords: advanced motivational interviewing
 ---
 
 Come and join Dr. Jennifer Smith, nationally recognized Motivational Interviewing Network Trainer (MINT) in this high-level Motivational Interviewing course. Participants will attend a four hour intensive didactic training and will conduct two taped MI sessions with Standardized Patients (SPs) (trained actors) and will receive two half hour phone supervision sessions with Dr. Smith who will provide individualized verbal and written feedback.
