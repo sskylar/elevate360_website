@@ -7,7 +7,7 @@ layout: markdown
 
 *Effective date: November 06, 2018*
 
-Elevate360 (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the elevate360.com website (the &quot;Service&quot;).
+Wholeview (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the elevate360.com website (the &quot;Service&quot;).
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -48,7 +48,7 @@ Examples of Cookies we use:
 
 #### Use of Data
 
-Elevate360 uses the collected data for various purposes:
+Wholeview uses the collected data for various purposes:
 
 - To provide and maintain the Service
 - To notify you about changes to our Service
@@ -66,16 +66,16 @@ If you are located outside United States and choose to provide information to us
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
-Elevate360 will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+Wholeview will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
 ### Disclosure of Data
 
 #### Legal Requirements
 
-Elevate360 may disclose your Personal Data in the good faith belief that such action is necessary to:
+Wholeview may disclose your Personal Data in the good faith belief that such action is necessary to:
 
 - To comply with a legal obligation
-- To protect and defend the rights or property of Elevate360
+- To protect and defend the rights or property of Wholeview
 - To prevent or investigate possible wrongdoing in connection with the Service
 - To protect the personal safety of users of the Service or the public
 - To protect against legal liability

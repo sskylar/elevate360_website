@@ -1,5 +1,5 @@
 # elevate360_website
-Elevate360 static website. 
+Wholeview static website. 
 
 Github: https://github.com/CunningFolkDev/elevate360_website
 

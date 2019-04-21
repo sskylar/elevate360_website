@@ -10,7 +10,7 @@ layout: our_technology
 background-image: hero-technology@2x.jpg
 section-image-1: chess-photo@2x.jpg
 h2: Connections Mobile App
-h3: Elevate360 partnered with CHESS Health to provide the Connections mobile app to
+h3: Wholeview partnered with CHESS Health to provide the Connections mobile app to
   our patients.
 ---
 
