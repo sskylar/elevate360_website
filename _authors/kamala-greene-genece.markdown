@@ -1,6 +1,6 @@
 ---
 title: Kamala Greene Genece
-date: 2018-09-07 20:23:00 Z
+date: 2018-09-07 16:23:00 -04:00
 credentials: Ph.D.
 ---
 

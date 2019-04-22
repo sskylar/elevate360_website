@@ -1,6 +1,6 @@
 ---
 title: Demi Lovato, what we know, what we’ve learned, and how she can win her fight
-date: 2018-09-17 11:50:00 Z
+date: 2018-09-17 07:50:00 -04:00
 categories:
 - insights
 - blog

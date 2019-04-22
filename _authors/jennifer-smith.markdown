@@ -1,6 +1,6 @@
 ---
 title: Jennifer Smith
-date: 2018-09-07 20:24:00 Z
+date: 2018-09-07 16:24:00 -04:00
 credentials: Ph.D.
 ---
 
