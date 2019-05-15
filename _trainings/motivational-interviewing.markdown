@@ -5,9 +5,9 @@ tags:
 - motivational interviewing
 - behavior change
 - clinician training
-position: 3
-seo_keywords: 
-seo_description: 
+position: 1
+seo_keywords:
+seo_description:
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
 layout: tertiary

@@ -5,7 +5,7 @@ tags:
 - overdose prevention
 - opioid overdose
 - naloxone
-position: 1
+position: 3
 seo_title: Opioid Overdose Prevention Program | Narcan Training
 seo_description: Save a life! Learn how to prevent an overdose. Wholeview offers best
   opioid overdose prevention training, Narcan training for better future.
