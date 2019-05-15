@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% include mobile_hero.html image=page.background-image message="Our Technology." %}
-{% assign hero = site.home | where: "position", 1 | first %}
+{% assign hero_content = page.hero_content %}
 {% assign callout = site.home | where: "position", 2 | first %}
 
 <section id="homepage_1" class="hero plant-image" style="background-image: url('{% asset '{{ page.background-image }}' @path %}')">
@@ -12,7 +12,7 @@ layout: default
             <h1>{{ page.title }}</h1>
             <h2>{{ page.h2 }}</h2>
             <p>
-                {{ hero.content }}
+                {{ hero_content }}
             </p>
         </div>
     </div>
