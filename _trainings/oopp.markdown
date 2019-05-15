@@ -5,7 +5,7 @@ tags:
 - overdose prevention
 - opioid overdose
 - naloxone
-position: 1
+position: 0
 seo_title: Opioid Overdose Prevention Program | Narcan Training
 seo_description: Save a life! Learn how to prevent an overdose. Elevate360 offers
   best opioid overdose prevention training, Narcan training for better future.

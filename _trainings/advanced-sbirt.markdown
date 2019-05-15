@@ -1,7 +1,7 @@
 ---
 title: Advanced Screening, Brief Intervention and Referral to Treatment (SBIRT)
 date: 2018-09-07 16:22:00 -04:00
-position: 5
+position: 4
 seo_title: Advanced Training in Screening Brief Intervention and Referral to Treatment
   (SBIRT)
 seo_description: Advanced SBIRT training helps healthcare professionals learn to identify
