@@ -6,8 +6,8 @@ tags:
 - behavior change
 - clinician training
 position: 1
-seo_keywords:
-seo_description:
+seo_keywords: 
+seo_description: 
 back_href: "/services/trainings-for-clinicians"
 back_title: Trainings
 layout: tertiary
