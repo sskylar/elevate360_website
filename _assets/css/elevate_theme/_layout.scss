@@ -625,9 +625,11 @@ a.nav-icon {
         .sign-up-form.form-holder {
             width: 100%;
             max-width: 500px;
-            height: 40px;
             flex-basis: 100%;
             border-bottom: 2px solid $off-white;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            margin-left: 5px;
 
             @include placeholder-text($off-white, 400);
 
@@ -638,7 +640,6 @@ a.nav-icon {
 
             @media screen and (max-width: 450px) {
                 margin-bottom: 36px;
-                height: 23px;
                 font-size: 12px;
                 border-bottom-width: 1px;
             }
