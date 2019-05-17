@@ -153,7 +153,7 @@ a {
     text-transform: uppercase;
     cursor: pointer;
 
-  
+
     &.rounded {
         border: none;
         border-radius: 50px;
@@ -300,3 +300,54 @@ table {
 /* misc */
 
 .hidden { display: none; }
+
+// Modal & overlay
+
+div.overlay {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+}
+
+aside.modal {
+  z-index: 1000;
+  background-color: #ffffff;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: black;
+  opacity: 1.0;
+
+  padding: 3%;
+
+  width: 60vw;
+  min-width: 220px;
+  max-width: 60vw;
+
+  height: 50vh;
+  min-height: 250px;
+  max-height: 70vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  .modal-logo {
+    width: 55%;
+    img {
+      height: 137px;
+    }
+  }
+
+  .modal-copy {
+    width: 45%;
+  }
+}
