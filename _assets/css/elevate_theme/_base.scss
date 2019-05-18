@@ -328,35 +328,49 @@ aside.modal {
   padding: 3%;
 
   width: 60vw;
-  min-width: 220px;
+  min-width: 290px;
   max-width: 60vw;
 
-  height: 50vh;
-  min-height: 250px;
-  max-height: 70vh;
+  min-height: 50vh;
+  max-height: 80vh;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 
+  @media screen and (min-width: 1000px) {
+    flex-direction: row;
+  }
+
   .modal-logo {
-    width: 55%;
-    img {
-      height: 137px;
-    }
+    background-color: #fdfdfd;
+    height: 137px;
+    width: 280px;
+    overflow: hidden;
+    flex-shrink: 0;
   }
 
   .modal-copy {
-    width: 45%;
+    margin-left: 8px;
+    margin-top: 8px;
+    h3 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 0.8em;
+      @media screen and (min-width: 769px) {
+        font-size: 1em;
+      }
+    }
     .popup-sign-up-form {
       form {
         height: 50px;
+        display: flex;
       }
       button {
-        padding: 0 20px 0 20px;
         font-size: 14px;
-        width: 113px;
+        width: 38%;
         height: 100%;
         color: #fff;
         font-weight: 500;
@@ -379,10 +393,6 @@ aside.modal {
         padding-left: 5px;
       }
 
-        @media screen and (max-width: 450px) {
-            width: 90px;
-            height: 22px;
-        }
     }
   }
 
