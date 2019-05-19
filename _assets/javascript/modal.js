@@ -8,6 +8,8 @@ function activateModal() {
   const modalCloseButton = document.getElementById("modal-close")
   const modal = document.getElementById("modal-1")
 
+  if (!modal) return;
+
   // Close the modal when you click on either the X button or outside the modal
   overlay.addEventListener('click', hideModal)
   modalCloseButton.addEventListener('click', hideModal)
