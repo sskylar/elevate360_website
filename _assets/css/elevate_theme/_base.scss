@@ -311,6 +311,14 @@ div.overlay {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.5);
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 500ms;
+
+  &.hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 
 aside.modal {
@@ -341,6 +349,22 @@ aside.modal {
 
   @media screen and (min-width: 1000px) {
     flex-direction: row;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    border: 0;
+    cursor: pointer;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #5d6367;
+    &:hover {
+      color: #b4c327;
+    }
   }
 
   .modal-logo {

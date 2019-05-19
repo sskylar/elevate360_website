@@ -1,5 +1,5 @@
-<div class="overlay">
-  <aside class="modal">
+<div class="overlay" id="overlay-1">
+  <aside class="modal" id="modal-1">
     <span class="modal-logo">
       <img alt="Wholeview Logo large" src="{% asset 'wholeview-logo-vertical-crop.png' @path %}"></img>
     </span>
@@ -9,5 +9,6 @@
       <p>Our name change allows us to better reflect our efforts to take a broad and comprehensive approach to each patient including their entire life circumstances during our assessment and treatment planning.</p>
       {% include popup_sign_up_form.html %}
     </span>
+    <button type="button" class="modal-close" id="modal-close">&times;</button>
   </aside>
 </div>
