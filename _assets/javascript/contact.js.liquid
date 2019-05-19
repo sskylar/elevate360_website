@@ -165,6 +165,8 @@
         if (validation.check) {
           if (formElement.id === 'sign_up_form') {
             formAction = 'sign-up'
+          } else if (formElement.id === 'modal_sign_up_form') {
+            formAction = 'modal-sign-up'
           } else if (formElement.id === 'contact_form') {
             formAction = 'contact'
           }
@@ -187,14 +189,21 @@
         // stop forms from getting submitted naturally
         const contactFormElement = document.getElementById('contact_form')
         const signUpFormElement = document.getElementById('sign_up_form')
+        const modalSignUpFormElement = document.getElementById('modal_sign_up_form')
 
         if (contactFormElement) {
           contactFormElement.addEventListener('submit', (e) => {
             e.preventDefault()
-          }, true)          
+          }, true)
         }
 
         if (signUpFormElement) {
+          signUpFormElement.addEventListener('submit', (e) => {
+            e.preventDefault()
+          }, true)
+        }
+
+        if (modalSignUpFormElement) {
           signUpFormElement.addEventListener('submit', (e) => {
             e.preventDefault()
           }, true)
