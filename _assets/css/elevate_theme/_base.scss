@@ -354,7 +354,7 @@ aside.modal {
   .modal-close {
     position: absolute;
     top: 15px;
-    right: 25px;
+    right: 20px;
     border: 0;
     cursor: pointer;
     transition: all 200ms;
@@ -362,6 +362,7 @@ aside.modal {
     font-weight: normal;
     text-decoration: none;
     background-color: rgba(0,0,0,0);
+    padding: 2px 7px;
     color: #5d6367;
     &:hover {
       color: #b4c327;
