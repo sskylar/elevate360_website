@@ -1,17 +1,17 @@
 toc:
 
-- title: Why Elevate360?
-  url: /why-elevate360/
+- title: Why Wholeview?
+  url: /why-wholeview/
   class: why
   subitems:
     - page: How We Treat
-      url: /why-elevate360/how-we-treat/
+      url: /why-wholeview/how-we-treat/
     - page: Therapies Used
-      url: /why-elevate360/therapies-used/
+      url: /why-wholeview/therapies-used/
     - page: Our Technology
-      url: /why-elevate360/our-technology/
+      url: /why-wholeview/our-technology/
     - page: Frequently Asked Questions
-      url: /why-elevate360/faq/
+      url: /why-wholeview/faq/
 
 - title: Services
   url: /services/

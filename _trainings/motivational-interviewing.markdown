@@ -5,7 +5,7 @@ tags:
 - motivational interviewing
 - behavior change
 - clinician training
-position: 2
+position: 1
 seo_keywords: 
 seo_description: 
 back_href: "/services/trainings-for-clinicians"

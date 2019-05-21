@@ -1,6 +1,7 @@
 //= require ./vendor/gb-validations
 //= require ./dropmenu
 //= require ./contact
+//= require ./modal
 
 // ---------------------------------------------- first-load boilerplate stuff below
 

@@ -7,7 +7,7 @@ seo_description: Motivational interviewing course is an evidence-based treatment
   addiction that increases the commitment to change.
 seo_keywords: motivational interviewing course, advanced motivational interviewing
   training, motivational interviewing training ny, motivational interviewing midtown
-back_href: "/why-elevate360/therapies-used/"
+back_href: "/why-wholeview/therapies-used/"
 back_title: Therapies Used
 layout: tertiary
 ---

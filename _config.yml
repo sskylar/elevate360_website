@@ -1,5 +1,5 @@
 ---
-title: Elevate360 Wellness
+title: Wholeview Wellness
 timezone: America/New_York
 collections:
   about-us:
@@ -8,7 +8,7 @@ collections:
     page_title: About Us
     seo_title: Expert Addiction Psychologists | Professional Treatment for Substance
       Use Disorders
-    seo_description: Need to find an addiction treatment center near you? Elevate360
+    seo_description: Need to find an addiction treatment center near you? Wholeview
       has expert team of addiction psychologists at their treatment center in Midtown.
     seo_keywords: find a psychologist near me, mental health psychologist ny, addiction
       therapist, addiction psychologist, treatment for substance use disorders, addiction
@@ -23,7 +23,7 @@ collections:
     page_title: Group Psychotherapy
     seo_title: Group psychotherapy options for addiction treatment | Recovery Rehabs
       NY
-    seo_description: Elevate360 offers many therapy groups & recovery programs, some
+    seo_description: Wholeview offers many therapy groups & recovery programs, some
       are skills based, some provide support and structure for living a balanced life.
     seo_keywords: substance use disorder treatment ny, recovery programs ny, recovery
       rehabs,  group treatment for drugs, group psychotherapy for addiction, groups
@@ -31,9 +31,9 @@ collections:
   home:
     title: Home
     output: false
-    page_title: Welcome to Elevate360 Wellness
+    page_title: Welcome to Wholeview Wellness
     seo_title: Outpatient Treatment Rehab for Substance Abuse Midtown Manhattan
-    seo_description: Elevate360 is a private intensive outpatient program designed
+    seo_description: Wholeview is a private intensive outpatient program designed
       to treat people struggling with alcohol addiction and drug use and co-occurring
       mental health disorders.
     seo_keywords: |-
@@ -42,7 +42,7 @@ collections:
   how-we-treat:
     title: How We Treat
     output: true
-    permalink: "/why-elevate360/how-we-treat//:name/"
+    permalink: "/why-wholeview/how-we-treat//:name/"
   resources-media:
     title: Media
     output: false
@@ -68,7 +68,7 @@ collections:
   therapies-used:
     title: Therapies Used
     output: true
-    permalink: "/why-elevate360/therapies-used/:name/"
+    permalink: "/why-wholeview/therapies-used/:name/"
   trainings:
     title: Trainings for Clinicians
     output: true
@@ -113,22 +113,22 @@ defaults:
   values:
     event_date: 
     event_url: 
-description: Elevate360 is a boutique addiction treatment program in Midtown Manhattan.
+description: Wholeview is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment, intensive
   outpatient program, alcohol treatment
-url: https://elevate360.com
+url: https://wholeview.co
 phone_number: 212-204-8430
 show_excerpts: false
 date_format: "%b %-d, %Y"
 permalink: pretty
 twitter:
-  username: elevate360NYC
+  username: wholeviewNYC
 facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
 google_site_verification: XROlpfU_puNhq8kTgeSRd0oNdoPjLsWeiDpjmUScYbQ
-mailchimp_url: https://elevate360.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
+mailchimp_url: https://wholeview.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
 formcarry_form_id: s1U09JSk80i
 formcarry_email_subject: An email from your website!
 assets:

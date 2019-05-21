@@ -3,11 +3,11 @@
 $off-white: #fbf9f3;
 $greyish-brown: #4a4a4a;
 $maize: #ebb660;
-$avocado: #b9c02f;
+$avocado: #a8b400;
 $grey-blue: #7a92ae;
 $pale-blue: #dee4ea;
 $pale-blue-50: #eaeff3;
-$dark-grey: #53545b;
+$dark-grey: #6c6f70;
 $red: #fb0207;
 $base-font-family: 'Montserrat', sans-serif !default;
 $base-font-size:   16px !default;
@@ -70,7 +70,7 @@ body, html {
 
 // Import partials.
 @import
-  "elevate_theme/base",
-  "elevate_theme/typography",
-  "elevate_theme/layout"
+  "wholeview_theme/base",
+  "wholeview_theme/typography",
+  "wholeview_theme/layout"
 ;
