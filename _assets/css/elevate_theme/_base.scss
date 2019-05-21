@@ -338,7 +338,6 @@ aside.modal {
   min-width: 290px;
   max-width: 60vw;
 
-  min-height: 50vh;
   max-height: 80vh;
 
   display: flex;
@@ -349,7 +348,12 @@ aside.modal {
   @media screen and (min-width: 1189px) {
     flex-direction: row;
     width: 60vw;
+    max-width: 950px;
     height: 50vh;
+  }
+
+  @media screen and (max-height: 655px) {
+    overflow-y: scroll;
   }
 
   .modal-close {
@@ -385,7 +389,7 @@ aside.modal {
     @media screen and (min-width: 1189px) {
       max-height: 100%;
       height: 100%;
-      width: 390px;
+      width: 55%;
       padding-bottom: 20px;
       padding-top: 0px;
     }
