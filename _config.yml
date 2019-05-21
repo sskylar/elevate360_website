@@ -42,7 +42,7 @@ collections:
   how-we-treat:
     title: How We Treat
     output: true
-    permalink: "/why-elevate360/how-we-treat//:name/"
+    permalink: "/why-wholeview/how-we-treat//:name/"
   resources-media:
     title: Media
     output: false
@@ -59,7 +59,7 @@ collections:
   therapies-used:
     title: Therapies Used
     output: true
-    permalink: "/why-elevate360/therapies-used/:name/"
+    permalink: "/why-wholeview/therapies-used/:name/"
   trainings:
     title: Trainings for Clinicians
     output: true
@@ -81,10 +81,10 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author: 
-    post_image: 
-    seo_description: 
-    seo_keywords: 
+    author:
+    post_image:
+    seo_description:
+    seo_keywords:
 - scope:
     path: ''
     type: pages
@@ -97,29 +97,29 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 - scope:
     path: ''
     type: upcoming-events
   values:
-    event_date: 
-    event_url: 
+    event_date:
+    event_url:
 description: Wholeview is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment, intensive
   outpatient program, alcohol treatment
-url: https://elevate360.com
+url: https://wholeview.co
 phone_number: 212-204-8430
 show_excerpts: false
 date_format: "%b %-d, %Y"
 permalink: pretty
 twitter:
-  username: elevate360NYC
+  username: wholeviewNYC
 facebook:
   app_id: 560591311065650
   publisher: 1306167409485389
 google_site_verification: XROlpfU_puNhq8kTgeSRd0oNdoPjLsWeiDpjmUScYbQ
-mailchimp_url: https://elevate360.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
+mailchimp_url: https://wholeview.us18.list-manage.com/subscribe/post?u=67197f5bd0a1decb3d98c97cc&id=c67e0a1c54
 formcarry_form_id: s1U09JSk80i
 formcarry_email_subject: An email from your website!
 assets:

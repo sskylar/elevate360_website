@@ -6,7 +6,7 @@ task :html_proofer do
     `jekyll build -d #{build_dir} -V`
   end
   opts = {
-    url_ignore: [/localhost/, /elevate360.com/, '#send'],
+    url_ignore: [/localhost/, /wholeview.co/, '#send'],
     typhoeus: {
       ssl_verifyhost: 0,
       ssl_verifypeer: false,

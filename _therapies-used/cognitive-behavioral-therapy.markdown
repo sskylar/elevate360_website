@@ -11,7 +11,7 @@ seo_keywords: cognitive behavioral therapy for anxiety, CBT for anxiety and depr
   therapy for addiction, CBT for alcohol, CBT for addiction, CBT midtown, cognitive
   behavioral therapy midtown, cognitive behavioral therapy near me, cognitive behavioral
   therapy addiction midtown Manhattan
-back_href: "/why-elevate360/therapies-used/"
+back_href: "/why-wholeview/therapies-used/"
 back_title: Therapies Used
 layout: tertiary
 ---

@@ -2,7 +2,7 @@
 title: Why Wholeview?
 date: 2018-10-25 00:41:00 -04:00
 seo_title: Most effective therapeutic techniques to treat addiction Manhattan
-background-image: why_elevate360_hero@2x.jpg
+background-image: why_wholeview_hero@2x.jpg
 section-image-1: new-york-438391@2x.jpg
 h2: In short, because we do treatment right.
 hero-content: Our professional staff uses proven therapeutic techniques and technology
@@ -14,7 +14,7 @@ seo_description: Wholeview is advancing addiction treatment by using therapeutic
 seo_keywords: therapeutic techniques, therapeutic techniques for anxiety, evidence
   based treatment addiction Manhattan, Addiction psychologists, Addiction experts,
   Science-based health technology
-layout: why_elevate360
+layout: why_wholeview
 ---
 
 In short, because we do treatment right. All of our clinicians are doctorate level psychologists trained in providing care for substance use disorders and for the mental health issues that occur along with alcohol and drug use including depression, anxiety, trauma, chronic pain, and other psychological issues.   
