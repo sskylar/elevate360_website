@@ -81,10 +81,10 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author:
-    post_image:
-    seo_description:
-    seo_keywords:
+    author: 
+    post_image: 
+    seo_description: 
+    seo_keywords: 
 - scope:
     path: ''
     type: pages
@@ -97,13 +97,13 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium:
+    medium: 
 - scope:
     path: ''
     type: upcoming-events
   values:
-    event_date:
-    event_url:
+    event_date: 
+    event_url: 
 description: Wholeview is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment, intensive
