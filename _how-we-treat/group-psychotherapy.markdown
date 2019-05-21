@@ -7,7 +7,7 @@ seo_description: Wholeview offers many therapy groups, some are skills based, so
   utilize cognitive behavioral techniques and others provide support for recovery. 
 seo_keywords: group therapy for alcohol near me, group therapy for addiction near
   me, recovery groups near me
-back_href: "/why-elevate360/how-we-treat/"
+back_href: "/why-wholeview/how-we-treat/"
 back_title: How We Treat
 layout: tertiary
 ---

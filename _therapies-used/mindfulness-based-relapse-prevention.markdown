@@ -8,7 +8,7 @@ seo_description: Mindfulness Based Relapse Prevention (MBRP) integrates relapse 
 seo_keywords: mindfulness based relapse prevention, MBRP, mindfulness relapse prevention
   ny, mindfulness based relapse prevention midtown, relapse prevention midtown Manhattan,
   Mindful Drinking, Stress Reduction
-back_href: "/why-elevate360/therapies-used/"
+back_href: "/why-wholeview/therapies-used/"
 back_title: Therapies Used
 layout: tertiary
 ---

@@ -8,7 +8,7 @@ seo_description: Psychological pain management treatment can provide people with
 seo_keywords: psychological treatment for chronic pain, pain management psychotherapy,
   psychological pain management, treatment for chronic pain near me, individual therapy
   for chronic pain
-back_href: "/why-elevate360/therapies-used/"
+back_href: "/why-wholeview/therapies-used/"
 back_title: Therapies Used
 layout: tertiary
 ---
