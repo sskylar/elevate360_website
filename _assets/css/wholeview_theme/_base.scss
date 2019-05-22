@@ -350,6 +350,7 @@ aside.modal {
     width: 60vw;
     max-width: 950px;
     height: 50vh;
+    min-height: 428px;
   }
 
   @media screen and (max-height: 655px) {
