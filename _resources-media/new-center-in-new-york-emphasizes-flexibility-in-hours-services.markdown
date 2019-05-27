@@ -2,7 +2,7 @@
 title: New center in New York emphasizes flexibility in hours, services
 date: 2018-09-07 16:22:00 -04:00
 position: 1
-image: "/uploads/Waiting%20Room%20Front%20to%20Back.jpg"
+image: "/uploads/Waiting%20Room%20Actual%20Size.jpg"
 link: https://www.behavioral.net/article/management/new-center-new-york-emphasizes-flexibility-hours-services
 ---
 
