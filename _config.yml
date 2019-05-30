@@ -52,7 +52,7 @@ collections:
     page_title: Posts
     seo_title: Expert Addiction Psychologists | Professional Treatment for Substance
       Use Disorders
-    seo_description: Need to find an addiction treatment center near you? Elevate360
+    seo_description: Need to find an addiction treatment center near you? Wholeview Wellness
       has expert team of addiction psychologists at their treatment center in Midtown.
     seo_keywords: find a psychologist near me, mental health psychologist ny, addiction
       therapist, addiction psychologist, treatment for substance use disorders, addiction
@@ -90,10 +90,10 @@ defaults:
   values:
     layout: post
     permalink: "/blog/:title/"
-    author: 
-    post_image: 
-    seo_description: 
-    seo_keywords: 
+    author:
+    post_image:
+    seo_description:
+    seo_keywords:
 - scope:
     path: ''
     type: pages
@@ -106,13 +106,13 @@ defaults:
     permalink: "/blog/authors/:title/"
     layout: author
     credentials: Ph.D.
-    medium: 
+    medium:
 - scope:
     path: ''
     type: upcoming-events
   values:
-    event_date: 
-    event_url: 
+    event_date:
+    event_url:
 description: Wholeview is a boutique addiction treatment program in Midtown Manhattan.
 seo_subtitle: Outpatient addiction treatment in Midtown Manhattan
 seo_site_keywords: addiction, addiction treatment, mental health treatment, intensive
