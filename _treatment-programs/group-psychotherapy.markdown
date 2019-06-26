@@ -1,6 +1,10 @@
 ---
 title: Group Psychotherapy Offerings
 date: 2019-01-24 15:22:00 -05:00
+categories:
+- Therapy
+tags:
+- Group Psychotherapy
 position: 3
 back_href: "/services/treatment-programs"
 back_title: Treatment Programs
