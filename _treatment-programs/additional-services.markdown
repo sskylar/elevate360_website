@@ -14,4 +14,4 @@ layout: tertiary
 
 DWI Screening and Assessment is available on site for those who need to be evaluated.
 
-Additional services including family and couples therapy may be added to the individualized treatment plan for individuals depending on their needs.
+Additional services including family training and support and couples therapy may be added to the individualized treatment plan for individuals depending on their needs.
