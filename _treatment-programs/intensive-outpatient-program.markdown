@@ -1,6 +1,9 @@
 ---
 title: Intensive Outpatient Program (IOP)
 date: 2018-09-07 16:22:00 -04:00
+tags:
+- intensive outpatient program
+- IOP
 position: 1
 back_href: "/services/treatment-programs"
 back_title: Treatment Programs
