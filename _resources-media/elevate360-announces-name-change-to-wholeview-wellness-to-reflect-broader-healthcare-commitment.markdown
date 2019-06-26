@@ -17,4 +17,4 @@ The Wholeview team is committed to setting a new standard of care for individual
 
 “This is an exciting change for us and illustrates our promise to keep our patients’ individual needs at the forefront of our program at all times,” said Roger Chong, Director of Operations and Finance. “While our commitment to the community we serve will not change, we are re-doubling our efforts to ensure that we view each person independently. Our new name opens us up to that opportunity.”
 
-The new name is effective immediately and will be implemented across the company’s services throughout the rest of 2019. Along with the name change, their website has been updated and can now be found at http://www.wholeview.co
+The new name is effective immediately and will be implemented across the company’s services throughout the rest of 2019. Along with the name change, their website has been updated and can now be found at http://www.wholeview.co![wholeview-logo-vertical.png](/uploads/wholeview-logo-vertical.png)
