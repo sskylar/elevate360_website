@@ -6,6 +6,7 @@ tags:
 - Name change
 - rebrand
 image: "/uploads/Therapy%20Office.jpg"
+link: https://www.prweb.com/releases/elevate360_announces_name_change_to_wholeview_wellness_to_reflect_broader_healthcare_commitment/prweb16356899.htm
 ---
 
-Elevate360 an innovative addiction treatment center in Midtown Manhattan announces today that it is changing its name to [Wholeview Wellness](https://www.prweb.com/releases/elevate360_announces_name_change_to_wholeview_wellness_to_reflect_broader_healthcare_commitment/prweb16356899.htm).
+Elevate360, an innovative addiction treatment center in Midtown Manhattan, announces today that it is changing its name to [Wholeview Wellness](https://www.prweb.com/releases/elevate360_announces_name_change_to_wholeview_wellness_to_reflect_broader_healthcare_commitment/prweb16356899.htm).
