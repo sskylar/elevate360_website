@@ -1,7 +1,7 @@
 ---
 title: Jeane Rajacic-Poppe
 date: 2018-10-28 23:52:00 -04:00
-position: 3
+position: 2
 full_title: Jeane Rajacic-Poppe, Ph.D
 job_title: Psychologist
 photo: staff/jeane-r@2x.jpg

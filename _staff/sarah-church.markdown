@@ -1,7 +1,7 @@
 ---
 title: Sarah Church
 date: 2018-10-28 23:52:00 -04:00
-position: 1
+position: 0
 full_title: Sarah Church, Ph.D.
 job_title: Founder and Executive Director
 photo: staff/sarah-church@2x.jpg

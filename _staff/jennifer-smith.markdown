@@ -1,7 +1,7 @@
 ---
 title: Jennifer Smith
 date: 2018-10-28 23:52:00 -04:00
-position: 4
+position: 3
 full_title: Jennifer L. Smith, Ph.D.
 job_title: Psychologist
 photo: staff/jen-smith@2x.jpg

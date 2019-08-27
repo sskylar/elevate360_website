@@ -1,7 +1,7 @@
 ---
 title: Amy Colley
 date: 2018-10-28 23:52:00 -04:00
-position: 2
+position: 1
 full_title: Amy J. Colley, Ph.D.
 job_title: Psychologist
 photo: staff/amy-colley@2x.jpg

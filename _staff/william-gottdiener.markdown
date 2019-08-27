@@ -1,7 +1,7 @@
 ---
 title: William Gottdiener
 date: 2018-10-28 23:52:00 -04:00
-position: 6
+position: 5
 full_title: William H. Gottdiener, Ph.D.
 job_title: Psychologist
 photo: staff/william-g@2x.jpg

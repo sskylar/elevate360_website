@@ -1,7 +1,7 @@
 ---
 title: Roger Chong
 date: 2018-10-28 23:52:00 -04:00
-position: 5
+position: 4
 full_title: Roger Chong, MBA, CPA
 job_title: Director of Finance and Operations
 photo: staff/roger-chong@2x.jpg

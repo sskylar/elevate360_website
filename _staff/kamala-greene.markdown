@@ -1,7 +1,7 @@
 ---
 title: Kamala Greene
 date: 2018-10-28 23:52:00 -04:00
-position: 7
+position: 6
 full_title: Kamala Greene Génecé, Ph.D
 job_title: Psychologist
 photo: staff/kamala-greene@2x.jpg
