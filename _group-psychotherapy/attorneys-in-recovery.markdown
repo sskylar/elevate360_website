@@ -1,6 +1,6 @@
 ---
 title: Attorneys in Recovery
-position: 5
+position: 6
 meeting_time: Thursdays 6:00pm-7:00pm
 ---
 

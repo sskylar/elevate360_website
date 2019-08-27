@@ -1,6 +1,6 @@
 ---
 title: Women’s Mindfulness Support Network
-position: 2
+position: 3
 meeting_time: Wednesdays 11:00am-12:30pm
 ---
 

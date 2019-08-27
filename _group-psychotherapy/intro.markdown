@@ -1,6 +1,6 @@
 ---
 title: Group Psychotherapy Offerings
-position: 1
+position: 0
 meeting_time: 
 ---
 
