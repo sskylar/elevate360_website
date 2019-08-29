@@ -4,8 +4,7 @@ date: 2019-08-27 14:39:00 -04:00
 position: 7
 full_title: James Benton, Ph.D.
 job_title: Psychologist
-Field name:
-  Photo: "/uploads/Jim%20Benton.jpg"
+photo: "/uploads/Jim%20Benton.jpg"
 photo_left: true
 back_href: "/about-us/our-staff"
 back_title: Our Staff
