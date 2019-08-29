@@ -10,7 +10,6 @@ back_href: "/about-us/our-staff"
 back_title: Our Staff
 show_zencare: false
 layout: tertiary
-
 ---
 
 #### {{ page.job_title }}
